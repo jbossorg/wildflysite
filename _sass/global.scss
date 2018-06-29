@@ -1,0 +1,111 @@
+// This is a partial.
+// It lies in <source>/_sass, just waiting to be imported.
+// It does not contain the YAML front matter and has no corresponding output file in the built site.
+
+@import "colors";
+@import url('https://fonts.googleapis.com/css?family=PT+Mono|Titillium+Web:200,400,700');
+
+html,
+body {
+  font-size: 100%;
+  background-color: $dark-blue;
+}
+
+body {
+  margin: 0;
+  padding: 0 13rem;
+  @media screen and (max-width: 1170px) { padding: 0 6rem; }
+}
+
+* {
+  font-family: 'Titillium Web', sans-serif;
+  color: $white;
+  line-height: 1rem;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+  color: $white;
+  margin: 2rem 0;
+}
+
+h1 {
+  font-size: 6rem;
+  line-height: 6rem;
+  font-weight: 200;
+}
+
+h2 {
+  font-size: 4rem;
+  line-height: 4rem;
+  font-weight: 200;
+}
+
+h3 {
+  font-size: 2rem;
+  line-height: 2rem;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+  &.light {
+    color: $white;
+  }
+}
+
+a {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+  color: $teal;
+  cursor: pointer;
+  &.dark-background{ color: $yellow; }
+}
+
+a.button-cta {
+  text-align: center;
+  color: $dark-blue;
+  background-color: $yellow;
+  border: 1px solid $yellow;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: .5rem;
+  padding: 12px 40px;
+  white-space: nowrap;
+  line-height: 3.5;
+  transition: background .2s ease-in 0s;
+  &:hover, &:active, &:focus {
+    background-color: $dark-yellow;
+    border-color: $dark-yellow;
+    color: $yellow;
+  }
+}
+
+a.button-cta.secondary {
+  background: none;
+  border: 1px solid $yellow;
+  color: $yellow;
+  &:hover, &:active, &:focus {
+    background-color: $dark-yellow;
+    border-color: $dark-yellow;
+    color: $yellow;
+  }
+}
+
+code, pre {
+  font-family: 'PT Mono', monospace;
+}
+
+hr {
+  border-width: 2px;
+  margin: 6rem 0 4rem 0;
+}
+

@@ -1,0 +1,81 @@
+// This is a partial.
+// It lies in <source>/_sass, just waiting to be imported.
+// It does not contain the YAML front matter and has no corresponding output file in the built site.
+
+.home-section {
+  text-align: center;
+  padding-bottom: 4rem;
+  &:not(:last-of-type){
+    border-bottom: 2px solid white;
+  }
+}
+
+.home-ctas {
+  grid-column-start: 3;
+}
+
+.home-icons {
+  justify-self: center;
+
+  a {
+    display: inline-grid;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+    color: $white;
+    font-size: 1.5rem;
+    margin: 1.5rem 2.5rem;
+    &:before {
+      transform: scale(.8);
+    }
+    &.github:before { content: url('/assets/img/wildfly_icons_github-icon.png'); }
+    &.docs:before { content: url('/assets/img/wildfly_icons_docs-icon.png'); }
+    &.forums:before { content: url('/assets/img/wildfly_icons_forums-icon.png'); }
+  }
+}
+
+.callout {
+  padding: 1.5rem;
+  text-align: left;
+  margin-top: 1.5rem;
+  h2 {
+    display: inline;
+    float: left;
+    width: 30%;
+    margin: 2rem 1rem;
+  }
+  p {
+    display: inline;
+    width: 70%;
+  }
+  &.red {
+    background-color: $red;
+    strong { color: $yellow; }
+  }
+  &.yellow {
+    background-color: $yellow;
+    color: $dark-blue;
+    h2 { margin-top: .6rem; }
+    strong { color: $red; }
+  }
+  &.teal {
+    background-color: $teal;
+    strong { color: $dark-blue; }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .callout {
+    h2, p {
+      display: block;
+      width: 100%;
+      margin: 1rem 0;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home-ctas .button-cta {
+    display: block;
+  }
+}

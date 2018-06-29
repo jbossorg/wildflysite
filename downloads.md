@@ -1,0 +1,5 @@
+---
+layout: base
+title: Downloads
+permalink: /downloads/
+---

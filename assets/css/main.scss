@@ -1,0 +1,16 @@
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
+---
+
+@import "global";
+@import "grid";
+@import "colors";
+
+@import "includes/header";
+@import "includes/project-footer";
+@import "includes/redhat-footer";
+
+@import "layouts/home";
+@import "layouts/docs";
+@import "layouts/downloads";
