@@ -4,12 +4,18 @@
 <head>
   <meta charset="utf-8">
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+
 </head>
 
-<body>
-  {% include header.html %}
-  {{ content }}
-
+<body class="{% if page.url == '/' %}homepage{% else %}{{page.title}}{% endif %}">
+  <div class="content">
+    {% include header.html %}
+    {{ content }}
+  </div>
+  {% include project-footer.html %}
+  {% include redhat-footer.html %}
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <script type="text/javascript" src="{{ '/assets/javascript/mobile-nav.js' | relative_url }}"></script>
 </body>

@@ -2,11 +2,17 @@
 // It lies in <source>/_sass, just waiting to be imported.
 // It does not contain the YAML front matter and has no corresponding output file in the built site.
 
+.homepage {
+  background-image: url('/assets/img/wildfly_hero1080p_smooth.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
 .home-section {
   text-align: center;
   padding-bottom: 4rem;
   &:not(:last-of-type){
-    border-bottom: 2px solid white;
+    border-bottom: 4px solid white;
   }
 }
 
@@ -34,19 +40,27 @@
   }
 }
 
+.home-img {
+  max-width: 60%;
+  margin-top: 1.5rem;
+}
+
 .callout {
-  padding: 1.5rem;
+  padding: 1rem 1.5rem;
   text-align: left;
   margin-top: 1.5rem;
+  display:flex;
+  align-items:center;
   h2 {
-    display: inline;
+    display: block;
     float: left;
-    width: 30%;
+    width: 35%;
     margin: 2rem 1rem;
+    text-transform: uppercase;
   }
   p {
-    display: inline;
-    width: 70%;
+    width: 65%;
+    display: block;
   }
   &.red {
     background-color: $red;
@@ -55,7 +69,10 @@
   &.yellow {
     background-color: $yellow;
     color: $dark-blue;
-    h2 { margin-top: .6rem; }
+    h2 {
+      margin-top: 1rem;
+      color: $dark-blue;
+    }
     strong { color: $red; }
   }
   &.teal {
@@ -64,8 +81,18 @@
   }
 }
 
+@media screen and (max-width: 1505px) {
+  .callout {
+    h2, p {
+      width: 50%;
+    }
+  }
+}
+
+
 @media screen and (max-width: 1024px) {
   .callout {
+    display: block;
     h2, p {
       display: block;
       width: 100%;

@@ -1,0 +1,121 @@
+footer_text: "WildFly is open. All dependencies of this project are available under the <a href='https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html' class='dark-background' target='_blank'>LGPL 2.1</a> or compatible license.<br/><br/>This website was built with <a href='https://jekyllrb.com/' class='dark-background' target='_blank'>Jekyll</a> is hosted on <a href='https://pages.github.com/' class='dark-background' target='_blank'>Github Pages</a> and is completely open source. If you want to make it better, <a href='/NEED-LINK' class='dark-background' target='_blank'>fork it</a> and show us what you’ve got."
+
+links:
+  - title: Navigation
+    subfolderitems:
+      - page: Downloads
+        url: /downloads
+      - page: Get started
+        url: /NEED-LINK
+      - page: Docs
+        url: /docs
+      - page: Github
+        url: https://github.com/wildfly/wildfly
+      - page: Blog
+        url: /NEED-LINK
+  - title: Contribute
+    subfolderitems:
+      - page: Submit a bug
+        url: https://issues.jboss.org/browse/WFLY
+      - page: Join the forum
+        url: https://community.jboss.org/en/wildfly?view=discussion
+      - page: Fork WildFly
+        url: https://github.com/wildfly/wildfly/fork
+      - page: Follow us
+        url: https://twitter.com/WildFlyAS
+  - title: Get Help
+    subfolderitems:
+      - page: Join the forum
+        url: https://community.jboss.org/en/wildfly?view=discussion
+      - page: Join HipChat
+        url: https://www.hipchat.com/gFOhnVQke
+      - page: IRC Channel
+        url: /NEED-LINK
+
+more_links:
+  - title: Find more Red Hat Middleware Community Projects
+    subfolderitems:
+      - page: APIMan
+        url: /NEED-LINK
+      - page: Arquillian
+        url: /NEED-LINK
+      - page: Byteman
+        url: /NEED-LINK
+      - page: CapeDwarf
+        url: /NEED-LINK
+      - page: Chronicler
+        url: /NEED-LINK
+      - page: Darcy
+        url: /NEED-LINK
+      - page: Debezium
+        url: /NEED-LINK
+      - page: Drools
+        url: /NEED-LINK
+      - page: GateIn
+        url: /NEED-LINK
+      - page: Hawkular
+        url: /NEED-LINK
+      - page: Hawtio
+        url: /NEED-LINK
+      - page: Hibernate
+        url: /NEED-LINK
+      - page: Infinispan
+        url: /NEED-LINK
+      - page: JBoss
+        url: /NEED-LINK
+      - page: DevStudio
+        url: /NEED-LINK
+      - page: JBoss
+        url: /NEED-LINK
+      - page: Forge
+        url: /NEED-LINK
+      - page: JBoss
+        url: /NEED-LINK
+      - page: Logging
+        url: /NEED-LINK
+      - page: JBoss
+        url: /NEED-LINK
+      - page: Remoting
+        url: /NEED-LINK
+      - page: jBPM
+        url: /NEED-LINK
+      - page: JSFUnit
+        url: /NEED-LINK
+      - page: Keycloak
+        url: /NEED-LINK
+      - page: Mod
+        url: /NEED-LINK
+      - page: Cluster
+        url: /NEED-LINK
+      - page: ModeShape
+        url: /NEED-LINK
+      - page: OptaPlanner
+        url: /NEED-LINK
+      - page: Picketbox
+        url: /NEED-LINK
+      - page: RESTEasy
+        url: /NEED-LINK
+      - page: Riftsaw
+        url: /NEED-LINK
+      - page: Savara
+        url: /NEED-LINK
+      - page: Seam
+        url: /NEED-LINK
+      - page: Shrinkwrap
+        url: /NEED-LINK
+      - page: Snowdrop
+        url: /NEED-LINK
+      - page: Switchyard
+        url: /NEED-LINK
+      - page: Tattletale
+        url: /NEED-LINK
+      - page: Teiid
+        url: /NEED-LINK
+      - page: WildFly
+        url: http://wildfly.org/
+      - page: Swarm
+        url: /NEED-LINK
+      - page: Wise
+        url: /NEED-LINK
+      - page: XNIO
+        url: /NEED-LINK
