@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: downloads
 title: Downloads
 permalink: /downloads/
 ---
