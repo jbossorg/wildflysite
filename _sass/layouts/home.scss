@@ -46,7 +46,7 @@
 }
 
 .callout {
-  padding: 1rem 1.5rem;
+  padding: 0 1.5rem;
   text-align: left;
   margin-top: 1.5rem;
   display:flex;
@@ -93,6 +93,7 @@
 @media screen and (max-width: 1024px) {
   .callout {
     display: block;
+    padding: 1rem 1.5rem;
     h2, p {
       display: block;
       width: 100%;
