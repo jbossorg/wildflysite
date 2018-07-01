@@ -9,21 +9,41 @@
 
   .download-ctas {
     text-align: center;
+    @media screen and (max-width: 768px) {
+      a.button-cta {
+        display: block;
+        margin: 1rem auto;
+        
+        min-width: 230px;
+      }
+    }
   }
 }
 
 .version-row {
   background-color: $blue;
   margin: 3rem 0;
-  padding: 1rem 1rem 2rem 1rem;
+  padding: 1rem;
 
   &:first-of-type {
     .version-name { border-bottom: 3px solid $white; }
+  }
+  .version-id {
+    @media screen and (max-width: 768px) {
+      grid-column: span 12;
+    }
+  }
+  .version-content {
+    @media screen and (max-width: 768px) {
+      grid-column: span 12;
+    }
   }
 }
 
 .version-table {
   justify-self: center;
+  margin-bottom: 1rem;
+  max-width: 20.3rem;
   .version-name {
     text-align: left;
     padding-bottom: .3rem;
@@ -41,12 +61,18 @@
 
   .description { min-width: 13rem; }
   .licence { min-width: 3rem; }
-  .links a:nth-of-type(2) {
-    &:before {
-      content: '|';
-      color: $white;
-      margin: 0 5px 0 3px;
+  .links {
+    min-width: 55px;
+    a:nth-of-type(2) {
+      &:before {
+        content: '|';
+        color: $white;
+        margin: 0 5px 0 3px;
+      }
     }
   }
   td, a { font-size: .875rem; }
+  @media screen and (max-width: 1024px) {
+    grid-column: span 12;
+  }
 }

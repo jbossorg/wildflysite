@@ -4,13 +4,15 @@ layout: base
 <div class="wildfly-homepage">
 <div class="grid-wrapper">
   <div class="grid__item width-12-12 home-section">
-    <h1>Wild<strong>Fly</strong> 13 is now available</h1>
-
-    <div class="home-ctas">
-      <a href="/NEED-LINK" class="button-cta">Download the zip</a>
-      <a href="/NEED-LINK" class="button-cta">Download the TGZ</a>
-      <a href="/NEED-LINK" class="button-cta secondary">Other Versions</a>
-    </div>
+    {% for latestVersion in site.data.downloads.latest_version %}
+      <h1>Wild<strong>Fly</strong> {{ latestVersion.version }} is now available</h1>
+      <div class="home-ctas">
+        {% for cta in latestVersion.ctas %}
+          <a href="{{ cta.url }}" class="button-cta">{{ cta.cta_text }}</a>
+        {% endfor %} 
+        <a href="{{site.baseurl}}/downloads/" class="button-cta secondary">Other Versions</a>
+      </div>
+    {% endfor %} 
   </div>
 
   <div class="grid__item width-12-12 home-section">
@@ -28,15 +30,15 @@ build amazing applications.</h2>
   </div>
 
   <div class="grid__item width-12-12 home-section">
-    <div class="callout red">
+    <div class="callout red tablet-fullwidth">
       <h2>Powerful</h2>
       <p><strong>Configuration in WildFly is centralized, simple and user-focused.</strong> The configuration file is organized by subsystems that you can easily comprehend and no internal server wiring is exposed. All management capabilities are exposed in a unified manner across many forms of access. These include a CLI, a web based administration console, a native Java API, an HTTP/JSON based REST API, and a JMX gateway. These options allow for custom automation using the tools and languages that best fit your needs.</p>
     </div>
-    <div class="callout yellow">
+    <div class="callout yellow tablet-fullwidth">
       <h2>Modular</h2>
       <p><strong>WildFly does classloading right.</strong> It uses JBoss Modules to provide true application isolation, hiding server implementation classes from the application and only linking with JARs your application needs. Visibility rules have sensible defaults, yet can be customized. The dependency resolution algorithm means that classloading performance is not affected by the number of versions of libraries you have installed.</p>
     </div>
-    <div class="callout teal">
+    <div class="callout teal tablet-fullwidth">
       <h2>Lightweight</h2>
       <p><strong>WildFly takes an aggressive approach to memory management.</strong> The base runtime services were developed to minimize heap allocation by using common cached indexed metadata over duplicate full parses, which reduces heap and object churn. The administration console is 100% stateless and purely client driven. It starts instantly and requires zero memory on the server. These optimizations combined enable WildFly to run with stock JVM settings and also on small devices while leaving more headroom for application data and supports higher scalability.</p>
     </div>

@@ -2,3 +2,32 @@
 // It lies in <source>/_sass, just waiting to be imported.
 // It does not contain the YAML front matter and has no corresponding output file in the built site.
 
+.docs-page{
+  padding-bottom: 3rem;
+  h1.title {
+    text-align: center;
+    border-bottom: 4px solid $white;
+    padding-bottom: 2rem;
+    margin-bottom: 1rem;
+  }
+  a { color: $yellow; }
+}
+
+.doc-toc {
+  padding-top: 2rem;
+  ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: .5rem;
+  }
+  @media screen and (max-width: 768px) {
+    padding-top: 0;
+  }
+}
+
+.doc-toc,
+.doc-content {
+  @media screen and (max-width: 768px) {
+    grid-column: span 12;
+  }
+}

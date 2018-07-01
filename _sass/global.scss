@@ -18,6 +18,34 @@ body {
 div.content {
   padding: 0 13rem;
   @media screen and (max-width: 1170px) { padding: 0 6rem; }
+  @media screen and (max-width: 480px) { padding: 0 2rem; }
+}
+
+.hide {
+  &-tablet {
+    @media screen and (max-width: 768px) { display: none; }
+  }
+  &-mobile {
+    @media screen and (max-width: 480px) { display: none; }
+  }
+}
+
+.tablet-fullwidth {
+  @media screen and (max-width: 768px) {
+    margin-left: -6rem !important;
+    margin-right: -6rem !important;
+  } 
+  @media screen and (max-width: 480px) {
+    margin-left: -2rem !important;
+    margin-right: -2rem !important;
+  }
+}
+
+.mobile-fullwidth {
+  @media screen and (max-width: 480px) {
+    margin-left: -2rem !important;
+    margin-right: -2rem !important;
+  }
 }
 
 * {
@@ -105,6 +133,9 @@ a.button-cta {
     background-color: $dark-yellow;
     border-color: $dark-yellow;
     color: $yellow;
+  }
+  @media screen and (max-width: 768px) {
+    line-height: 1.5;
   }
 }
 

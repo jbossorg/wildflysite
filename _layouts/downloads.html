@@ -4,21 +4,24 @@ layout: base
 
 <div class="wildfly-downloads">
   <div class="grid-wrapper">
-    <div class="width-12-12 ">
-      <h2>Wild<strong>Fly</strong> 13 is now available</h2>
-      <div class="download-ctas">
-        <a href="" class="button-cta">Download the Zip</a>
-        <a href="" class="button-cta">Download the TGZ</a>
-      </div>
+    <div class="grid__item width-12-12 ">
+      {% for latestVersion in site.data.downloads.latest_version %}
+        <h2>Wild<strong>Fly</strong> {{ latestVersion.version }} is now available</h2>
+        <div class="download-ctas">
+          {% for cta in latestVersion.ctas %}
+            <a href="{{ cta.url }}" class="button-cta">{{ cta.cta_text }}</a>
+          {% endfor %} 
+        </div>
+      {% endfor %} 
       {% for versionId in site.data.downloads.wildfly_versions %}
-      <div class="grid-wrapper version-row">
-        <div class="width-2-12">
+      <div class="grid-wrapper version-row mobile-fullwidth">
+        <div class="grid__item width-2-12 version-id">
           <h2>{{ versionId.version }}</h2>
         </div>
-        <div class="width-10-12">
+        <div class="grid__item width-10-12 version-content">
           <div class="grid-wrapper">
             {% for entry in versionId.release %}
-            <div class="width-6-12 version-table">
+            <div class="grid__item width-6-12 version-table">
               <table class="tg">
                 <tr>
                   <th class="" colspan="3"><div class="version-name {% if entry.type == 'Final' %}final{% endif %}">{{entry.type}}<span class="release-date">{{entry.release_date}}</span></div>
@@ -33,18 +36,14 @@ layout: base
                     {% endfor %}
                   </td>
                 </tr>
-                {% endfor %} 
+                {% endfor %}
               </table>
             </div>
-            
             {% endfor %}
           </div>
         </div>
-
       </div>
       {% endfor %}
-
-      
     </div>
   </div>
 </div>

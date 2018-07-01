@@ -1,3 +1,11 @@
+latest_version:
+ - version: 13
+   ctas:
+     - cta_text: Download the zip
+       url: http://download.jboss.org/wildfly/13.0.0.Final/wildfly-13.0.0.Final.zip
+     - cta_text: Download the tgz
+       url: http://download.jboss.org/wildfly/13.0.0.Final/wildfly-13.0.0.Final.tar.gz
+
 wildfly_versions:
  - version: 13.0.0
    release:
@@ -159,7 +167,7 @@ wildfly_versions:
            licence: LGPL
            links:
              - format: zip
-               size: 152  MB
+               size: 152 MB
                url: http://download.jboss.org/wildfly/11.0.0.Final/wildfly-11.0.0.Final.zip
              - format: tgz
                size: 151 MB
