@@ -23,6 +23,15 @@
   @media screen and (max-width: 768px) {
     padding-top: 0;
   }
+  .inline_toc{
+    &:before {
+      content: 'Table of Contents';
+      font-weight: 700;
+    }
+    li:first-of-type {
+      margin-top: .5rem;
+    }
+  }
 }
 
 .doc-toc,

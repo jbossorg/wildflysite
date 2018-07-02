@@ -29,6 +29,12 @@
     .version-name { border-bottom: 3px solid $white; }
   }
   .version-id {
+    @media screen and (max-width: 1380px) and (min-width: 1025px) {
+      h2 {
+        font-size: 2rem;
+        line-height: 2rem; 
+      }
+    }
     @media screen and (max-width: 768px) {
       grid-column: span 12;
     }

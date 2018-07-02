@@ -73,7 +73,7 @@ nav {
     padding-top: 0;
   }
   nav {
-    width: 65%;
+    width: 16rem;
     padding-top: 0;
     .nav-list {
       background-color: $yellow;
@@ -83,6 +83,9 @@ nav {
       padding: 3rem 1rem 1rem 1rem;
       border-top-right-radius: 30px;
       border-bottom-left-radius: 30px;
+      @media screen and (max-width: 468px) {
+        left: 50px;
+      }
     }
     ul {
       display: none;
