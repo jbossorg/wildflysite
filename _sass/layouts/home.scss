@@ -3,7 +3,7 @@
 // It does not contain the YAML front matter and has no corresponding output file in the built site.
 
 .homepage {
-  background-image: url('/assets/img/wildfly_hero1080p_smooth.png');
+  background-image: url($baseurl + '/assets/img/wildfly_hero1080p_smooth.png');
   background-repeat: no-repeat;
   background-size: auto;
 }
@@ -34,9 +34,9 @@
     &:before {
       transform: scale(.8);
     }
-    &.github:before { content: url('/assets/img/wildfly_icons_github-icon.png'); }
-    &.docs:before { content: url('/assets/img/wildfly_icons_docs-icon.png'); }
-    &.forums:before { content: url('/assets/img/wildfly_icons_forums-icon.png'); }
+    &.github:before { content: url($baseurl + '/assets/img/wildfly_icons_github-icon.png'); }
+    &.docs:before { content: url($baseurl + '/assets/img/wildfly_icons_docs-icon.png'); }
+    &.forums:before { content: url($baseurl + '/assets/img/wildfly_icons_forums-icon.png'); }
   }
 }
 
