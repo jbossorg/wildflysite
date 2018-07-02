@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: 13.0.0 Documentation
-permalink: /docs/13
+permalink: /docs/
 ---
 
 **Welcome to the WildFly Documentation. The documentation for WildFly is split into two categories:**
