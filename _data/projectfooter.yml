@@ -5,14 +5,10 @@ links:
     subfolderitems:
       - page: Downloads
         url: /downloads
-      - page: Get started
-        url: /NEED-LINK
       - page: Docs
         url: /docs
       - page: Github
         url: https://github.com/wildfly/wildfly
-      - page: Blog
-        url: /NEED-LINK
   - title: Contribute
     subfolderitems:
       - page: Submit a bug
@@ -29,8 +25,6 @@ links:
         url: https://community.jboss.org/en/wildfly?view=discussion
       - page: Join HipChat
         url: https://www.hipchat.com/gFOhnVQke
-      - page: IRC Channel
-        url: /NEED-LINK
 
 more_links:
   - title: Find more Red Hat Middleware Community Projects
