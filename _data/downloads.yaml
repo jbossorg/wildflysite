@@ -197,7 +197,7 @@ wildfly_versions:
                url: https://github.com/wildfly/quickstart/tree/11.0.0.Final
          - description: Release Notes
            links:
-             - format: zip
+             - format: Notes
                url: http://wildfly.org/news/2017/10/23/WildFly11-Final-Released/
      - type: CR1
        release_date: 25 August 2017
@@ -359,9 +359,6 @@ wildfly_versions:
              - format: Source
                size:
                url: https://github.com/wildfly/quickstart/tree/10.x
-             - format: tgz
-               size: HHHHHH MB
-               url: HHHHHH
      - type: CR1
        release_date: 28 July 2016
        item:
@@ -696,323 +693,307 @@ wildfly_versions:
            licence: LGPL
            links:
              - format: zip
-               size: HHHHHH MB
-               url: HHHHHH
+               size: 130 MB
+               url: http://download.jboss.org/wildfly/9.0.2.Final/wildfly-9.0.2.Final.zip
              - format: tgz
-               size: HHHHHH MB
-               url: HHHHHH
-         - description: HHHHHH
+               size: 129 MB
+               url: http://download.jboss.org/wildfly/9.0.2.Final/wildfly-9.0.2.Final.tar.gz
+         - description: Update Existing 9.0.1 Final (Patched) Install
            licence: LGPL
            links:
              - format: zip
-               size: HHHHHH MB
-               url: HHHHHH
+               size: 50 MB
+               url: http://download.jboss.org/wildfly/9.0.2.Final/wildfly-9.0.2.Final-update.zip
+         - description: Update Existing 9.0.1 Final (Full Zip) Install
+           licence: LGPL
+           links:
+             - format: zip
+               size: 50 MB
+               url: http://download.jboss.org/wildfly/9.0.2.Final/wildfly-9.0.2.Final-901FULLZIP-update.zip
+         - description: Servlet-Only Distribution
+           licence: LGPL
+           links:
+             - format: zip
+               size: 27 MB
+               url: http://download.jboss.org/wildfly/9.0.2.Final/servlet/wildfly-servlet-9.0.2.Final.zip
              - format: tgz
-               size: HHHHHH MB
-               url: HHHHHH
-         - description: HHHHHH
+               size: 27 MB
+               url: http://download.jboss.org/wildfly/9.0.2.Final/servlet/wildfly-servlet-9.0.2.Final.tar.gz
+         - description: Application Server Source Code
            licence: LGPL
            links:
              - format: zip
-               size: HHHHHH MB
-               url: HHHHHH
+               size: 24 MB
+               url: http://download.jboss.org/wildfly/9.0.2.Final/wildfly-9.0.2.Final-src.zip
              - format: tgz
-               size: HHHHHH MB
-               url: HHHHHH
-         - description: HHHHHH
-           licence: LGPL
+               size: 14 MB
+               url: http://download.jboss.org/wildfly/9.0.2.Final/wildfly-9.0.2.Final-src.tar.gz
+         - description: Quick Start Source Code
+           licence: AL
            links:
-             - format: zip
-               url: HHHHHH
-         - description: HHHHHH
-           licence: LGPL
+             - format: Source
+               url: https://github.com/wildfly/quickstart/tree/9.x
+         - description: Release Notes
+           licence:
            links:
-             - format: zip
-               url: HHHHHH
+             - format: Notes
+               url: https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12313721&version=12327709
  - version: 9.0.1
    release:
      - type: Final
-       release_date: 26 October 2015
+       release_date: 23 July 2015
        item:
          - description: Java EE7 Full & Web Distribution
            licence: LGPL
            links:
              - format: zip
-               size: HHHHHH MB
-               url: HHHHHH
+               size: 127 MB
+               url: http://download.jboss.org/wildfly/9.0.1.Final/wildfly-9.0.1.Final.zip
              - format: tgz
-               size: HHHHHH MB
-               url: HHHHHH
-         - description: HHHHHH
+               size: 126 MB
+               url: http://download.jboss.org/wildfly/9.0.1.Final/wildfly-9.0.1.Final.tar.gz
+         - description: Update Existing 9.0.0 Final Install
            licence: LGPL
            links:
              - format: zip
-               size: HHHHHH MB
-               url: HHHHHH
+               size: 3 MB
+               url: http://download.jboss.org/wildfly/9.0.1.Final/wildfly-9.0.1.Final-update.zip
+         - description: Servlet-Only Distribution
+           licence: LGPL
+           links:
+             - format: zip
+               size: 27 MB
+               url: http://download.jboss.org/wildfly/9.0.1.Final/servlet/wildfly-servlet-9.0.1.Final.zip
              - format: tgz
-               size: HHHHHH MB
-               url: HHHHHH
-         - description: HHHHHH
+               size: 27 MB
+               url: http://download.jboss.org/wildfly/9.0.1.Final/servlet/wildfly-servlet-9.0.1.Final.tar.gz
+         - description: Application Server Source Code
            licence: LGPL
            links:
              - format: zip
-               size: HHHHHH MB
-               url: HHHHHH
+               size: 24 MB
+               url: http://download.jboss.org/wildfly/9.0.1.Final/wildfly-9.0.1.Final-src.zip
              - format: tgz
-               size: HHHHHH MB
-               url: HHHHHH
-         - description: HHHHHH
-           licence: LGPL
+               size: 14 MB
+               url: http://download.jboss.org/wildfly/9.0.1.Final/wildfly-9.0.1.Final-src.tar.gz
+         - description: Quick Start Source Code
+           licence: AL
            links:
-             - format: zip
-               url: HHHHHH
-         - description: HHHHHH
-           licence: LGPL
+             - format: Source
+               url: https://github.com/wildfly/quickstart/tree/9.x
+         - description: Release Notes
+           licence:
            links:
-             - format: zip
-               url: HHHHHH
+             - format: Notes
+               url: http://wildfly.org/news/2015/07/23/WildFly-901-and-821
  - version: 9.0.0
    release:
      - type: Final
-       release_date: 26 October 2015
+       release_date: 02 July 2015
        item:
          - description: Java EE7 Full & Web Distribution
            licence: LGPL
            links:
              - format: zip
-               size: HHHHHH MB
-               url: HHHHHH
+               size: 127 MB
+               url: http://download.jboss.org/wildfly/9.0.0.Final/wildfly-9.0.0.Final.zip
              - format: tgz
-               size: HHHHHH MB
-               url: HHHHHH
-         - description: HHHHHH
+               size: 126 MB
+               url: http://download.jboss.org/wildfly/9.0.0.Final/wildfly-9.0.0.Final.tar.gz
+         - description: Servlet-Only Distribution
            licence: LGPL
            links:
              - format: zip
-               size: HHHHHH MB
-               url: HHHHHH
+               size: 27 MB
+               url: http://download.jboss.org/wildfly/9.0.0.Final/servlet/wildfly-servlet-9.0.0.Final.zip
              - format: tgz
-               size: HHHHHH MB
-               url: HHHHHH
-         - description: HHHHHH
+               size: 27 MB
+               url: http://download.jboss.org/wildfly/9.0.0.Final/servlet/wildfly-servlet-9.0.0.Final.tar.gz
+         - description: Application Server Source Code
            licence: LGPL
            links:
              - format: zip
-               size: HHHHHH MB
-               url: HHHHHH
+               size: 24 MB
+               url: http://download.jboss.org/wildfly/9.0.0.Final/wildfly-9.0.0.Final-src.zip
              - format: tgz
-               size: HHHHHH MB
-               url: HHHHHH
-         - description: HHHHHH
-           licence: LGPL
+               size: 14 MB
+               url: http://download.jboss.org/wildfly/9.0.0.Final/wildfly-9.0.0.Final-src.tar.gz
+         - description: Quick Start Source Code
+           licence: AL
            links:
-             - format: zip
-               url: HHHHHH
-         - description: HHHHHH
-           licence: LGPL
+             - format: Source
+               url: https://github.com/wildfly/quickstart/tree/9.x
+         - description: Release Notes
+           licence:
            links:
-             - format: zip
-               url: HHHHHH
+             - format: Notes
+               url: http://wildfly.org/news/2015/07/02/WildFly9-Final-Released
      - type: CR2
-       release_date: 26 October 2015
+       release_date: 10 June 2015
        item:
-         - description: Java EE7 Full & Web Distribution
+         - description: Application Server Distribution
            licence: LGPL
            links:
              - format: zip
-               size: HHHHHH MB
-               url: HHHHHH
+               size: 127 MB
+               url: http://download.jboss.org/wildfly/9.0.0.CR2/wildfly-9.0.0.CR2.zip
              - format: tgz
-               size: HHHHHH MB
-               url: HHHHHH
-         - description: HHHHHH
+               size: 126 MB
+               url: http://download.jboss.org/wildfly/9.0.0.CR2/wildfly-9.0.0.CR2.tar.gz
+         - description: Servlet-Only Distribution
            licence: LGPL
            links:
              - format: zip
-               size: HHHHHH MB
-               url: HHHHHH
+               size: 27 MB
+               url: http://download.jboss.org/wildfly/9.0.0.CR2/servlet/wildfly-servlet-9.0.0.CR2.zip
              - format: tgz
-               size: HHHHHH MB
-               url: HHHHHH
-         - description: HHHHHH
+               size: 27 MB
+               url: http://download.jboss.org/wildfly/9.0.0.CR2/servlet/wildfly-servlet-9.0.0.CR2.tar.gz
+         - description: Application Server Source Code
            licence: LGPL
            links:
              - format: zip
-               size: HHHHHH MB
-               url: HHHHHH
+               size: 24 MB
+               url: http://download.jboss.org/wildfly/9.0.0.CR2/wildfly-9.0.0.CR2-src.zip
              - format: tgz
-               size: HHHHHH MB
-               url: HHHHHH
-         - description: HHHHHH
-           licence: LGPL
+               size: 14 MB
+               url: http://download.jboss.org/wildfly/9.0.0.CR2/wildfly-9.0.0.CR2-src.tar.gz
+         - description: Release Notes
+           licence:
            links:
-             - format: zip
-               url: HHHHHH
-         - description: HHHHHH
-           licence: LGPL
-           links:
-             - format: zip
-               url: HHHHHH
+             - format: Notes
+               url: https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12313721&version=12327268
      - type: CR1
-       release_date: 26 October 2015
+       release_date: 01 May 2015
        item:
-         - description: Java EE7 Full & Web Distribution
+         - description: Application Server Distribution
            licence: LGPL
            links:
              - format: zip
-               size: HHHHHH MB
-               url: HHHHHH
+               size: 127 MB
+               url: http://download.jboss.org/wildfly/9.0.0.CR1/wildfly-9.0.0.CR1.zip
              - format: tgz
-               size: HHHHHH MB
-               url: HHHHHH
-         - description: HHHHHH
+               size: 126 MB
+               url: http://download.jboss.org/wildfly/9.0.0.CR1/wildfly-9.0.0.CR1.tar.gz
+         - description: Servlet-Only Distribution
            licence: LGPL
            links:
              - format: zip
-               size: HHHHHH MB
-               url: HHHHHH
+               size: 27 MB
+               url: http://download.jboss.org/wildfly/9.0.0.CR1/servlet/wildfly-web-9.0.0.CR1.zip
              - format: tgz
-               size: HHHHHH MB
-               url: HHHHHH
-         - description: HHHHHH
+               size: 27 MB
+               url: http://download.jboss.org/wildfly/9.0.0.CR1/servlet/wildfly-web-9.0.0.CR1.tar.gz
+         - description: Application Server Source Code
            licence: LGPL
            links:
              - format: zip
-               size: HHHHHH MB
-               url: HHHHHH
+               size: 24 MB
+               url: http://download.jboss.org/wildfly/9.0.0.CR1/wildfly-9.0.0.CR1-src.zip
              - format: tgz
-               size: HHHHHH MB
-               url: HHHHHH
-         - description: HHHHHH
-           licence: LGPL
+               size: 14 MB
+               url: http://download.jboss.org/wildfly/9.0.0.CR1/wildfly-9.0.0.CR1-src.tar.gz
+         - description: Release Notes
+           licence:
            links:
-             - format: zip
-               url: HHHHHH
-         - description: HHHHHH
-           licence: LGPL
-           links:
-             - format: zip
-               url: HHHHHH
+             - format: Notes
+               url: https://developer.jboss.org/wiki/WildFly900CR1ReleaseNotes
      - type: Beta2
-       release_date: 26 October 2015
+       release_date: 27 March 2015
        item:
-         - description: Java EE7 Full & Web Distribution
+         - description: Application Server Distribution
            licence: LGPL
            links:
              - format: zip
-               size: HHHHHH MB
-               url: HHHHHH
+               size: 125 MB
+               url: http://download.jboss.org/wildfly/9.0.0.Beta2/wildfly-9.0.0.Beta2.zip
              - format: tgz
-               size: HHHHHH MB
-               url: HHHHHH
-         - description: HHHHHH
+               size: 124 MB
+               url: http://download.jboss.org/wildfly/9.0.0.Beta2/wildfly-9.0.0.Beta2.tar.gz
+         - description: Servlet-Only Distribution
            licence: LGPL
            links:
              - format: zip
-               size: HHHHHH MB
-               url: HHHHHH
+               size: 27 MB
+               url: http://download.jboss.org/wildfly/9.0.0.Beta2/servlet/wildfly-web-9.0.0.Beta2.zip
              - format: tgz
-               size: HHHHHH MB
-               url: HHHHHH
-         - description: HHHHHH
+               size: 26 MB
+               url: http://download.jboss.org/wildfly/9.0.0.Beta2/servlet/wildfly-web-9.0.0.Beta2.tar.gz
+         - description: Application Server Source Code
            licence: LGPL
            links:
              - format: zip
-               size: HHHHHH MB
-               url: HHHHHH
+               size: 24 MB
+               url: http://download.jboss.org/wildfly/9.0.0.Beta2/wildfly-9.0.0.Beta2-src.zip
              - format: tgz
-               size: HHHHHH MB
-               url: HHHHHH
-         - description: HHHHHH
+               size: 15 MB
+               url: http://download.jboss.org/wildfly/9.0.0.Beta2/wildfly-9.0.0.Beta2-src.tar.gz
+         - description: Release Notes
            licence: LGPL
            links:
-             - format: zip
-               url: HHHHHH
-         - description: HHHHHH
-           licence: LGPL
-           links:
-             - format: zip
-               url: HHHHHH
+             - format: Notes
+               url: https://developer.jboss.org/wiki/WildFly900Beta1ReleaseNotes
      - type: Beta1
-       release_date: 26 October 2015
+       release_date: 26 March 2015
        item:
-         - description: Java EE7 Full & Web Distribution
+         - description: Application Server Distribution
            licence: LGPL
            links:
              - format: zip
-               size: HHHHHH MB
-               url: HHHHHH
+               size: 125 MB
+               url: http://download.jboss.org/wildfly/9.0.0.Beta1/wildfly-9.0.0.Beta1.zip
              - format: tgz
-               size: HHHHHH MB
-               url: HHHHHH
-         - description: HHHHHH
+               size: 124 MB
+               url: http://download.jboss.org/wildfly/9.0.0.Beta1/wildfly-9.0.0.Beta1.tar.gz
+         - description: Servlet-Only Distribution
            licence: LGPL
            links:
              - format: zip
-               size: HHHHHH MB
-               url: HHHHHH
+               size: 27 MB
+               url: http://download.jboss.org/wildfly/9.0.0.Beta1/servlet/wildfly-web-9.0.0.Beta1.zip
              - format: tgz
-               size: HHHHHH MB
-               url: HHHHHH
-         - description: HHHHHH
+               size: 26 MB
+               url: http://download.jboss.org/wildfly/9.0.0.Beta1/servlet/wildfly-web-9.0.0.Beta1.tar.gz
+         - description: Application Server Source Code
            licence: LGPL
            links:
              - format: zip
-               size: HHHHHH MB
-               url: HHHHHH
+               size: 24 MB
+               url: http://download.jboss.org/wildfly/9.0.0.Beta1/wildfly-9.0.0.Beta1-src.zip
              - format: tgz
-               size: HHHHHH MB
-               url: HHHHHH
-         - description: HHHHHH
+               size: 15 MB
+               url: http://download.jboss.org/wildfly/9.0.0.Beta1/wildfly-9.0.0.Beta1-src.tar.gz
+         - description: Release Notes
            licence: LGPL
            links:
-             - format: zip
-               url: HHHHHH
-         - description: HHHHHH
-           licence: LGPL
-           links:
-             - format: zip
-               url: HHHHHH
+             - format: Notes
+               url: https://developer.jboss.org/wiki/WildFly900Beta1ReleaseNotes
      - type: Alpha1
-       release_date: 26 October 2015
+       release_date: 15 Septemebr 2014
        item:
-         - description: Java EE7 Full & Web Distribution
+         - description: JApplication Server Distribution
            licence: LGPL
            links:
              - format: zip
-               size: HHHHHH MB
-               url: HHHHHH
+               size: 118 MB
+               url: http://download.jboss.org/wildfly/9.0.0.Alpha1/wildfly-9.0.0.Alpha1.zip
              - format: tgz
-               size: HHHHHH MB
-               url: HHHHHH
-         - description: HHHHHH
+               size: 117 MB
+               url: http://download.jboss.org/wildfly/9.0.0.Alpha1/wildfly-9.0.0.Alpha1.tar.gz
+         - description: Application Server Source Code
            licence: LGPL
            links:
              - format: zip
-               size: HHHHHH MB
-               url: HHHHHH
+               size: 24 MB
+               url: http://download.jboss.org/wildfly/9.0.0.Alpha1/wildfly-9.0.0.Alpha1-src.zip
              - format: tgz
-               size: HHHHHH MB
-               url: HHHHHH
-         - description: HHHHHH
+               size: 14 MB
+               url: http://download.jboss.org/wildfly/9.0.0.Alpha1/wildfly-9.0.0.Alpha1-src.tar.gz
+         - description: Release Notes
            licence: LGPL
            links:
-             - format: zip
-               size: HHHHHH MB
-               url: HHHHHH
-             - format: tgz
-               size: HHHHHH MB
-               url: HHHHHH
-         - description: HHHHHH
-           licence: LGPL
-           links:
-             - format: zip
-               url: HHHHHH
-         - description: HHHHHH
-           licence: LGPL
-           links:
-             - format: zip
-               url: HHHHHH
+             - format: Notes
+               url: https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12313721&version=12324890
 
 # Version 8
 
