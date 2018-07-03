@@ -4,9 +4,9 @@ links:
   - title: Navigation
     subfolderitems:
       - page: Downloads
-        url: /downloads
+        url: /wildflysite/downloads
       - page: Docs
-        url: /docs
+        url: /wildflysitef/docs
       - page: Github
         url: https://github.com/wildfly/wildfly
   - title: Contribute
