@@ -1000,169 +1000,131 @@ wildfly_versions:
  - version: 8.2.1
    release:
      - type: Final
-       release_date: 26 October 2015
+       release_date: 23 July 2015
        item:
          - description: Java EE7 Full & Web Distribution
            licence: LGPL
            links:
              - format: zip
-               size: HHHHHH MB
-               url: HHHHHH
+               size: 127 MB
+               url: http://download.jboss.org/wildfly/8.2.1.Final/wildfly-8.2.1.Final.zip
              - format: tgz
-               size: HHHHHH MB
-               url: HHHHHH
-         - description: HHHHHH
+               size: 113 MB
+               url: http://download.jboss.org/wildfly/8.2.1.Final/wildfly-8.2.1.Final.tar.gz
+         - description: Update Existing 8.2.0 Final Install
            licence: LGPL
            links:
              - format: zip
-               size: HHHHHH MB
-               url: HHHHHH
+               size: 30 MB
+               url: http://download.jboss.org/wildfly/8.2.1.Final/wildfly-8.2.1.Final-update.zip
+         - description: Application Server Source Code
+           licence: LGPL
+           links:
+             - format: zip
+               size: 25 MB
+               url: http://download.jboss.org/wildfly/8.2.1.Final/wildfly-8.2.1.Final-src.zip
              - format: tgz
-               size: HHHHHH MB
-               url: HHHHHH
-         - description: HHHHHH
-           licence: LGPL
+               size: 15 MB
+               url: http://download.jboss.org/wildfly/8.2.1.Final/wildfly-8.2.1.Final-src.tar.gz
+         - description: Release Notes
+           licence:
            links:
-             - format: zip
-               size: HHHHHH MB
-               url: HHHHHH
-             - format: tgz
-               size: HHHHHH MB
-               url: HHHHHH
-         - description: HHHHHH
-           licence: LGPL
-           links:
-             - format: zip
-               url: HHHHHH
-         - description: HHHHHH
-           licence: LGPL
-           links:
-             - format: zip
-               url: HHHHHH
+             - format: Notes
+               url: http://wildfly.org/news/2015/07/23/WildFly-901-and-821
  - version: 8.2.0
    release:
      - type: Final
-       release_date: 26 October 2015
+       release_date: 20 November 2014
        item:
          - description: Java EE7 Full & Web Distribution
            licence: LGPL
            links:
              - format: zip
-               size: HHHHHH MB
-               url: HHHHHH
+               size: 126 MB
+               url: http://download.jboss.org/wildfly/8.2.0.Final/wildfly-8.2.0.Final.zip
              - format: tgz
-               size: HHHHHH MB
-               url: HHHHHH
-         - description: HHHHHH
+               size: 113 MB
+               url: http://download.jboss.org/wildfly/8.2.0.Final/wildfly-8.2.0.Final.tar.gz
+         - description: Update Existing 8.1.0 Final Install
            licence: LGPL
            links:
              - format: zip
-               size: HHHHHH MB
-               url: HHHHHH
+               size: 62 MB
+               url: http://download.jboss.org/wildfly/8.2.0.Final/wildfly-8.2.0.Final-update.zip
+         - description: Application Server Source Code
+           licence: LGPL
+           links:
+             - format: zip
+               size: 36 MB
+               url: http://download.jboss.org/wildfly/8.2.0.Final/wildfly-8.2.0.Final-src.zip
              - format: tgz
-               size: HHHHHH MB
-               url: HHHHHH
-         - description: HHHHHH
+               size: 22 MB
+               url: http://download.jboss.org/wildfly/8.2.0.Final/wildfly-8.2.0.Final-src.tar.gz
+         - description: Release Notes
            licence: LGPL
            links:
-             - format: zip
-               size: HHHHHH MB
-               url: HHHHHH
-             - format: tgz
-               size: HHHHHH MB
-               url: HHHHHH
-         - description: HHHHHH
-           licence: LGPL
-           links:
-             - format: zip
-               url: HHHHHH
-         - description: HHHHHH
-           licence: LGPL
-           links:
-             - format: zip
-               url: HHHHHH
+             - format: Notes
+               url: http://wildfly.org/news/2014/11/20/WildFly82-Final-Released
  - version: 8.1.0
    release:
      - type: Final
-       release_date: 26 October 2015
+       release_date: 30 May 2014
        item:
          - description: Java EE7 Full & Web Distribution
            licence: LGPL
            links:
              - format: zip
-               size: HHHHHH MB
-               url: HHHHHH
+               size: 124 MB
+               url: http://download.jboss.org/wildfly/8.1.0.Final/wildfly-8.1.0.Final.zip
              - format: tgz
-               size: HHHHHH MB
-               url: HHHHHH
-         - description: HHHHHH
+               size: 111 MB
+               url: http://download.jboss.org/wildfly/8.1.0.Final/wildfly-8.1.0.Final.tar.gz
+         - description: Update Existing 8.0.0 Final Install
            licence: LGPL
            links:
              - format: zip
-               size: HHHHHH MB
-               url: HHHHHH
+               size: 110 MB
+               url: http://download.jboss.org/wildfly/8.1.0.Final/wildfly-8.1.0.Final-update.zip
+         - description: Application Server Source Code
+           licence: LGPL
+           links:
+             - format: zip
+               size: 30 MB
+               url: http://download.jboss.org/wildfly/8.1.0.Final/wildfly-8.1.0.Final-src.zip
              - format: tgz
-               size: HHHHHH MB
-               url: HHHHHH
-         - description: HHHHHH
-           licence: LGPL
+               size: 17 MB
+               url: http://download.jboss.org/wildfly/8.1.0.Final/wildfly-8.1.0.Final-src.tar.gz
+         - description: Release Notes
+           licence:
            links:
-             - format: zip
-               size: HHHHHH MB
-               url: HHHHHH
-             - format: tgz
-               size: HHHHHH MB
-               url: HHHHHH
-         - description: HHHHHH
-           licence: LGPL
-           links:
-             - format: zip
-               url: HHHHHH
-         - description: HHHHHH
-           licence: LGPL
-           links:
-             - format: zip
-               url: HHHHHH
+             - format: Notes
+               url: https://community.jboss.org/wiki/WildFly810FinalReleaseNotes
      - type: CR2
-       release_date: 26 October 2015
+       release_date: 12 May 2014
        item:
          - description: Java EE7 Full & Web Distribution
            licence: LGPL
            links:
              - format: zip
-               size: HHHHHH MB
-               url: HHHHHH
+               size: 124 MB
+               url: http://download.jboss.org/wildfly/8.1.0.CR2/wildfly-8.1.0.CR2.zip
              - format: tgz
-               size: HHHHHH MB
-               url: HHHHHH
-         - description: HHHHHH
+               size: 111 MB
+               url: http://download.jboss.org/wildfly/8.1.0.CR2/wildfly-8.1.0.CR2.tar.gz
+         - description: Application Server Source Code
            licence: LGPL
            links:
              - format: zip
-               size: HHHHHH MB
-               url: HHHHHH
+               size: 30 MB
+               url: http://download.jboss.org/wildfly/8.1.0.CR2/wildfly-8.1.0.CR2-src.zip
              - format: tgz
-               size: HHHHHH MB
-               url: HHHHHH
-         - description: HHHHHH
-           licence: LGPL
+               size: 17 MB
+               url: http://download.jboss.org/wildfly/8.1.0.CR2/wildfly-8.1.0.CR2-src.tar.gz
+         - description: Release Notes
+           licence:
            links:
-             - format: zip
-               size: HHHHHH MB
-               url: HHHHHH
-             - format: tgz
-               size: HHHHHH MB
-               url: HHHHHH
-         - description: HHHHHH
-           licence: LGPL
-           links:
-             - format: zip
-               url: HHHHHH
-         - description: HHHHHH
-           licence: LGPL
-           links:
-             - format: zip
-               url: HHHHHH
+             - format: Notes
+               url: https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12313721&version=12324883
      - type: CR1
        release_date: 26 October 2015
        item:
@@ -1170,318 +1132,252 @@ wildfly_versions:
            licence: LGPL
            links:
              - format: zip
-               size: HHHHHH MB
-               url: HHHHHH
+               size: 123 MB
+               url: http://download.jboss.org/wildfly/8.1.0.CR1/wildfly-8.1.0.CR1.zip
              - format: tgz
-               size: HHHHHH MB
-               url: HHHHHH
-         - description: HHHHHH
+               size: 110 MB
+               url: http://download.jboss.org/wildfly/8.1.0.CR1/wildfly-8.1.0.CR1.tar.gz
+         - description: Application Server Source Code
            licence: LGPL
            links:
              - format: zip
-               size: HHHHHH MB
-               url: HHHHHH
+               size: 30 MB
+               url: http://download.jboss.org/wildfly/8.1.0.CR1/wildfly-8.1.0.CR1-src.zip
              - format: tgz
-               size: HHHHHH MB
-               url: HHHHHH
-         - description: HHHHHH
-           licence: LGPL
+               size: 17 MB
+               url: http://download.jboss.org/wildfly/8.1.0.CR1/wildfly-8.1.0.CR1-src.tar.gz
+         - description: Release Notes
+           licence:
            links:
-             - format: zip
-               size: HHHHHH MB
-               url: HHHHHH
-             - format: tgz
-               size: HHHHHH MB
-               url: HHHHHH
-         - description: HHHHHH
-           licence: LGPL
-           links:
-             - format: zip
-               url: HHHHHH
-         - description: HHHHHH
-           licence: LGPL
-           links:
-             - format: zip
-               url: HHHHHH
+             - format: Notes
+               url: https://community.jboss.org/wiki/WildFly810CR1ReleaseNotes
  - version: 8.0.0
    release:
      - type: Final
-       release_date: 26 October 2015
+       release_date: 11 February 2014
        item:
          - description: Java EE7 Full & Web Distribution
            licence: LGPL
            links:
              - format: zip
-               size: HHHHHH MB
-               url: HHHHHH
+               size: 148 MB
+               url: http://download.jboss.org/wildfly/8.0.0.Final/wildfly-8.0.0.Final.zip
              - format: tgz
-               size: HHHHHH MB
-               url: HHHHHH
-         - description: HHHHHH
+               size: 134 MB
+               url: http://download.jboss.org/wildfly/8.0.0.Final/wildfly-8.0.0.Final.tar.gz
+         - description: Application Server Source Code
            licence: LGPL
            links:
              - format: zip
-               size: HHHHHH MB
-               url: HHHHHH
+               size: 29 MB
+               url: http://download.jboss.org/wildfly/8.0.0.Final/wildfly-8.0.0.Final-src.zip
              - format: tgz
-               size: HHHHHH MB
-               url: HHHHHH
-         - description: HHHHHH
-           licence: LGPL
+               size: 17 MB
+               url: http://download.jboss.org/wildfly/8.0.0.Final/wildfly-8.0.0.Final-src.tar.gz
+         - description: Release Notes
+           licence:
            links:
-             - format: zip
-               size: HHHHHH MB
-               url: HHHHHH
-             - format: tgz
-               size: HHHHHH MB
-               url: HHHHHH
-         - description: HHHHHH
-           licence: LGPL
-           links:
-             - format: zip
-               url: HHHHHH
-         - description: HHHHHH
-           licence: LGPL
-           links:
-             - format: zip
-               url: HHHHHH
+             - format: Notes
+               url: http://wildfly.org/news/2014/02/11/WildFly8-Final-Released/
      - type: CR1
        release_date: 26 October 2015
        item:
-         - description: Java EE7 Full & Web Distribution
+         - description: Application Server Distribution
            licence: LGPL
            links:
              - format: zip
-               size: HHHHHH MB
-               url: HHHHHH
+               size: 147 MB
+               url: http://download.jboss.org/wildfly/8.0.0.CR1/wildfly-8.0.0.CR1.zip
              - format: tgz
-               size: HHHHHH MB
-               url: HHHHHH
-         - description: HHHHHH
+               size: 134 MB
+               url: http://download.jboss.org/wildfly/8.0.0.CR1/wildfly-8.0.0.CR1.tar.gz
+         - description: Application Server Source Code
            licence: LGPL
            links:
              - format: zip
-               size: HHHHHH MB
-               url: HHHHHH
+               size: 29 MB
+               url: http://download.jboss.org/wildfly/8.0.0.CR1/wildfly-8.0.0.CR1-src.zip
              - format: tgz
-               size: HHHHHH MB
-               url: HHHHHH
-         - description: HHHHHH
-           licence: LGPL
+               size: 17 MB
+               url: http://download.jboss.org/wildfly/8.0.0.CR1/wildfly-8.0.0.CR1-src.tar.gz
+         - description: Quick Start Source Code
+           licence: AL
            links:
              - format: zip
-               size: HHHHHH MB
-               url: HHHHHH
-             - format: tgz
-               size: HHHHHH MB
-               url: HHHHHH
-         - description: HHHHHH
-           licence: LGPL
+               size: 15 MB
+               url: http://download.jboss.org/wildfly/8.0.0.Alpha1/quickstart-8.0.0.Alpha1.zip
+         - description: Release Notes
+           licence:
            links:
-             - format: zip
-               url: HHHHHH
-         - description: HHHHHH
-           licence: LGPL
-           links:
-             - format: zip
-               url: HHHHHH
+             - format: Notes
+               url: http://wildfly.org/news/2013/12/21/WildFly8-CR1-Released/
      - type: Beta1
-       release_date: 26 October 2015
+       release_date: 04 October 2013
        item:
-         - description: Java EE7 Full & Web Distribution
+         - description: Application Server Distribution
            licence: LGPL
            links:
              - format: zip
-               size: HHHHHH MB
-               url: HHHHHH
+               size: 134 MB
+               url: http://download.jboss.org/wildfly/8.0.0.Beta1/wildfly-8.0.0.Beta1.zip
              - format: tgz
-               size: HHHHHH MB
-               url: HHHHHH
-         - description: HHHHHH
+               size: 121 MB
+               url: http://download.jboss.org/wildfly/8.0.0.Beta1/wildfly-8.0.0.Beta1.tar.gz
+         - description: Application Server Source Code
            licence: LGPL
            links:
              - format: zip
-               size: HHHHHH MB
-               url: HHHHHH
+               size: 28 MB
+               url: http://download.jboss.org/wildfly/8.0.0.Beta1/wildfly-8.0.0.Beta1-src.zip
              - format: tgz
-               size: HHHHHH MB
-               url: HHHHHH
-         - description: HHHHHH
-           licence: LGPL
+               size: 15 MB
+               url: http://download.jboss.org/wildfly/8.0.0.Beta1/wildfly-8.0.0.Beta1-src.tar.gz
+         - description: Quick Start Source Code
+           licence: AL
            links:
              - format: zip
-               size: HHHHHH MB
-               url: HHHHHH
-             - format: tgz
-               size: HHHHHH MB
-               url: HHHHHH
-         - description: HHHHHH
-           licence: LGPL
+               size: 15 MB
+               url: http://download.jboss.org/wildfly/8.0.0.Alpha1/quickstart-8.0.0.Alpha1.zip
+         - description: Release Notes
+           licence:
            links:
-             - format: zip
-               url: HHHHHH
-         - description: HHHHHH
-           licence: LGPL
-           links:
-             - format: zip
-               url: HHHHHH
+             - format: Notes
+               url: https://community.jboss.org/wiki/WildFly800Beta1ReleaseNotes
      - type: Alpha4
-       release_date: 26 October 2015
+       release_date: 12 August 2013
        item:
-         - description: Java EE7 Full & Web Distribution
+         - description: Application Server Distribution
            licence: LGPL
            links:
              - format: zip
-               size: HHHHHH MB
-               url: HHHHHH
+               size: 126 MB
+               url: http://download.jboss.org/wildfly/8.0.0.Alpha4/wildfly-8.0.0.Alpha4.zip
              - format: tgz
-               size: HHHHHH MB
-               url: HHHHHH
-         - description: HHHHHH
+               size: 114 MB
+               url: http://download.jboss.org/wildfly/8.0.0.Alpha4/wildfly-8.0.0.Alpha4.tar.gz
+         - description: Application Server Source Code
            licence: LGPL
            links:
              - format: zip
-               size: HHHHHH MB
-               url: HHHHHH
+               size: 27 MB
+               url: http://download.jboss.org/wildfly/8.0.0.Alpha4/wildfly-8.0.0.Alpha4-src.zip
              - format: tgz
-               size: HHHHHH MB
-               url: HHHHHH
-         - description: HHHHHH
-           licence: LGPL
+               size: 15 MB
+               url: http://download.jboss.org/wildfly/8.0.0.Alpha4/wildfly-8.0.0.Alpha4-src.tar.gz
+         - description: Quick Start Source Code
+           licence: AL
            links:
              - format: zip
-               size: HHHHHH MB
-               url: HHHHHH
-             - format: tgz
-               size: HHHHHH MB
-               url: HHHHHH
-         - description: HHHHHH
-           licence: LGPL
+               size: 15 MB
+               url: http://download.jboss.org/wildfly/8.0.0.Alpha1/quickstart-8.0.0.Alpha1.zip
+         - description: Release Notes
+           licence:
            links:
-             - format: zip
+             - format: Notes
                url: HHHHHH
-         - description: HHHHHH
+         - description: https://community.jboss.org/wiki/800Alpha4ReleaseNotes
            licence: LGPL
            links:
              - format: zip
                url: HHHHHH
      - type: Alpha3
-       release_date: 26 October 2015
+       release_date: 17 July 2013
        item:
-         - description: Java EE7 Full & Web Distribution
+         - description: Application Server Distribution
            licence: LGPL
            links:
              - format: zip
-               size: HHHHHH MB
-               url: HHHHHH
+               size: 132 MB
+               url: http://download.jboss.org/wildfly/8.0.0.Alpha3/wildfly-8.0.0.Alpha3.zip
              - format: tgz
-               size: HHHHHH MB
-               url: HHHHHH
-         - description: HHHHHH
+               size: 121 MB
+               url: http://download.jboss.org/wildfly/8.0.0.Alpha3/wildfly-8.0.0.Alpha3.tar.gz
+         - description: Application Server Source Code
            licence: LGPL
            links:
              - format: zip
-               size: HHHHHH MB
-               url: HHHHHH
+               size: 26 MB
+               url: http://download.jboss.org/wildfly/8.0.0.Alpha3/wildfly-8.0.0.Alpha3-src.zip
              - format: tgz
-               size: HHHHHH MB
-               url: HHHHHH
-         - description: HHHHHH
+               size: 15 MB
+               url: http://download.jboss.org/wildfly/8.0.0.Alpha3/wildfly-8.0.0.Alpha3-src.tar.gz
+         - description: Quick Start Source Code
            licence: LGPL
            links:
              - format: zip
-               size: HHHHHH MB
-               url: HHHHHH
-             - format: tgz
-               size: HHHHHH MB
-               url: HHHHHH
-         - description: HHHHHH
-           licence: LGPL
+               size: 15 MB
+               url: http://download.jboss.org/wildfly/8.0.0.Alpha1/quickstart-8.0.0.Alpha1.zip
+         - description: Release Notes
+           licence:
            links:
-             - format: zip
-               url: HHHHHH
-         - description: HHHHHH
-           licence: LGPL
-           links:
-             - format: zip
-               url: HHHHHH
+             - format: Notes
+               url: https://community.jboss.org/wiki/800Alpha3ReleaseNotes
      - type: Alpha2
-       release_date: 26 October 2015
+       release_date: 21 June 2013
        item:
-         - description: Java EE7 Full & Web Distribution
+         - description: Application Server Distribution
            licence: LGPL
            links:
              - format: zip
-               size: HHHHHH MB
-               url: HHHHHH
+               size: 133 MB
+               url: http://download.jboss.org/wildfly/8.0.0.Alpha2/wildfly-8.0.0.Alpha2.zip
              - format: tgz
-               size: HHHHHH MB
-               url: HHHHHH
-         - description: HHHHHH
+               size: 121 MB
+               url: http://download.jboss.org/wildfly/8.0.0.Alpha2/wildfly-8.0.0.Alpha2.tar.gz
+         - description: Application Server Source Code
            licence: LGPL
            links:
              - format: zip
-               size: HHHHHH MB
-               url: HHHHHH
+               size: 27 MB
+               url: http://download.jboss.org/wildfly/8.0.0.Alpha2/wildfly-8.0.0.Alpha2-src.zip
              - format: tgz
-               size: HHHHHH MB
-               url: HHHHHH
-         - description: HHHHHH
-           licence: LGPL
+               size: 15 MB
+               url: http://download.jboss.org/wildfly/8.0.0.Alpha2/wildfly-8.0.0.Alpha2-src.tar.gz
+         - description: Quick Start Source Code
+           licence: AL
            links:
              - format: zip
-               size: HHHHHH MB
-               url: HHHHHH
-             - format: tgz
-               size: HHHHHH MB
-               url: HHHHHH
-         - description: HHHHHH
-           licence: LGPL
+               size: 15 MB
+               url: http://download.jboss.org/wildfly/8.0.0.Alpha1/quickstart-8.0.0.Alpha1.zip
+         - description: Release Notes
+           licence:
            links:
-             - format: zip
-               url: HHHHHH
+             - format: Notes
+               url: http://lists.jboss.org/pipermail/wildfly-dev/2013-June/000382.html
          - description: HHHHHH
            licence: LGPL
            links:
              - format: zip
                url: HHHHHH
      - type: Alpha1
-       release_date: 26 October 2015
+       release_date: 17 May 2013
        item:
-         - description: Java EE7 Full & Web Distribution
+         - description: Application Server Distribution
            licence: LGPL
            links:
              - format: zip
-               size: HHHHHH MB
-               url: HHHHHH
+               size: 129 MB
+               url: http://download.jboss.org/wildfly/8.0.0.Alpha1/wildfly-8.0.0.Alpha1.zip
              - format: tgz
-               size: HHHHHH MB
-               url: HHHHHH
-         - description: HHHHHH
+               size: 118 MB
+               url: http://download.jboss.org/wildfly/8.0.0.Alpha1/wildfly-8.0.0.Alpha1.tar.gz
+         - description: Application Server Source Code
            licence: LGPL
            links:
              - format: zip
-               size: HHHHHH MB
-               url: HHHHHH
+               size: 26 MB
+               url: http://download.jboss.org/wildfly/8.0.0.Alpha1/wildfly-8.0.0.Alpha1-src.zip
              - format: tgz
-               size: HHHHHH MB
-               url: HHHHHH
-         - description: HHHHHH
-           licence: LGPL
+               size: 15 MB
+               url: http://download.jboss.org/wildfly/8.0.0.Alpha1/wildfly-8.0.0.Alpha1-src.tar.gz
+         - description: Quick Start Source Code
+           licence: AL
            links:
              - format: zip
-               size: HHHHHH MB
-               url: HHHHHH
-             - format: tgz
-               size: HHHHHH MB
-               url: HHHHHH
-         - description: HHHHHH
-           licence: LGPL
+               size: 15 MB
+               url: http://download.jboss.org/wildfly/8.0.0.Alpha1/quickstart-8.0.0.Alpha1.zip
+         - description: Release Notes
+           licence:
            links:
-             - format: zip
-               url: HHHHHH
-         - description: HHHHHH
-           licence: LGPL
-           links:
-             - format: zip
-               url: HHHHHH
+             - format: Notes
+               url: http://lists.jboss.org/pipermail/wildfly-dev/2013-May/000139.html
