@@ -1274,12 +1274,7 @@ wildfly_versions:
            licence:
            links:
              - format: Notes
-               url: HHHHHH
-         - description: https://community.jboss.org/wiki/800Alpha4ReleaseNotes
-           licence: LGPL
-           links:
-             - format: zip
-               url: HHHHHH
+               url: https://community.jboss.org/wiki/800Alpha4ReleaseNotes
      - type: Alpha3
        release_date: 17 July 2013
        item:
@@ -1344,11 +1339,6 @@ wildfly_versions:
            links:
              - format: Notes
                url: http://lists.jboss.org/pipermail/wildfly-dev/2013-June/000382.html
-         - description: HHHHHH
-           licence: LGPL
-           links:
-             - format: zip
-               url: HHHHHH
      - type: Alpha1
        release_date: 17 May 2013
        item:
