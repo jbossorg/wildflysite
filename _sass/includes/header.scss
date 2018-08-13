@@ -47,6 +47,14 @@ nav {
   }
 }
 
+.nav-list {
+  .button-cta.secondary {
+    line-height: 1.4;
+    padding: .5rem 1rem;
+    text-transform: none;
+  }
+}
+
 /* Mobile navigation */
 
 // Binds to JS Toggle
@@ -85,6 +93,9 @@ nav {
       border-bottom-left-radius: 30px;
       @media screen and (max-width: 468px) {
         left: 50px;
+      }
+      .button-cta.secondary {
+        display: none;
       }
     }
     ul {
