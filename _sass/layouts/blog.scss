@@ -1,0 +1,26 @@
+.blog-page {
+  .blog-list-item {
+    margin-bottom: 3rem;
+    p {
+      margin: 0;
+    }
+  }
+  .post-title {
+    background-color: $blue;
+    padding: 1rem;
+    h2 {
+      margin: 0;
+      a{
+        color: $white;
+        text-decoration: none;
+        font-weight: 200;
+        text-transform: uppercase;
+      }
+    }
+  }
+  .share-page {
+    text-align: right;
+  }
+
+
+}

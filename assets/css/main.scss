@@ -9,11 +9,14 @@ $baseurl: "{{ site.baseurl }}";
 @import "grid";
 @import "colors";
 @import "asciidoc";
+@import "random-color";
 
 @import "includes/header";
 @import "includes/project-footer";
 @import "includes/redhat-footer";
+@import "includes/share-page";
 
 @import "layouts/home";
 @import "layouts/docs";
 @import "layouts/downloads";
+@import "layouts/blog";

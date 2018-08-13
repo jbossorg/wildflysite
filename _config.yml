@@ -55,3 +55,12 @@ asciidoctor:
   safe: unsafe
   attributes:
     imagesdir: /assets/img/
+
+# Pages permalink
+defaults:
+  -
+    scope:
+      type: "posts"
+    values:
+      # permalink: /:path/:basename:output_ext
+      permalink: /blog/:path/
