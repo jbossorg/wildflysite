@@ -49,3 +49,7 @@ collections:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+asciidoctor:
+  base_dir: :docdir
+  safe: unsafe
