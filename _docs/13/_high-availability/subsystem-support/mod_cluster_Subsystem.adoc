@@ -1,5 +1,5 @@
 [[mod_cluster_Subsystem]]
-= mod_cluster Subsystem
+== mod_cluster Subsystem
 
 The mod_cluster integration is done via the `mod_cluster` subsystem.
 

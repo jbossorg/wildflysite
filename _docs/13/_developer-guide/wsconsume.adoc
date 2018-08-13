@@ -1,5 +1,5 @@
 [[wsconsume]]
-= wsconsume
+== wsconsume
 
 _wsconsume_ is a command line tool and ant task that "consumes" the
 abstract contract (WSDL file) and produces portable JAX-WS service and

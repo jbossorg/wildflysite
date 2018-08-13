@@ -1,5 +1,5 @@
 [[Singleton_MSC_services]]
-= Singleton MSC services
+== Singleton MSC services
 
 The singleton service facility exposes a mechanism for installing an MSC service such that the service only starts on a single member of a cluster at a time.
 If the member providing the singleton service is shutdown or crashes, the facility automatically elects a new primary provider and starts the service on that node.

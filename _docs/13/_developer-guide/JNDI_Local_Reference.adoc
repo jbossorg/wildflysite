@@ -1,5 +1,5 @@
 [[JNDI_Local_Reference]]
-= Local JNDI
+== Local JNDI
 
 The Java EE platform specification defines the following JNDI contexts:
 

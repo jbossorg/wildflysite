@@ -1,5 +1,5 @@
 [[How_the_server_is_built_and_configured_for_testsuite_modules]]
-= How the WildFly is built and configured for testsuite modules.
+== How the WildFly is built and configured for testsuite modules.
 
 Refer to <<Shortened_Maven_Run_Overview,Shortened Maven Run Overview>> to see the
 mentioned build steps.

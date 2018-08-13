@@ -1,5 +1,5 @@
 [[wsprovide]]
-= wsprovide
+== wsprovide
 
 _wsprovide_ is a command line tool, Maven plugin and Ant task that
 generates portable JAX-WS artifacts for a service endpoint

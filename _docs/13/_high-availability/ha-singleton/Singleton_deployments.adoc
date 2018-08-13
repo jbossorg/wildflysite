@@ -1,5 +1,5 @@
 [[Singleton_deployments]]
-= Singleton deployments
+== Singleton deployments
 
 WildFly 10 resurrected the ability to start a given deployment on a
 single node in the cluster at any given time. If that node shuts down,

@@ -1,5 +1,5 @@
 [[SSL_Configuration_using_Elytron_Subsystem]]
-= SSL Configuration using Elytron Subsystem
+== SSL Configuration using Elytron Subsystem
 
 [abstract]
 

@@ -1,5 +1,5 @@
 [[How_to_Add_a_Test_Case]]
-= How to Add a Test Case
+== How to Add a Test Case
 
 _(Please don't (re)move - this is a landing page from a Jira link.)_
 

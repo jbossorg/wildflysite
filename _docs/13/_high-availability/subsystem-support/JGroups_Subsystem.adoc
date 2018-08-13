@@ -1,5 +1,5 @@
 [[JGroups_Subsystem]]
-= JGroups Subsystem
+== JGroups Subsystem
 
 [[jgroups-purpose]]
 == Purpose

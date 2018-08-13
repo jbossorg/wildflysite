@@ -1,5 +1,5 @@
 [[Singleton_subsystem]]
-= Singleton subsystem
+== Singleton subsystem
 
 WildFly 10 introduced a "singleton" subsystem, which defines a set of
 policies that define how an HA singleton should behave. A singleton

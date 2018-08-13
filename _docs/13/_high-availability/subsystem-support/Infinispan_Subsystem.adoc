@@ -1,5 +1,5 @@
 [[Infinispan_Subsystem]]
-= Infinispan Subsystem
+== Infinispan Subsystem
 
 The Infinispan subsystem configures a set of Infinispan cache containers and cache configurations for use by WildFly clustering services.
 
