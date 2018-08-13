@@ -1,17 +1,22 @@
-= Welcome to the new WildFly.ORG!
+---
+layout: post
+title:  "Welcome to the new WildFly.ORG!"
+date:   2013-11-15 14:24:00 -0600
+tags:   announcement website
+author: jgreene
+---
+
+== Welcome to the new WildFly.ORG!
 jgreene
 2013-11-15
-:revdate: 2013-11-15 14:24:00 -0600
-:awestruct-tags: [announcement, website]
-:awestruct-layout: blog
-:source-highlighter: coderay
+
 
 Hello everyone. I recently revamped the WildFly.ORG website, and I hope
 you will find it to be a much more useful source of information about
 the WildFly project.
 
 Walkthrough
------------
+--
 I'd like to take you through a short tour of what’s on the website. The website
 is based on the https://github.com/jbossorg/bootstrap-community[JBoss community bootstrap theme].
 So it should operate in a familiar manner to other JBoss community websites.
@@ -90,7 +95,7 @@ On the bottom footer there is a link to a page describing how we link:{base_url}
 you are evaluating the project, you might find it useful to understand how we plan and develop it.
 
 Special Thanks
---------------
+--
 To the various tools and people that helped. 
 
 * Awestruct - a handy templating engine for generating nice static sites.

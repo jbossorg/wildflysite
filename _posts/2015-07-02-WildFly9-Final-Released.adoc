@@ -1,4 +1,4 @@
-= WildFly 9 Final is released!
+== WildFly 9 Final is released!
 jgreene
 2015-07-02
 :revdate: 2015-07-02 14:50:00 -0600

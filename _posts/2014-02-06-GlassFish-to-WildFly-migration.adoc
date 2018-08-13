@@ -1,4 +1,4 @@
-= Migrating a Java EE App from GlassFish to WildFly
+== Migrating a Java EE App from GlassFish to WildFly
 arun-gupta
 2014-02-06
 :revdate: 2014-02-06 15:25:25 -0800

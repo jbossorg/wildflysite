@@ -1,4 +1,4 @@
-= Running an Embedded WildFly 9 Server in the CLI
+== Running an Embedded WildFly 9 Server in the CLI
 bstansberry
 2015-03-13
 :revdate: 2015-03-13 17:54:36 -0800

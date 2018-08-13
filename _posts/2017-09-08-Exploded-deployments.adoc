@@ -1,4 +1,4 @@
-= Using exploded deployments and CLI attachments =
+== Using exploded deployments and CLI attachments =
 ehsavoie
 2017-09-08
 :revdate: 2017-09-08 19:00:00 +0100

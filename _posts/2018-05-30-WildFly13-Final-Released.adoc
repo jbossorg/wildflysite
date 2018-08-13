@@ -1,12 +1,13 @@
-= WildFly 13 "Baker's Dozen" is released!
+---
+layout: post
+date:   2018-05-30 21:00:00 -0600
+tags:   announcement release
+author: jgreene
+---
+
+== WildFly 13 "Baker's Dozen" is released!
 jgreene
 2018-05-30
-:revdate: 2018-05-30 21:00:00 -0600
-:awestruct-tags: [announcement, release]
-:awestruct-layout: blog
-:source-highlighter: coderay
-:awestruct-description: WildFly 13.0.0.Final is now available for download!
-:awestruct-otherimage: wildflycarousel_13.png
 
 WildFly 13 Final is now available link:{base_url}/downloads[for download]! 
 

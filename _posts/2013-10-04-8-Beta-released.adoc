@@ -1,15 +1,19 @@
-= WildFly 8 Beta is released!
+---
+layout: post
+title:  "WildFly 8 Beta is released!"
+date:   2013-10-04 14:39:25 -0600
+tags:   announcement release
+author: jgreene
+---
+
+== WildFly 8 Beta is released!
 jgreene
 2013-10-04
-:revdate: 2013-10-04 14:39:25 -0600
-:awestruct-tags: [announcement, release]
-:awestruct-layout: blog
-:source-highlighter: coderay
 
 I'm happy to announce the release of link:{base_url}/downloads[WildFly 8.0.0.Beta1]. This is a significant milestone because all planned major features have been implemented. Let's run through the big ones.
 
-Java EE7
---------
+=== Java EE7
+
 Java EE7 offers applications several productivity improving capabilities
 including support for the modern web, batch processing, simplified
 concurrent task processing, and improvements in dependency injection. At
@@ -17,6 +21,7 @@ this point all user facing EE7 APIs have been implemented! Aside from
 achieving compliance certification, the only remaining work is to
 implement a few updates in the security integration SPIs, JASPIC and
 JACC.
+
 
 High Performance Web Server (http://undertow.io/[Undertow.io])
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

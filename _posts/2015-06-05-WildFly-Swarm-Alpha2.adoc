@@ -1,4 +1,4 @@
-= WildFly Swarm Alpha2
+== WildFly Swarm Alpha2
 kenfinnigan
 2015-06-05
 :revdate: 2015-06-05 16:30:00 -0500

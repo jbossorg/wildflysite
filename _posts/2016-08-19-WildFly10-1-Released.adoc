@@ -1,4 +1,4 @@
-= WildFly 10.1 is now available!
+== WildFly 10.1 is now available!
 jgreene
 2016-08-19
 :revdate: 2016-08-19 17:00:00 -0600

@@ -1,4 +1,4 @@
-= Centralized Logging for WildFly with the ELK Stack
+== Centralized Logging for WildFly with the ELK Stack
 jperkins
 2015-07-25
 :revdate: 2015-07-25 16:16:16 -0800

@@ -1,4 +1,4 @@
-= Undertow.js 1.0.1.Final has been released
+== Undertow.js 1.0.1.Final has been released
 sdouglas
 2015-11-02
 :revdate: 2015-11-02 11:00:00 +1000

@@ -1,4 +1,4 @@
-= WildFly 9 Beta is released!
+== WildFly 9 Beta is released!
 jgreene
 2015-03-26
 :revdate: 2015-03-26 23:10:00 -0600

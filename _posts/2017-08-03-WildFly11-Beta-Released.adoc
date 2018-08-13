@@ -1,4 +1,4 @@
-= WildFly 11 Beta1 is now available!
+== WildFly 11 Beta1 is now available!
 jgreene
 2017-08-03
 :revdate: 2017-08-03 23:00:00 -0600

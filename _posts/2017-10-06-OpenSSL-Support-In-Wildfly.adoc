@@ -1,4 +1,4 @@
-= OpenSSL support with WildFly
+== OpenSSL support with WildFly
 sdouglas
 2017-10-06
 :revdate: 2017-10-06 11:00:00 +1000

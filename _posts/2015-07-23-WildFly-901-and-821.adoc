@@ -1,4 +1,4 @@
-= WildFly 9.0.1.Final and 8.2.1.Final are released.
+== WildFly 9.0.1.Final and 8.2.1.Final are released.
 jgreene
 2015-07-23
 :revdate: 2015-07-23 14:50:00 -0600

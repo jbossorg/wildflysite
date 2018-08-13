@@ -1,4 +1,4 @@
-= WildFly 8 Webinar Recording
+== WildFly 8 Webinar Recording
 jgreene
 2013-11-21
 :revdate: 2013-11-21 16:39:25 -0600

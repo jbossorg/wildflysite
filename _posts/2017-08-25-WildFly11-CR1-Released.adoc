@@ -1,4 +1,4 @@
-= WildFly 11 CR1 is now available!
+== WildFly 11 CR1 is now available!
 jgreene
 2017-08-25
 :revdate: 2017-08-25 23:00:00 -0600

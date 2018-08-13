@@ -1,4 +1,4 @@
-= WildFly 10 CR2 is released!
+== WildFly 10 CR2 is released!
 jgreene
 2015-09-24
 :revdate: 2015-09-24 22:31:00 -0600

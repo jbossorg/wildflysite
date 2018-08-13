@@ -1,4 +1,4 @@
-= Using Server-Side JavaScript with WildFly
+== Using Server-Side JavaScript with WildFly
 sdouglas
 2015-08-10
 :revdate: 2015-08-10 11:00:00 +1000

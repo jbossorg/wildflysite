@@ -1,4 +1,4 @@
-= WildFly Swarm 1.0.0.Alpha4 Released!
+== WildFly Swarm 1.0.0.Alpha4 Released!
 bobmcwhirter
 2015-08-19
 :revdate: 2015-08-19 11:11:11 -0500

@@ -1,4 +1,4 @@
-= Management Model Referential Integrity and Suggestions =
+== Management Model Referential Integrity and Suggestions =
 bstansberry
 2017-09-29
 :revdate: 2017-09-29 19:00:00 +0100

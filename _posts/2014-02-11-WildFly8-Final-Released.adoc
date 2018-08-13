@@ -1,4 +1,4 @@
-= WildFly 8 Final is released!
+== WildFly 8 Final is released!
 jgreene
 2014-02-11
 :revdate: 2014-02-11 21:35:00 -0600

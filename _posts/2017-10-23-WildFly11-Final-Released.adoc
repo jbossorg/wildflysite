@@ -1,4 +1,4 @@
-= WildFly 11 Final is now available!
+== WildFly 11 Final is now available!
 jgreene
 2017-10-23
 :revdate: 2017-10-23 23:00:00 -0600

@@ -1,4 +1,4 @@
-= WildFly 10 CR5 is released!
+== WildFly 10 CR5 is released!
 jgreene
 2015-12-23
 :revdate: 2015-12-23 00:00:00 -0600

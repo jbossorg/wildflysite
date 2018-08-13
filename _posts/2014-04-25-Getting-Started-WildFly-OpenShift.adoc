@@ -1,4 +1,4 @@
-= Getting Started with WildFly in OpenShift and JBoss Developer Studio
+== Getting Started with WildFly in OpenShift and JBoss Developer Studio
 arun-gupta
 2014-04-25
 :revdate: 2014-04-25 13:46:28 -0800
