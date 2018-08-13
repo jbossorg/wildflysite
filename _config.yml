@@ -53,3 +53,5 @@ collections:
 asciidoctor:
   base_dir: :docdir
   safe: unsafe
+  attributes:
+    imagesdir: /assets/img/
