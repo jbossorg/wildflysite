@@ -15,7 +15,7 @@ layout: base
         <div class="grid__item width-6-12">By {{ post.author }} | {{ post.date | date: '%B %d, %Y' }}</div>
         <div class="grid__item width-6-12">{% include share-page.html %}</div>
         <div class="grid__item width-12-12">
-          <p>Lorem ipsum dolor sit amet, at dicunt maiorum pri. Augue graece ex eum. Qui timeam probatus ad. Sit ne illum mazim principes, pri eligendi tincidunt eu.<br/>Per viderer fierent moderatius id, graeco democritum est te, eam at velit mundi. Qui postulant expetenda neglegentur ut. Id aliquam tibique vis, vel veniam eloquentiam ut, cum no modo dicit. Idque choro mei ne, qui no viris dolorem, assum affert appellantur an eos. Ex reque fuisset moderatius mel, at affert copiosae mei. Discere adolescens ad mei, quis affert tritani no cum.</p>
+          <p>{{ post.content | strip_html | truncatewords: 150 }}</p>
         </div>
         <div class="grid__item width-12-12"><a class="dark-background" href="{{site.baseurl}}{{ post.url }}">Read More ></a></div>
       </div>
