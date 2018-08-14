@@ -9,7 +9,7 @@ layout: base
   <div class="grid__item width-10-12">
     {% for post in site.posts %}
       <div class="blog-list-item grid-wrapper">
-        <div class="post-title random-color grid__item width-12-12">
+        <div class="post-title grid__item width-12-12">
           <h2><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></h2>
         </div>
         <div class="grid__item width-6-12">By {{ post.author }} | {{ post.date | date: '%B %d, %Y' }}</div>

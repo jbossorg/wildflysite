@@ -4,23 +4,44 @@
     p {
       margin: 0;
     }
-  }
-  .post-title {
-    background-color: $blue;
-    padding: 1rem;
-    h2 {
-      margin: 0;
-      a{
-        color: $white;
-        text-decoration: none;
-        font-weight: 200;
-        text-transform: uppercase;
+    .post-title {
+      padding: 1rem;
+      h2 {
+        margin: 0;
+        a{
+          color: $white;
+          text-decoration: none;
+          font-weight: 200;
+          text-transform: uppercase;
+        }
       }
     }
   }
   .share-page {
     text-align: right;
   }
+}
 
-
+.blog-list-blocks {
+  margin-top: 3rem;
+  .blog-block-item {
+    margin-bottom: 3rem;
+    text-align: left;
+    p {
+      margin: 10px 0;
+    }
+  }
+  .post-title {
+    background-color: transparent !important;
+    border: 3px solid;
+    min-height: 9rem;
+    h4 {
+      margin: 1rem;
+      color: inherit;
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+    }
+  }
 }
