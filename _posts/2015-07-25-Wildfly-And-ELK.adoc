@@ -1,11 +1,14 @@
+---
+layout: post
+title:  "Centralized Logging for WildFly with the ELK Stack"
+date:   2015-07-25 16:16:16 -0800
+tags:   wildfly logging elk logstash
+author: jperkins
+---
+
 == Centralized Logging for WildFly with the ELK Stack
 jperkins
 2015-07-25
-:revdate: 2015-07-25 16:16:16 -0800
-:awestruct-tags: [wildfly, logging, elk, logstash]
-:awestruct-layout: blog
-:imagesdir: ../images
-:source-highlighter: coderay
 
 The ELK stack;  https://www.elastic.co/products/elasticsearch[elasticsearch], https://www.elastic.co/products/logstash[logstash] and https://www.elastic.co/products/kibana[kibana] can be used for centralize logging. It's not the intention of this post to be a tutorial on how to configure logstash. We will go through a basic logstash configuration then configure WildFly to send log messages to logstash.
 

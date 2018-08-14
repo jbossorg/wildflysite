@@ -1,10 +1,14 @@
+---
+layout: post
+title:  "WildFly Swarm 1.0.0.Alpha3 Released!"
+date:   2015-06-18 11:11:11 -0500
+tags:   announcement release swarm
+author: bobmcwhirter
+---
+
 == WildFly Swarm 1.0.0.Alpha3 Released!
 bobmcwhirter
 2015-06-18
-:revdate: 2015-06-18 11:11:11 -0500
-:awestruct-tags: [announcement, release, swarm]
-:awestruct-layout: blog
-:source-highlighter: coderay
 
 Once again, we're delighted and enthralled to announce a release
 of WildFly Swarm.  This time, it's *1.0.0.Alpha3*!

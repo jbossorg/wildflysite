@@ -1,12 +1,14 @@
+---
+layout: post
+title:  "Messaging features in WildFly 11"
+date:   2017-10-03 19:00:00 +0100
+tags:   wildfly messaging
+author: jmesnil
+---
+
 == Messaging features in WildFly 11
 jmesnil
 2017-10-03
-:revdate: 2017-10-03 19:00:00 +0100
-:awestruct-tags: [wildfly, messaging]
-:awestruct-layout: blog
-:source-highlighter: coderay
-:encoding: utf-8
-:lang: en
 
 WildFly 11 is integrating http://activemq.apache.org/artemis/[Apache ActiveMQ Artemis 1.5] to provides its messaging features.
 

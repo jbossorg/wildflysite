@@ -1,11 +1,14 @@
+---
+layout: post
+title:  "Getting Started with WildFly in OpenShift and JBoss Developer Studio"
+date:   2014-04-25 13:46:28 -0800
+tags:   wildfly8 openshift jbds eclipse
+author: arun-gupta
+---
+
 == Getting Started with WildFly in OpenShift and JBoss Developer Studio
 arun-gupta
 2014-04-25
-:revdate: 2014-04-25 13:46:28 -0800
-:awestruct-tags: [wildfly8, openshift, jbds, eclipse]
-:awestruct-layout: blog
-:source-highlighter: coderay
-:imagesdir: ../images
 
 http://openshift.com[OpenShift] provides an open source hybrid cloud application platform by Red Hat. It enables polyglot applications to be deployed on a public, private, and a hybrid cloud very easily. It provides an extensible __cartridge__-based architecture that allows a wide range of functionality such as frameworks, databases, monitoring services, or connectors to external backends to be easily added. https://www.openshift.com/quickstarts/wildfly-8[WildFly cartridge] allows you to start a WildFly instance in https://www.openshift.com/products/online[OpenShift Online].
 

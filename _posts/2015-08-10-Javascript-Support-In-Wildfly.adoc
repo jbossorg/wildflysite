@@ -1,11 +1,14 @@
+---
+layout: post
+title:  "Using Server-Side JavaScript with WildFly"
+date:   2015-08-10 11:00:00 +1000
+tags:   wildfly javascript
+author: sdouglas
+---
+
 == Using Server-Side JavaScript with WildFly
 sdouglas
 2015-08-10
-:revdate: 2015-08-10 11:00:00 +1000
-:awestruct-tags: [wildfly, javascript]
-:awestruct-layout: blog
-:imagesdir: ../images
-:source-highlighter: coderay
 
 The WildFly 10.0.0.Beta1 release includes support for an experimental new feature, that allows you to use JavaScript
 on the server side, using the Nashorn JavaScript engine that is built into the JDK. Combined with another new feature

@@ -1,10 +1,14 @@
+---
+layout: post
+title:  "WildFly Swarm Initial Release"
+date:   2015-05-05 16:16:16 -0500
+tags:   announcement release swarm
+author: bobmcwhirter
+---
+
 == WildFly Swarm Initial Release
 bobmcwhirter
 2015-05-05
-:revdate: 2015-05-05 16:16:16 -0500
-:awestruct-tags: [announcement, release, swarm]
-:awestruct-layout: blog
-:source-highlighter: coderay
 
 Happy Cinco De Mayo!  
 

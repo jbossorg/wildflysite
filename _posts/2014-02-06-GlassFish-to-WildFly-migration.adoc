@@ -1,11 +1,14 @@
+---
+layout: post
+title:  "Migrating a Java EE App from GlassFish to WildFly"
+date:   2014-02-06 15:25:25 -0800
+tags:   wildfly8 glassfish migration
+author: arun-gupta
+---
+
 == Migrating a Java EE App from GlassFish to WildFly
 arun-gupta
 2014-02-06
-:revdate: 2014-02-06 15:25:25 -0800
-:awestruct-tags: [wildfly8, glassfish, migration]
-:awestruct-layout: blog
-:source-highlighter: coderay
-:imagesdir: ../images
 
 by **Hildeberto Mendonça** and **Efraim Gentil** from CEJUG
 

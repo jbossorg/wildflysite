@@ -1,10 +1,14 @@
+---
+layout: post
+title:  "WildFly 10 Beta is released!"
+date:   2015-08-09 14:50:00 -0600
+tags:   announcement releas
+author: jgreene
+---
+
 == WildFly 10 Beta is released!
 jgreene
 2015-08-09
-:revdate: 2015-08-09 14:50:00 -0600
-:awestruct-tags: [announcement, release]
-:awestruct-layout: blog
-:source-highlighter: coderay
 
 The WildFly 10.0.0.Beta1 release is now available link:{base_url}/downloads[for download]!
 

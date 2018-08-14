@@ -1,11 +1,15 @@
+---
+layout: post
+title:  "Announcing public CI"
+date:   2017-05-05 8:00:00 +0100
+tags:   announcement continuous-integration
+author: jgreene
+description: "WildFly public CI"
+---
+
 == Announcing public CI
 tcerar
 2017-05-05
-:revdate: 2017-05-05 8:00:00 +0100
-:awestruct-tags: [announcement, continuous-integration]
-:awestruct-layout: blog
-:source-highlighter: coderay
-:awestruct-description: "WildFly public CI"
 
 We are proud to announce our https://ci.wildfly.org/[public CI] system, which is running integration tests for WildFly, WildFly Core, Undertow, and many other related projects.
 This system ensures that we do not merge anything that is broken and that our master is always stable.

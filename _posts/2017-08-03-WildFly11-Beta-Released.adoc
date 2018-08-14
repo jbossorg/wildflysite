@@ -1,10 +1,14 @@
+---
+layout: post
+title:  "WildFly 11 Beta1 is now available!"
+date:   2017-08-03 23:00:00 -0600
+tags:   announcement release
+author: jgreene
+---
+
 == WildFly 11 Beta1 is now available!
 jgreene
 2017-08-03
-:revdate: 2017-08-03 23:00:00 -0600
-:awestruct-tags: [announcement, release]
-:awestruct-layout: blog
-:source-highlighter: coderay
 
 WildFly 11 is now feature complete and the beta is now available link:{base_url}/downloads[for download]! 
 

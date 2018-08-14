@@ -1,10 +1,14 @@
+---
+layout: post
+title:  "WildFly 8 Webinar Recording"
+date:   2013-11-21 16:39:25 -0600
+tags:   management rbac wildfly8 videos undertow javaee7
+author: jgreene
+---
+
 == WildFly 8 Webinar Recording
 jgreene
 2013-11-21
-:revdate: 2013-11-21 16:39:25 -0600
-:awestruct-tags: [management, rbac, wildfly8, videos, undertow, javaee7]
-:awestruct-layout: blog
-:source-highlighter: coderay
 
 A few days ago, Brian Stansberry, Stuart Douglas and I presented a webinar on all of the major WildFly 8 features.
 

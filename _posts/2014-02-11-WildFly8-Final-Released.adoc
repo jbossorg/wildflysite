@@ -1,10 +1,14 @@
+---
+layout: post
+title:  "WildFly 8 Final is released!"
+date:   2014-02-11 21:35:00 -0600
+tags:   announcement release
+author: jgreene
+---
+
 == WildFly 8 Final is released!
 jgreene
 2014-02-11
-:revdate: 2014-02-11 21:35:00 -0600
-:awestruct-tags: [announcement, release]
-:awestruct-layout: blog
-:source-highlighter: coderay
 
 I'm happy to announce the release of link:{base_url}/downloads/[WildFly 8.0.0.Final]. This means
 we feel the project is now stable and ready for general use. We received excellent 

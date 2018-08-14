@@ -1,10 +1,14 @@
+---
+layout: post
+title:  "WildFly Swarm Alpha2"
+date:   2015-06-05 16:30:00 -0500
+tags:   announcement release swar
+author: kenfinnigan
+---
+
 == WildFly Swarm Alpha2
 kenfinnigan
 2015-06-05
-:revdate: 2015-06-05 16:30:00 -0500
-:awestruct-tags: [announcement, release, swarm]
-:awestruct-layout: blog
-:source-highlighter: coderay
 
 We've been churning through the improvements and fixes for Alpha2!
 

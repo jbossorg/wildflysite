@@ -1,10 +1,14 @@
+---
+layout: post
+title:  "WildFly 12 Final is now available!"
+date:   2018-02-28 23:00:00 -0600
+tags:   announcement release
+author: jgreene
+---
+
 == WildFly 12 Final is now available!
 jgreene
 2018-02-28
-:revdate: 2018-02-28 23:00:00 -0600
-:awestruct-tags: [announcement, release]
-:awestruct-layout: blog
-:source-highlighter: coderay
 
 WildFly 12 Final is now available link:{base_url}/downloads[for download]! 
 

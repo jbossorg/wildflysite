@@ -1,11 +1,14 @@
+---
+layout: post
+title:  "OpenSSL support with WildFly"
+date:   2017-10-06 11:00:00 +1000
+tags:   wildfly openssl
+author: sdouglas
+---
+
 == OpenSSL support with WildFly
 sdouglas
 2017-10-06
-:revdate: 2017-10-06 11:00:00 +1000
-:awestruct-tags: [wildfly, openssl]
-:awestruct-layout: blog
-:imagesdir: ../images
-:source-highlighter: coderay
 
 The upcoming WildFly 11 release includes support for OpenSSL. This provides two main advantages over JSSE:
 

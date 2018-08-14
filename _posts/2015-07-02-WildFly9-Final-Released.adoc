@@ -1,10 +1,14 @@
+---
+layout: post
+title:  "WildFly 9 Final is released!"
+date:   2015-07-02 14:50:00 -0600
+tags:   announcement release
+author: jgreene
+---
+
 == WildFly 9 Final is released!
 jgreene
 2015-07-02
-:revdate: 2015-07-02 14:50:00 -0600
-:awestruct-tags: [announcement, release]
-:awestruct-layout: blog
-:source-highlighter: coderay
 
 The WildFly 9 Final release is now available link:{base_url}/downloads[for download]!
 

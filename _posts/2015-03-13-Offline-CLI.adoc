@@ -1,11 +1,14 @@
+---
+layout: post
+title:  "Running an Embedded WildFly 9 Server in the CLI"
+date:   2015-03-13 17:54:36 -0800
+tags:   wildfly9 management CLI embedde
+author: bstansberry
+---
+
 == Running an Embedded WildFly 9 Server in the CLI
 bstansberry
 2015-03-13
-:revdate: 2015-03-13 17:54:36 -0800
-:awestruct-tags: [wildfly9, management, CLI, embedded]
-:awestruct-layout: blog
-:source-highlighter: coderay
-:imagesdir: ../images
 
 In WildFly 9 Beta1 we are introducing a new capability to our Command Line Interface (CLI) tool: the ability to embed a WildFly standalone server process inside the CLI process, with the CLI interacting with the embedded server in a manner consistent with how it interacts with a remote WildFly server. All of the standard CLI commands that you can use to administer a remote server are available.
 
