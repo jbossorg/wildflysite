@@ -6,7 +6,7 @@ layout: base
   <div class="grid-wrapper">
     <div class="grid__item width-12-12 ">
       {% for latestVersion in site.data.downloads.latest_version %}
-        <h2>Wild<strong>Fly</strong> {{ latestVersion.version }} is now available</h2>
+        <h1>Wild<strong>Fly</strong> {{ latestVersion.version }} is now available</h1>
         <div class="download-ctas">
           {% for cta in latestVersion.ctas %}
             <a href="{{ cta.url }}" class="button-cta">{{ cta.cta_text }}</a>
