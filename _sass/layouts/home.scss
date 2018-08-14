@@ -34,9 +34,9 @@
     &:before {
       transform: scale(.8);
     }
-    &.github:before { content: url($baseurl + '/assets/img/wildfly_icons_home-github.png'); }
-    &.docs:before { content: url($baseurl + '/assets/img/wildfly_icons_home-docs.png'); }
-    &.forums:before { content: url($baseurl + '/assets/img/wildfly_icons_home-forums.png'); }
+    &.github:before { content: url($baseurl + '/assets/img/homepage/wildfly_icons_home-github.png'); }
+    &.docs:before { content: url($baseurl + '/assets/img/homepage/wildfly_icons_home-docs.png'); }
+    &.forums:before { content: url($baseurl + '/assets/img/homepage/wildfly_icons_home-forums.png'); }
   }
 }
 
