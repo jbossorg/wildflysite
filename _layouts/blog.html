@@ -12,10 +12,10 @@ layout: base
         <div class="post-title grid__item width-12-12">
           <h2><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></h2>
         </div>
-        <div class="grid__item width-6-12">
+        <div class="grid__item width-6-12 width-12-12-m">
           <p class="byline">By {{ post.author }} | {{ post.date | date: '%B %d, %Y' }}</p>
         </div>
-        <div class="grid__item width-6-12">{% include share-page.html %}</div>
+        <div class="grid__item width-6-12 width-12-12-m">{% include share-page.html %}</div>
         <div class="grid__item width-12-12">
           <p>{{ post.content | strip_html | truncatewords: 150 }}</p>
         </div>
