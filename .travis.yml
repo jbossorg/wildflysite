@@ -13,10 +13,16 @@ rvm:
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+branches:
+  only:
+    - master
+script: jekyll build
 deploy:
   provider: pages
   skip-cleanup: true
   github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
   keep-history: true
+  local-dir: _site
+  target-branch: gh-pages
   on:
     branch: master
