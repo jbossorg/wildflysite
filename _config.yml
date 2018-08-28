@@ -62,5 +62,4 @@ defaults:
     scope:
       type: "posts"
     values:
-      # permalink: /:path/:basename:output_ext
-      permalink: /blog/:path/
+      permalink: /blog/:year/:month/:day/:title/
