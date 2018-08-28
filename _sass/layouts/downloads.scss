@@ -64,6 +64,9 @@
   justify-self: center;
   margin-bottom: 1rem;
   max-width: 20.3rem;
+  thead th, tbody td {
+    padding: 1px;
+  }
   .version-name {
     text-align: left;
     padding-bottom: .3rem;

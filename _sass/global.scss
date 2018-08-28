@@ -116,7 +116,7 @@ p.byline {
 a {
   line-height: 1.5rem;
   font-weight: 400;
-  color: $teal;
+  color: $yellow;
   cursor: pointer;
   &.dark-background{ color: $yellow; }
 }
@@ -156,6 +156,20 @@ a.button-cta.secondary {
 
 code, pre {
   font-family: 'PT Mono', monospace;
+  background-color: $yellow;
+  color: $dark-blue;
+  line-height: 1.2;
+  overflow: scroll;
+  padding: 0 5px;
+}
+
+pre {
+  padding: .5rem 1rem;
+}
+
+.listingblock .content,
+.literalblock .content {
+  padding: 0;
 }
 
 hr {
@@ -193,4 +207,39 @@ img { max-width: 100%; }
   background-color: $blue;
   color: $white;
   padding: 1rem;
+}
+
+table {
+  border-spacing: 1px;
+
+  thead th, tbody td {
+    padding: .5rem 1rem;
+  }
+
+  thead th {
+    background-color: $teal;
+    color: $white;
+    padding: .5rem 1rem;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    text-align: left;
+  }
+  tbody tr {
+    &:nth-child(even) {
+      background-color: $blue;
+    }
+    td p {
+       margin: 0;
+    }
+  }
+}
+
+.admonitionblock.note, .note {
+  tbody .icon {
+    background-color: $teal;
+  }
+  tbody .content {
+    background-color: $blue;
+  }
 }
