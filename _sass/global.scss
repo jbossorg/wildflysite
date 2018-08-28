@@ -167,11 +167,6 @@ pre {
   padding: .5rem 1rem;
 }
 
-.listingblock .content,
-.literalblock .content {
-  padding: 0;
-}
-
 hr {
   border-width: 2px;
   margin: 6rem 0 4rem 0;
@@ -241,5 +236,13 @@ table {
   }
   tbody .content {
     background-color: $blue;
+  }
+}
+
+.listingblock,
+.literalblock,
+.imageblock  {
+  .content {
+    padding: 0;
   }
 }
