@@ -1,3 +1,7 @@
+---
+layout: docs
+---
+
 [[Developer_Guide]]
 = Developer Guide
 WildFly developer team;

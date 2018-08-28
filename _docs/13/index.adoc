@@ -1,3 +1,7 @@
+---
+layout: docs
+---
+
 [[index]]
 = WildFly Documentation
 :ext-relative: {outfilesuffix}
