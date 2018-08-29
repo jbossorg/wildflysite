@@ -10,6 +10,8 @@ author: ehsavoie
 ehsavoie
 2017-09-08
 
+:imagesdir: ../../../../../assets/img/blogs
+
 In WildFly there used to be two worlds : one for developers with exploded deployments using a scanner and one for production where artifacts (wars/ears/jars) were deployed. +
 Now those two worlds have collided and you can have exploded deployments without a scanner. +
 And since this is using the management API you get remote access to the content for "free" and of course it works in domain mode. +

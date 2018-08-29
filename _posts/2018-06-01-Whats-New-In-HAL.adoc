@@ -9,6 +9,8 @@ author: hpehl
 hpehl
 2018-06-01
 
+:imagesdir: ../../../../../assets/img/blogs
+
 link:{base_url}/news/2018/05/30/WildFly13-Final-Released/[WildFly 13] comes with a management console (HAL) which has been rewritten from scratch. HAL still uses a similar technical stack (GWT) and user experience, but now fully adopts https://www.patternfly.org/[PatternFly].
 
 More important we enhanced the existing features and added support for many new subsystems and attributes. The following sections show some highlights of the latest version. For more details about the new features see the release notes for https://hal.github.io/releases/3.0.0.final/[HAL 3.0.0.Final].
