@@ -1,5 +1,6 @@
 latest_version:
- - version: 13
+ - version: 13.0.0
+   version_shortname: 13
    ctas:
      - cta_text: Download the zip
        url: http://download.jboss.org/wildfly/13.0.0.Final/wildfly-13.0.0.Final.zip

@@ -5,7 +5,7 @@ layout: base
 <div class="grid-wrapper">
   <div class="grid__item width-12-12 home-section">
     {% for latestVersion in site.data.downloads.latest_version %}
-      <h1>Wild<strong>Fly</strong> {{ latestVersion.version }} is now available</h1>
+      <h1>Wild<strong>Fly</strong> {{ latestVersion.version_shortname }} is now available</h1>
       <div class="home-ctas">
         {% for cta in latestVersion.ctas %}
           <a href="{{ cta.url }}" class="button-cta">{{ cta.cta_text }}</a>
@@ -18,7 +18,7 @@ layout: base
   <div class="grid__item width-12-12 home-section">
     <div class="home-icons">
       <a href="https://github.com/wildfly/wildfly" class="github" target="_blank">Github</a>
-      <a href="{{site.baseurl}}/docs/" class="docs">Documentation</a>
+      <a href="{{site.baseurl}}/docs/{{site.data.downloads.latest_version.version.version_shortname}}" class="docs">Documentation</a>
       <a href="https://community.jboss.org/en/wildfly?view=discussion" class="forums" target="_blank">Forums</a>
     </div>
   </div>
