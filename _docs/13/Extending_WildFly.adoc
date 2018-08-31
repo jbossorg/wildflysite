@@ -1,7 +1,3 @@
----
-layout: docs
----
-
 [[Extending_WildFly]]
 = Extending WildFly
 WildFly code development team;

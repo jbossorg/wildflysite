@@ -1,7 +1,3 @@
----
-layout: docs
----
-
 [[Admin_Guide]]
 = WildFly Admin Guide
 WildFly developer team;

@@ -1,7 +1,3 @@
----
-layout: docs
----
-
 [[High_Availability_Guide]]
 = High Availability Guide
 WildFly clustering team;

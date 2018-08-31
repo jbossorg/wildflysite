@@ -1,7 +1,3 @@
----
-layout: docs
----
-
 [[Client_Guide]]
 = WildFly Client Configuration
 :revnumber: {version}
