@@ -15,7 +15,6 @@ layout: docs
 :wildflyVersion: 13
 :numbered:
 
-ifdef::basebackend-html[toc::[]]
 ifndef::ebook-format[:leveloffset: 1]
 
 :leveloffset: 0
