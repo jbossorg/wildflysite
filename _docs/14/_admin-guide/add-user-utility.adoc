@@ -160,7 +160,7 @@ with no confirmation prompt.
 
 There are still a few features to add to the add-user utility such as
 removing users or adding application users with roles in non-interactive
-mode, if you are interested in contributing to WildFly development the
+mode, if you are interested in contributing to Wild**Fly** development the
 add-user utility is a good place to start as it is a stand alone
 utility, however it is a part of the AS build so you can become familiar
 with the AS development processes without needing to delve straight into

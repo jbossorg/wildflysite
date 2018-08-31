@@ -1,5 +1,5 @@
 [[WildFly_Integration_Testsuite_User_Guide]]
-= WildFly Integration Testsuite User Guide
+= Wild**Fly** Integration Testsuite User Guide
 
 *See also:* <<WildFly_Testsuite_Test_Developer_Guide,WildFly
 Testsuite Test Developer Guide>>

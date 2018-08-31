@@ -147,7 +147,7 @@ tar formats. Refer to the Release Notes for additional information
 related to the release.
 
 [[wildfly---a-quick-tour]]
-=== WildFly - A Quick Tour
+=== Wild**Fly** - A Quick Tour
 
 Now that you've downloaded WildFly {wildflyVersion}, the next thing to discuss is the
 layout of the distribution and explore the server directory structure,
@@ -156,7 +156,7 @@ worth familiarizing yourself with the layout so that you'll be able to
 find your way around when it comes to deploying your own applications.
 
 [[wildfly-directory-structure]]
-==== WildFly Directory Structure
+==== Wild**Fly** Directory Structure
 
 [cols=",",options="header"]
 |=======================================================================
@@ -281,7 +281,7 @@ process.
 |=======================================================================
 
 [[wildfly-10-configurations]]
-==== WildFly {wildflyVersion} Configurations
+==== Wild**Fly** {wildflyVersion} Configurations
 
 [[standalone-server-configurations]]
 ===== Standalone Server Configurations

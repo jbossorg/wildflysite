@@ -1,11 +1,11 @@
 [[index]]
-= WildFly Documentation
+= Wild**Fly** 14 Documentation
 :ext-relative: {outfilesuffix}
 :toc!:
 
 image:images/splash_wildflylogo_small.png[WildFly, align="center"]
 
-Welcome to the WildFly Documentation. The documentation for WildFly is
+Welcome to the Wild**Fly** Documentation. The documentation for Wild**Fly** is
 split into two categories:
 
 * _Administrator Guides_ for those wanting to understand how to install
@@ -14,7 +14,7 @@ and configure the server
 * _Developer Guides_ for those wanting to understand how to develop
 applications for the server
 
-There is also the http://wildscribe.github.io/[WildFly Model Reference]
+There is also the http://wildscribe.github.io/[Wild**Fly** Model Reference]
 that provides information about all subsystem configuration options
 generated directly from the management model.
 
@@ -59,7 +59,7 @@ Developing Applications Guide], and shows you how to build a complex
 application using Java EE and portable extensions.
 
 * The link:Extending_WildFly{outfilesuffix}[Extending WildFly] guide walks you
-through creating a new WildFly subsystem extension, in order to add more
+through creating a new Wild**Fly** subsystem extension, in order to add more
 functionality to WildFly, and shows how to test it before plugging it
 into WildFly.
 
@@ -71,7 +71,7 @@ into WildFly.
 
 == Client Guide
 
-* The link:Client_Guide{outfilesuffix}[WildFly Client Configuration] guide walks you trough new wildfly client and how to use it.
+* The link:Client_Guide{outfilesuffix}[WildFly Client Configuration] guide walks you trough new Wild**Fly** client and how to use it.
 
 [[quickstarts]]
 == Quickstarts

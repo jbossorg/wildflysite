@@ -1,10 +1,10 @@
 [[WildFly_Testsuite_Overview]]
-= WildFly Testsuite Overview
+= Wild**Fly** Testsuite Overview
 
 This document will detail the implementation of the testsuite
 Integration submodule as it guides you on adding your own test cases.
 
-The WildFly integration test suite has been designed with the following
+The Wild**Fly** integration test suite has been designed with the following
 goals:
 
 * support execution of all identified test case use cases

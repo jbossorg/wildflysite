@@ -4,7 +4,7 @@ permalink: /docs/13/
 ---
 
 [[index]]
-= 13.0.0 Documentation
+= Wild**Fly** 13 Documentation
 :ext-relative: {outfilesuffix}
 :toc!:
 

@@ -9,7 +9,7 @@ EJB)
 * `java:app` - Scoped to the current application
 * `java:global` - Scoped to the application server
 
-In addition to the standard namespaces, WildFly also provides the
+In addition to the standard namespaces, Wild**Fly** also provides the
 following two global namespaces:
 
 * java:jboss
@@ -29,7 +29,7 @@ deployed in a war do not have their own comp namespace.
 == Binding entries to JNDI
 
 There are several methods that can be used to bind entries into JNDI in
-WildFly.
+Wild**Fly**.
 
 [[using-a-deployment-descriptor]]
 === Using a deployment descriptor
@@ -83,17 +83,17 @@ mandated by the Java EE Platform Specification).
 [IMPORTANT]
 
 There is no need to unbind entries created programatically, since
-WildFly tracks which bindings belong to a deployment, and the bindings
+Wild**Fly** tracks which bindings belong to a deployment, and the bindings
 are automatically removed when the deployment is undeployed.
 
 [[wildfly-modules-and-extensions]]
-==== WildFly Modules and Extensions
+==== Wild**Fly** Modules and Extensions
 
-With respect to code in WildFly Modules/Extensions, which is executed
+With respect to code in Wild**Fly** Modules/Extensions, which is executed
 out of a Java EE application context, using the standard JNDI API may
 result in a UnsupportedOperationException if the target namespace uses a
 WritableServiceBasedNamingStore. To work around that, the bind()
-invocation needs to be wrapped using WildFly proprietary APIs:
+invocation needs to be wrapped using Wild**Fly** proprietary APIs:
 
 [source, java]
 ----
@@ -164,7 +164,7 @@ The CLI may also be used to bind an entry. As an example:
 
 [IMPORTANT]
 
-WildFly's Administrator Guide includes a section describing in detail
+Wild**Fly**'s Administrator Guide includes a section describing in detail
 the Naming subsystem configuration.
 
 [[retrieving-entries-from-jndi]]
@@ -196,7 +196,7 @@ Java type concatenated with `/` and the field's name, for instance
 descriptors to bind JNDI entries. unless the name is an absolute JNDI
 name, it is considered relative to `java:comp/env`. For instance, with
 respect to the field named `myString` above, the `@Resource`'s `lookup`
-attribute instructs WildFly to lookup the value in
+attribute instructs Wild**Fly** to lookup the value in
 `java:global/mystring`, bind it in
 `java:comp/env/java.lang.String/myString`, and then inject such value
 into the field.
@@ -205,15 +205,15 @@ With respect to the field named `hello`, there is no `lookup` attribute
 value defined, so the responsibility to provide the entry's value is
 delegated to the deployment descriptor. Considering that the deployment
 descriptor was the `web.xml` previously shown, which defines an
-environment entry with same `hello` name, then WildFly inject the valued
+environment entry with same `hello` name, then Wild**Fly** inject the valued
 defined in the deployment descriptor into the field.
 
 The `executor` field has no attributes specified, so the bind's name
 would default to
 `java:comp/env/javax.enterprise.concurrent.ManagedExecutorService/executor`,
 but there is no such entry in the deployment descriptor, and when that
-happens it's up to WildFly to provide a default value or null, depending
-on the field's Java type. In this particular case WildFly would inject
+happens it's up to Wild**Fly** to provide a default value or null, depending
+on the field's Java type. In this particular case Wild**Fly** would inject
 the default instance of a managed executor service, the value in
 `java:comp/DefaultManagedExecutorService`, as mandated by the EE
 Concurrency Utilities 1.0 Specification (JSR 236).

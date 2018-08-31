@@ -1,5 +1,5 @@
 [[WildFly_Elytron_Security]]
-= WildFly Elytron Security
+= Wild**Fly** Elytron Security
 :revnumber: {version}
 :revdate: {localdate}
 :toc: macro
@@ -18,8 +18,8 @@ ifndef::ebook-format[:leveloffset: 1]
 [[about]]
 == About
 
-The WildFly Elytron project is a new security framework brought to
-WildFly to provide a single unified security framework across the whole
+The Wild**Fly** Elytron project is a new security framework brought to
+Wild**Fly** to provide a single unified security framework across the whole
 of the application server. As a single framework it will be usable both
 for configuring management access to the server and for applications
 deployed to the server, it will also be usable across all process types

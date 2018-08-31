@@ -1,5 +1,5 @@
 [[Testsuite]]
-= WildFly Testsuite
+= Wild**Fly** Testsuite
 WildFly team;
 :revnumber: {version}
 :revdate: {localdate}

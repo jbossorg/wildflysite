@@ -63,7 +63,7 @@ interface in detail, let's describe how it (and the related `Resource`
 interface) relate to the notion of managed resources in the AS.
 
 [[wildfly-managed-resources]]
-== WildFly Managed Resources
+== Wild**Fly** Managed Resources
 
 Each subsystem is responsible for managing one or more management
 resources. The conceptual characteristics of a management resource are

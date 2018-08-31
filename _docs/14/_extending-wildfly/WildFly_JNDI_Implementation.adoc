@@ -1,5 +1,5 @@
 [[WildFly_JNDI_Implementation]]
-= WildFly JNDI Implementation
+= Wild**Fly** JNDI Implementation
 
 [[introduction]]
 == Introduction
