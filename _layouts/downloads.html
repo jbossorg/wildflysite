@@ -14,7 +14,7 @@ layout: base
         </div>
       {% endfor %} 
       <div class="page-subtitle">
-        <h4>The technology behind Wild<strong>Fly</strong> is also available in <a class="dark-background" href="https://www.redhat.com/en/technologies/jboss-middleware/application-platform" target="_blank">JBoss Enterprise Application Platform 7</a>. JBoss EAP is a hardened enterprise subscription with Red Hat’s world-class support, long multi-year maintenance cycles, and exclusive content. <a class="dark-background" href="https://developers.redhat.com/register" target="_blank">Sign-up with Red Hat</a> to download a no-cost 1-year development license.</h4>
+        <h4>The technology behind Wild<strong>Fly</strong> is also available in <a href="https://www.redhat.com/en/technologies/jboss-middleware/application-platform" target="_blank">JBoss Enterprise Application Platform 7</a>. JBoss EAP is a hardened enterprise subscription with Red Hat’s world-class support, long multi-year maintenance cycles, and exclusive content. <a href="https://developers.redhat.com/register" target="_blank">Sign-up with Red Hat</a> to download a no-cost 1-year development license.</h4>
         <a href="https://developers.redhat.com/products/eap/download/" class="button-cta secondary" target="_blank">Download Red Hat EAP</a>
       </div>
       {% for versionId in site.data.downloads.wildfly_versions %}
@@ -36,7 +36,7 @@ layout: base
                   <td class="licence">{{releaseItem.licence}}</td>
                   <td class="links">
                     {% for releaseFormat in releaseItem.links %}
-                    <a href="{{releaseFormat.url}}" class="dark-background">{{releaseFormat.format}}</a>
+                    <a href="{{releaseFormat.url}}">{{releaseFormat.format}}</a>
                     {% endfor %}
                   </td>
                 </tr>

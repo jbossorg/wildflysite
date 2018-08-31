@@ -12,7 +12,7 @@
         <strong>{{ item.title }}</strong>
         <ul class="footer-links width-1-12">
           {% for entry in item.subfolderitems %}
-            <li><a href="{{ entry.url }}" class="dark-background">{{ entry.page }}</a></li>
+            <li><a href="{{ entry.url }}">{{ entry.page }}</a></li>
           {% endfor %}
         </ul>
       </div>
@@ -23,7 +23,7 @@
         <strong>{{ item.title }}</strong>
         <ul class="footer-links">
           {% for entry in item.subfolderitems %}
-            <li><a href="{{ entry.url }}" class="dark-background">{{ entry.page }}</a></li>
+            <li><a href="{{ entry.url }}">{{ entry.page }}</a></li>
           {% endfor %}
         </ul>
       </div>

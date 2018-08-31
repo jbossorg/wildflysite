@@ -119,7 +119,7 @@ a {
   color: $yellow;
   cursor: pointer;
   strong { color: $yellow; }
-  &.dark-background{ color: $yellow; }
+  &.light-background{ color: $teal; }
 }
 
 a.button-cta {
