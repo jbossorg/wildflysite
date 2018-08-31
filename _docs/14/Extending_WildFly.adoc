@@ -35,7 +35,6 @@ second section if that better fits their learning style. Jumping back
 and forth between the sections is also a good strategy.
 
 
-ifdef::basebackend-html[toc::[]]
 :numbered:
 
 [[target-audience]]

@@ -7,7 +7,6 @@ Subsystem configuration reference
 :toc: macro
 :toclevels: 2
 
-ifdef::basebackend-html[toc::[]]
 
 The following chapters will focus on the high level management use cases
 that are available through the CLI and the web interface. For a detailed
