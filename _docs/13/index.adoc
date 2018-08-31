@@ -1,9 +1,11 @@
 ---
 layout: docs
+title: 13.0.0 Documentation
+permalink: /docs/13/
 ---
 
 [[index]]
-= WildFly Documentation
+= 13.0.0 Documentation
 :ext-relative: {outfilesuffix}
 :toc!:
 
