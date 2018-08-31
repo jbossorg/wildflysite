@@ -10,16 +10,16 @@
           <a href="{{site.baseurl}}/" class="{% if page.url == '/' %}active{% endif %}">Home</a>
         </li>
         <li>
-          <a href="{{site.baseurl}}/downloads/" class="{% if page.url == '/downloads/' %}active{% endif %}">Downloads</a>
+          <a href="{{site.baseurl}}/downloads/" class="{% if page.url contains '/downloads/' %}active{% endif %}">Downloads</a>
         </li>
         <li>
-          <a href="{{site.baseurl}}/blog/" class="{% if page.url == '/blog/' %}active{% endif %}">Blog</a>
+          <a href="{{site.baseurl}}/blog/" class="{% if page.url contains '/blog/' %}active{% endif %}">Blog</a>
         </li>
         <li>
-          <a href="{{site.baseurl}}/about/" class="{% if page.url == '/about/' %}active{% endif %}">About</a>
+          <a href="{{site.baseurl}}/about/" class="{% if page.url contains '/about/' %}active{% endif %}">About</a>
         </li>
         <li>
-          <a href="{{site.baseurl}}/contribute/" class="{% if page.url == '/contribute/' %}active{% endif %}">Contribute</a>
+          <a href="{{site.baseurl}}/contribute/" class="{% if page.url contains '/contribute/' %}active{% endif %}">Contribute</a>
         </li>
         <li>
           {% for latestVersion in site.data.downloads.latest_version %}
