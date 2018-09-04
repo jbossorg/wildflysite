@@ -15,6 +15,7 @@ $baseurl: "{{ site.baseurl }}";
 @import "includes/project-footer";
 @import "includes/redhat-footer";
 @import "includes/share-page";
+@import "includes/header-banner";
 
 @import "layouts/home";
 @import "layouts/docs";
