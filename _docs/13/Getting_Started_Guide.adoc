@@ -1,6 +1,6 @@
 [[Getting_Started_Guide]]
 = Getting Started Guide
-WildFly team;
+Wild**Fly** team;
 :revnumber: {version}
 :revdate: {localdate}
 :toc: macro
@@ -19,15 +19,15 @@ ifndef::ebook-format[:leveloffset: 1]
 :numbered:
 
 [[getting-started-with-wildfly]]
-== Getting Started with WildFly {wildflyVersion}
+== Getting Started with Wild**Fly** {wildflyVersion}
 
-WildFly {wildflyVersion} is the latest release in a series of JBoss open-source
-application server offerings. WildFly {wildflyVersion} is an exceptionally fast,
+Wild**Fly** {wildflyVersion} is the latest release in a series of JBoss open-source
+application server offerings. Wild**Fly** {wildflyVersion} is an exceptionally fast,
 lightweight and powerful implementation of the Java Enterprise Edition {javaee_version}
 Platform specifications. The state-of-the-art architecture built on the
 Modular Service Container enables services on-demand when your
 application requires them. The table below lists the Java Enterprise
-Edition {javaee_version} technologies and the technologies available in WildFly {wildflyVersion}
+Edition {javaee_version} technologies and the technologies available in Wild**Fly** {wildflyVersion}
 server configuration profiles.
 
 [cols=",,,,",options="header"]
@@ -113,13 +113,13 @@ Missing HornetQ and JMS?
 
 [WARNING]
 
-The WildFly Web Profile doesn't include JMS (provided by HornetQ) by
+The Wild**Fly** Web Profile doesn't include JMS (provided by HornetQ) by
 default. If you want to use messaging, make sure you start the server
 using the "Full Profile" configuration.
 
 This document provides a quick overview on how to download and get
-started using WildFly {wildflyVersion} for your application development. For in-depth
-content on administrative features, refer to the WildFly {wildflyVersion} Admin Guide.
+started using Wild**Fly** {wildflyVersion} for your application development. For in-depth
+content on administrative features, refer to the Wild**Fly** {wildflyVersion} Admin Guide.
 
 [[download]]
 === Download
@@ -144,21 +144,21 @@ available)
 === Installation
 
 Simply extract your chosen download to the directory of your choice. You
-can install WildFly {wildflyVersion} on any operating system that supports the zip or
+can install Wild**Fly** {wildflyVersion} on any operating system that supports the zip or
 tar formats. Refer to the Release Notes for additional information
 related to the release.
 
 [[wildfly---a-quick-tour]]
-=== WildFly - A Quick Tour
+=== Wild**Fly** - A Quick Tour
 
-Now that you've downloaded WildFly {wildflyVersion}, the next thing to discuss is the
+Now that you've downloaded Wild**Fly** {wildflyVersion}, the next thing to discuss is the
 layout of the distribution and explore the server directory structure,
 key configuration files, log files, user deployments and so on. It's
 worth familiarizing yourself with the layout so that you'll be able to
 find your way around when it comes to deploying your own applications.
 
 [[wildfly-directory-structure]]
-==== WildFly Directory Structure
+==== Wild**Fly** Directory Structure
 
 [cols=",",options="header"]
 |=======================================================================
@@ -193,10 +193,10 @@ used by the single standalone server run from this installation.
 [[standalone-directory-structure]]
 ===== Standalone Directory Structure
 
-In " *_standalone_* " mode each WildFly {wildflyVersion} server instance is an
+In " *_standalone_* " mode each Wild**Fly** {wildflyVersion} server instance is an
 independent process (similar to previous JBoss AS versions; e.g., 3, 4,
 5, or 6). The configuration files, deployment content and writable areas
-used by the single standalone server run from a WildFly installation are
+used by the single standalone server run from a Wild**Fly** installation are
 found in the following subdirectories under the top level "standalone"
 directory:
 
@@ -233,15 +233,15 @@ process.
 [[domain-directory-structure]]
 ===== Domain Directory Structure
 
-A key feature of WildFly {wildflyVersion} is the managing multiple servers from a
+A key feature of Wild**Fly** {wildflyVersion} is the managing multiple servers from a
 single control point. A collection of multiple servers are referred to
 as a " *_domain_* ". Domains can span multiple physical (or virtual)
-machines with all WildFly instances on a given host under the control of
+machines with all Wild**Fly** instances on a given host under the control of
 a Host Controller process. The Host Controllers interact with the Domain
-Controller to control the lifecycle of the WildFly instances running on
+Controller to control the lifecycle of the Wild**Fly** instances running on
 that host and to assist the Domain Controller in managing them. The
 configuration files, deployment content and writeable areas used by
-domain mode processes run from a WildFly installation are found in the
+domain mode processes run from a Wild**Fly** installation are found in the
 following subdirectories under the top level "domain" directory:
 
 [cols=",",options="header"]
@@ -283,7 +283,7 @@ process.
 |=======================================================================
 
 [[wildfly-10-configurations]]
-==== WildFly {wildflyVersion} Configurations
+==== Wild**Fly** {wildflyVersion} Configurations
 
 [[standalone-server-configurations]]
 ===== Standalone Server Configurations
@@ -316,9 +316,9 @@ determine how the servers are managed not what capabilities they
 provide.
 
 [[starting-wildfly-10]]
-==== Starting WildFly {wildflyVersion}
+==== Starting Wild**Fly** {wildflyVersion}
 
-To start WildFly {wildflyVersion} using the default web profile configuration in "
+To start Wild**Fly** {wildflyVersion} using the default web profile configuration in "
 _standalone_" mode, change directory to $JBOSS_HOME/bin.
 
 [source]
@@ -335,7 +335,7 @@ capabilities,
 ----
 
 [[starting-wildfly-with-an-alternate-configuration]]
-==== Starting WildFly with an Alternate Configuration
+==== Starting Wild**Fly** with an Alternate Configuration
 
 If you choose to start your server with one of the other provided
 configurations, they can be accessed by passing the --server-config
@@ -386,24 +386,24 @@ to what's shown below.
 11:46:14,300 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 10.0.0.Final (WildFly Core 2.0.10.Final) started in 1909ms - Started 267 of 553 services (371 services are lazy, passive or on-demand)
 ----
 
-As with previous WildFly releases, you can point your browser to
+As with previous Wild**Fly** releases, you can point your browser to
 *_http://localhost:8080_* (if using the default configured http port)
 which brings you to the Welcome Screen:
 
 image:images/wildfly.png[wildfly.png]
 
-From here you can access links to the WildFly community documentation
+From here you can access links to the Wild**Fly** community documentation
 set, stay up-to-date on the latest project information, have a
 discussion in the user forum and access the enhanced web-based
-Administration Console. Or, if you uncover a defect while using WildFly,
+Administration Console. Or, if you uncover a defect while using Wild**Fly**,
 report an issue to inform us (attached patches will be reviewed). This
 landing page is recommended for convenient access to information about
-WildFly {wildflyVersion} but can easily be replaced with your own if desired.
+Wild**Fly** {wildflyVersion} but can easily be replaced with your own if desired.
 
 [[managing-your-wildfly-10]]
-==== Managing your WildFly {wildflyVersion}
+==== Managing your Wild**Fly** {wildflyVersion}
 
-WildFly {wildflyVersion} offers two administrative mechanisms for managing your
+Wild**Fly** {wildflyVersion} offers two administrative mechanisms for managing your
 running instance:
 
 * web-based Administration Console
@@ -411,7 +411,7 @@ running instance:
 
 ===== Authentication
 
-By default WildFly {wildflyVersion} is now distributed with security enabled for the
+By default Wild**Fly** {wildflyVersion} is now distributed with security enabled for the
 management interfaces, this means that before you connect using the
 administration console or remotely using the CLI you will need to add a
 new user, this can be achieved simply by using the _add-user.sh_ script
@@ -508,7 +508,7 @@ Connected to standalone controller at localhost:9990
 Notice if no host or port information provided, it will default to
 localhost:9990.
 
-When running locally to the WildFly process the CLI will silently
+When running locally to the Wild**Fly** process the CLI will silently
 authenticate against the server by exchanging tokens on the file system,
 the purpose of this exchange is to verify that the client does have
 access to the local file system. If the CLI is connecting to a remote

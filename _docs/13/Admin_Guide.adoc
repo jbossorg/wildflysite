@@ -1,6 +1,6 @@
 [[Admin_Guide]]
-= WildFly Admin Guide
-WildFly developer team;
+= Wild**Fly** Admin Guide
+Wild**Fly** developer team;
 :revnumber: {version}
 :revdate: {localdate}
 :toc: macro
