@@ -1,13 +1,95 @@
 latest_version:
- - version: 14.0.0
+ - version: 14.0.1
    version_shortname: 14
    ctas:
      - cta_text: Download the zip
-       url: http://download.jboss.org/wildfly/14.0.0.Final/wildfly-14.0.0.Final.zip
+       url: http://download.jboss.org/wildfly/14.0.1.Final/wildfly-14.0.1.Final.zip
      - cta_text: Download the tgz
-       url: http://download.jboss.org/wildfly/14.0.0.Final/wildfly-14.0.0.Final.tar.gz
+       url: http://download.jboss.org/wildfly/14.0.1.Final/wildfly-14.0.1.Final.tar.gz
 
 wildfly_versions:
+ - version: 14.0.1
+   release:
+     - type: Final
+       release_date: 05 Sep 2018
+       item:
+         - description: Java EE Full & Web Distribution
+           licence: LGPL
+           links:
+             - format: zip
+               size: 171 MB
+               url: http://download.jboss.org/wildfly/14.0.1.Final/wildfly-14.0.1.Final.zip
+             - format: tgz
+               size: 170 MB
+               url: http://download.jboss.org/wildfly/14.0.1.Final/wildfly-14.0.1.Final.tar.gz
+         - description: Servlet-Only Distribution
+           licence: LGPL
+           links:
+             - format: zip
+               size: 41 MB
+               url: http://download.jboss.org/wildfly/14.0.1.Final/servlet/wildfly-servlet-14.0.1.Final.zip
+             - format: tgz
+               size: 41 MB
+               url: http://download.jboss.org/wildfly/14.0.1.Final/servlet/wildfly-servlet-14.0.1.Final.tar.gz
+         - description: Application Server Source Code
+           licence: LGPL
+           links:
+             - format: zip
+               size: 28 MB
+               url: http://download.jboss.org/wildfly/14.0.1.Final/wildfly-14.0.1.Final-src.zip
+             - format: tgz
+               size: 16 MB
+               url: http://download.jboss.org/wildfly/14.0.1.Final/wildfly-14.0.1.Final-src.tar.gz
+         - description: Quick Start Source Code
+           licence: AL
+           links:
+             - format: Source
+               url: https://github.com/wildfly/quickstart/tree/14.0.0.Final
+         - description: Release Notes
+           links:
+             - format: Notes
+               url: https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12313721&version=12339042
+ - version: 14.0.0
+   release:
+     - type: Final
+       release_date: 30 Aug 2018
+       item:
+         - description: Java EE Full & Web Distribution
+           licence: LGPL
+           links:
+             - format: zip
+               size: 171 MB
+               url: http://download.jboss.org/wildfly/14.0.0.Final/wildfly-14.0.0.Final.zip
+             - format: tgz
+               size: 170 MB
+               url: http://download.jboss.org/wildfly/14.0.0.Final/wildfly-14.0.0.Final.tar.gz
+         - description: Servlet-Only Distribution
+           licence: LGPL
+           links:
+             - format: zip
+               size: 41 MB
+               url: http://download.jboss.org/wildfly/14.0.0.Final/servlet/wildfly-servlet-14.0.0.Final.zip
+             - format: tgz
+               size: 41 MB
+               url: http://download.jboss.org/wildfly/14.0.0.Final/servlet/wildfly-servlet-14.0.0.Final.tar.gz
+         - description: Application Server Source Code
+           licence: LGPL
+           links:
+             - format: zip
+               size: 44 MB
+               url: http://download.jboss.org/wildfly/14.0.0.Final/wildfly-14.0.0.Final-src.zip
+             - format: tgz
+               size: 32 MB
+               url: http://download.jboss.org/wildfly/14.0.0.Final/wildfly-14.0.0.Final-src.tar.gz
+         - description: Quick Start Source Code
+           licence: AL
+           links:
+             - format: Source
+               url: https://github.com/wildfly/quickstart/tree/14.0.0.Final
+         - description: Release Notes
+           links:
+             - format: Notes
+               url: http://wildfly.org/news/2018/08/30/WildFly14-Final-Released/
  - version: 13.0.0
    release:
      - type: Final
