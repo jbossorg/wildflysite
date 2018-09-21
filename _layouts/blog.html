@@ -7,7 +7,7 @@ layout: base
   
 
   <div class="grid__item width-10-12">
-    {% for post in site.posts %}
+    {% for post in paginator.posts %}
       <div class="blog-list-item grid-wrapper">
         <div class="post-title grid__item width-12-12">
           <h2><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></h2>
@@ -22,9 +22,17 @@ layout: base
         <div class="grid__item width-12-12"><a href="{{site.baseurl}}{{ post.url }}">Read More ></a></div>
       </div>
     {% endfor %}
+    {% if paginator.total_pages > 1 %}
+      <div class="paginator-btns">
+        {% if paginator.previous_page %}
+          <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="button-cta secondary">Newer Posts</a>
+        {% endif %}
+        {% if paginator.next_page %}
+          <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="button-cta secondary">Older Posts</a>
+        {% endif %}
+      </div>
+    {% endif %}
   </div>
-  
-
 
   <div class="grid__item width-2-12"></div>
 </div>
