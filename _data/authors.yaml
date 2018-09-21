@@ -1,0 +1,83 @@
+jgreene:
+  name: "Jason Greene"
+  bio: "I am currently the lead of the WildFly application server project. I am also a member of the JCP, and represent Red Hat on the Java EE specification. During my tenure at JBoss, I have worked in many areas including the application server, clustering, web services, AOP, and security. My interests include concurrency, distributed computing, hardware and programming language design."
+  location: "Madison, WI"
+  occupation: "Chief Architect, JBoss EAP"
+  avatar: jgreene.jpg
+  twitter: "jtgreene"
+bstansberry:
+  name: "Brian Stansberry"
+  bio: "Brian Stansberry  is a principal software engineer at Red Hat, working as a core engineer on WildFly. He is currently leading the development of the administration and management capabilities in WildFly and JBoss EAP 6. Previously, he was the technical lead for the application server’s high availability clustering features. Brian’s background is in international business and East Asian studies, with a bachelor’s degree from Michigan State and a master’s degree from Stanford. Before getting bitten by the software bug, Brian had a successful career in corporate finance in the semiconductor industry. He started working on JBoss technologies in 2003 and joined the company in 2005."
+  location: "Ballwin, MO"
+  occupation: "Domain Management Lead"
+  avatar: bstansberry.jpg
+arun-gupta:
+  name: "Arun Gupta"
+  bio: "Arun is responsible for developer evangelism of JBoss Middleware at Red Hat. He is a technology enthusiast, a passionate runner, an author of best-selling book, a community guy, and loves to engage with developers."
+  location: "San Jose, CA"
+  occupation: "Director, Developer Advocacy"
+  avatar: arungupta.jpg
+  twitter: "arungupta"
+bobmcwhirter:
+  name: "Bob McWhirter"
+  bio: "Bob leads the Research & Prototyping group within Red Hat Middleware, typically mis-using other projects within the company.  He plays the banjo."
+  location: "Wytheville, VA"
+  occupation: "Director, R&P"
+  avatar: bobmcwhirter.jpg
+  twitter: "bobmcwhirter"
+kenfinnigan:
+  name: "Ken Finnigan"
+  bio: "Ken is a Principal Software Engineer at Red Hat, working on various projects. He is the project co-lead of WildFly Swarm with Bob McWhirter, and the author of books on GateIn and CDI."
+  location: "Boston, MA"
+  occupation: "WildFly Swarm Project Co-Lead"
+  avatar: kenfinnigan.jpg
+  twitter: "kenfinnigan"
+jperkins:
+  name: "James R. Perkins"
+  bio: "James works at Red Hat on WildFly. He currently works on logging for WildFly and the batch (JSR-352) integration."
+  location: "Portland, OR"
+  occupation: "Software Engineer"
+  avatar: jperkins.jpg
+  twitter: "the_jamezp"
+sdouglas:
+  name: "Stuart Douglas"
+  location: "Australia"
+  occupation: "Senior Software Engineer"
+  bio: "Stuart works at Red Hat on WildFly. He is the lead of the Undertow web server, and also works on Java EE."
+  avatar: sdouglas.png
+  twitter: "stuartwdouglas"
+tcerar:
+  name: "Tomaz Cerar"
+  location: "Slovenia"
+  occupation: "Software Engineer"
+  bio: "Tomaz works at Red Hat on WildFly. He currently works on domain management, undertow subsystem and makes sure CI always works."
+  avatar: tcerar.png
+  twitter: "ctomc"
+ehsavoie:
+  name: "Emmanuel Hugonnet"
+  location: "France"
+  occupation: "Software Engineer"
+  bio: "Emmanuel works at Red Hat on WildFly Core. He currently works on domain management and also maintains the NetBeans WildFly plugin."
+  avatar: ehsavoie.png
+  twitter: "ehsavoie"
+jmesnil:
+  name: "Jeff Mesnil"
+  location: "France"
+  occupation: "Software Engineer"
+  bio: "Jeff works at Red Hat. He is a core developer on WildFly application server."
+  avatar: jmesnil.jpg
+  twitter: "jmesnil"
+kwills:
+  name: "Ken Wills"
+  location: "Madison, WI"
+  occupation: "Software Engineer"
+  bio: "Ken works at Red Hat on Wildfly Core and WildFly domain mode. He has a particular interest in all things WildFly embedded."
+  avatar: kwills.jpg
+  twitter: "luck4y"
+hpehl:
+  name: "Harald Pehl"
+  location: "Germany"
+  occupation: "HAL Project Lead"
+  bio: "Harald is a senior software engineer at Red Hat working on management capabilities of WildFly. He is currently leading the management console (HAL)."
+  avatar: hpehl.jpg
+  twitter: "haraldpehl"

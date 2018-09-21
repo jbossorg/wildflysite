@@ -8,12 +8,13 @@ layout: base
 
   <div class="grid__item width-10-12">
     {% for post in paginator.posts %}
+      {% assign author = site.data.authors[post.author] %}
       <div class="blog-list-item grid-wrapper">
         <div class="post-title grid__item width-12-12">
           <h2><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></h2>
         </div>
         <div class="grid__item width-6-12 width-12-12-m">
-          <p class="byline">By {{ post.author }} | {{ post.date | date: '%B %d, %Y' }}</p>
+          <p class="byline">By {{ author.name }} | {{ post.date | date: '%B %d, %Y' }}</p>
         </div>
         <div class="grid__item width-6-12 width-12-12-m">{% include share-page.html %}</div>
         <div class="grid__item width-12-12">
