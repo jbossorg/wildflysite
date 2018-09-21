@@ -1,3 +1,11 @@
+---
+layout: post
+date:   2018-08-30 15:00:00 -0600
+tags:   announcement, release
+author: jgreene
+synopsis: I am happy to announce that the WildFly 14 release is Java EE8 Certified! Since WildFly is now certified, the default EE7 mode and EE8 preview option have been dropped.
+---
+
 = WildFly 14 is released!
 jgreene
 2018-08-30
