@@ -18,13 +18,13 @@ $blog-block-colors: $red, $orange, $yellow, $teal;
   color: nth($blog-block-colors, $random-block-color);
 }
 
-@for $i from 1 through 50 {
+@for $i from 1 through 10 {
   .blog-list-item:nth-child(#{$i}) > .post-title {
     @include pick-background-color;
   }
 } 
 
-@for $x from 1 through 50 {
+@for $x from 1 through 10 {
   .blog-block-item:nth-child(#{$x}) > .post-title {
     @include pick-block-color;
   }
