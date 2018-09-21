@@ -18,7 +18,11 @@ layout: base
         </div>
         <div class="grid__item width-6-12 width-12-12-m">{% include share-page.html %}</div>
         <div class="grid__item width-12-12">
-          <p>{{ post.content | strip_html | truncatewords: 150 }}</p>
+          {% if post.synopsis %}
+            <p>{{ post.synopsis | strip_html }}</p>
+          {% else %}
+            <p>{{ post.content | strip_html | truncatewords: 75 }}</p>
+          {% endif %}
         </div>
         <div class="grid__item width-12-12"><a href="{{site.baseurl}}{{ post.url }}">Read More ></a></div>
       </div>
