@@ -9,7 +9,6 @@ $baseurl: "{{ site.baseurl }}";
 @import "grid";
 @import "colors";
 @import "asciidoc";
-@import "random-color";
 
 @import "includes/header";
 @import "includes/project-footer";

@@ -5,6 +5,13 @@
     p {
       margin: 0;
     }
+
+    &.blue .post-title { background-color: $blue; }
+    &.orange .post-title { background-color: $orange; }
+    &.yellow .post-title { background-color: $yellow; }
+    &.teal .post-title { background-color: $teal; }
+    &.red .post-title { background-color: $red; }
+
     .post-title {
       padding: 1rem;
       h2 {
@@ -31,9 +38,24 @@
     p {
       margin: 10px 0;
     }
+    &.orange .post-title {
+      color: $orange;
+      border-color: $orange;
+    }
+    &.yellow .post-title {
+      color: $yellow;
+      border-color: $yellow;
+    }
+    &.teal .post-title {
+      color: $teal;
+      border-color: $teal;
+    }
+    &.red .post-title {
+      color: $red;
+      border-color: $red;
+    }
   }
   .post-title {
-    background-color: transparent !important;
     border: 3px solid;
     min-height: 9rem;
     h4 {
