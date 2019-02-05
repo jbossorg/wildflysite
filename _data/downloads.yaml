@@ -8,7 +8,6 @@ latest_version:
        url: https://download.jboss.org/wildfly/15.0.1.Final/wildfly-15.0.1.Final.tar.gz
 
 wildfly_versions:
-
  - version: 15.0.1
    release:
      - type: Final
@@ -50,7 +49,6 @@ wildfly_versions:
            links:
              - format: Notes
                url: https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12313721&version=12340359
-
  - version: 15.0.0
    release:
      - type: Final
