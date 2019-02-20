@@ -8,6 +8,42 @@ latest_version:
        url: https://download.jboss.org/wildfly/15.0.1.Final/wildfly-15.0.1.Final.tar.gz
 
 wildfly_versions:
+ - version: 16.0.0
+   release:
+     - type: Beta
+       release_date: 13 Feb 2019
+       item:
+         - description: Application Server Distribution
+           licence: LGPL
+           links:
+             - format: zip
+               size: 174 MB
+               url: https://download.jboss.org/wildfly/16.0.0.Beta1/wildfly-16.0.0.Beta1.zip
+             - format: tgz
+               size: 172 MB
+               url: https://download.jboss.org/wildfly/16.0.0.Beta1/wildfly-16.0.0.Beta1.tar.gz
+         - description: Servlet-Only Distribution
+           licence: LGPL
+           links:
+             - format: zip
+               size: 42 MB
+               url: https://download.jboss.org/wildfly/16.0.0.Beta1/servlet/wildfly-servlet-16.0.0.Beta1.zip
+             - format: tgz
+               size: 42 MB
+               url: https://download.jboss.org/wildfly/16.0.0.Beta1/servlet/wildfly-servlet-16.0.0.Beta1.tar.gz
+         - description: Application Server Source Code
+           licence: LGPL
+           links:
+             - format: zip
+               size: 36 MB
+               url: https://download.jboss.org/wildfly/16.0.0.Beta1/wildfly-16.0.0.Beta1-src.zip
+             - format: tgz
+               size: 23 MB
+               url: https://download.jboss.org/wildfly/16.0.0.Beta1/wildfly-16.0.0.Beta1-src.tar.gz
+         - description: Release Notes
+           links:
+             - format: Notes
+               url: https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12313721&version=12339032
  - version: 15.0.1
    release:
      - type: Final
