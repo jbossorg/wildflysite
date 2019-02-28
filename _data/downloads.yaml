@@ -10,7 +10,7 @@ latest_version:
 wildfly_versions:
  - version: 16.0.0
    release:
-    - type: Final
+     - type: Final
        release_date: 27 Feb 2019
        item:
          - description: Application Server Distribution
