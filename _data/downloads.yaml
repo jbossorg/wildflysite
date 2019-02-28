@@ -1,15 +1,49 @@
 latest_version:
- - version: 15.0.1
-   version_shortname: 15
+ - version: 16.0.0
+   version_shortname: 16
    ctas:
      - cta_text: Download the zip
-       url: https://download.jboss.org/wildfly/15.0.1.Final/wildfly-15.0.1.Final.zip
+       url: https://download.jboss.org/wildfly/16.0.0.Final/wildfly-16.0.0.Final.zip
      - cta_text: Download the tgz
-       url: https://download.jboss.org/wildfly/15.0.1.Final/wildfly-15.0.1.Final.tar.gz
+       url: https://download.jboss.org/wildfly/16.0.0.Final/wildfly-16.0.0.Final.tar.gz
 
 wildfly_versions:
  - version: 16.0.0
    release:
+    - type: Final
+       release_date: 27 Feb 2019
+       item:
+         - description: Application Server Distribution
+           licence: LGPL
+           links:
+             - format: zip
+               size: 173 MB
+               url: https://download.jboss.org/wildfly/16.0.0.Final/wildfly-16.0.0.Final.zip
+             - format: tgz
+               size: 172 MB
+               url: https://download.jboss.org/wildfly/16.0.0.Final/wildfly-16.0.0.Final.tar.gz
+         - description: Servlet-Only Distribution
+           licence: LGPL
+           links:
+             - format: zip
+               size: 42 MB
+               url: https://download.jboss.org/wildfly/16.0.0.Final/servlet/wildfly-servlet-16.0.0.Final.zip
+             - format: tgz
+               size: 42 MB
+               url: https://download.jboss.org/wildfly/16.0.0.Final/servlet/wildfly-servlet-16.0.0.Final.tar.gz
+         - description: Application Server Source Code
+           licence: LGPL
+           links:
+             - format: zip
+               size: 36 MB
+               url: https://download.jboss.org/wildfly/16.0.0.Final/wildfly-16.0.0.Final-src.zip
+             - format: tgz
+               size: 23 MB
+               url: https://download.jboss.org/wildfly/16.0.0.Final/wildfly-16.0.0.Final-src.tar.gz
+         - description: Release Notes
+           links:
+             - format: Notes
+               url: http://wildfly.org/news/2019/02/27/WildFly16-Final-Released/
      - type: Beta
        release_date: 13 Feb 2019
        item:
