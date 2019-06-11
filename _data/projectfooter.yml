@@ -77,6 +77,8 @@ more_links:
         url: https://www.optaplanner.org/
       - page: Picketbox
         url: https://picketbox.jboss.org/
+      - page: Quarkus
+        url: https://quarkus.io/
       - page: RESTEasy
         url: http://resteasy.jboss.org/
       - page: Riftsaw
