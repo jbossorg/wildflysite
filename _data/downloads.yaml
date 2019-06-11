@@ -1,13 +1,88 @@
 latest_version:
- - version: 16.0.0
-   version_shortname: 16
+ - version: 17.0.0
+   version_shortname: 17
    ctas:
      - cta_text: Download the zip
-       url: https://download.jboss.org/wildfly/16.0.0.Final/wildfly-16.0.0.Final.zip
+       url: https://download.jboss.org/wildfly/17.0.0.Final/wildfly-17.0.0.Final.zip
      - cta_text: Download the tgz
-       url: https://download.jboss.org/wildfly/16.0.0.Final/wildfly-16.0.0.Final.tar.gz
+       url: https://download.jboss.org/wildfly/17.0.0.Final/wildfly-17.0.0.Final.tar.gz
 
 wildfly_versions:
+ - version: 17.0.0
+   release:
+     - type: Final
+       release_date: 10 June 2019
+       item:
+         - description: Java EE Full & Web Distribution
+           licence: LGPL
+           links:
+             - format: zip
+               size: 176 MB
+               url: https://download.jboss.org/wildfly/17.0.0.Final/wildfly-17.0.0.Final.zip
+             - format: tgz
+               size: 175 MB
+               url: https://download.jboss.org/wildfly/17.0.0.Final/wildfly-17.0.0.Final.tar.gz
+         - description: Servlet-Only Distribution
+           licence: LGPL
+           links:
+             - format: zip
+               size: 41 MB
+               url: https://download.jboss.org/wildfly/17.0.0.Final/servlet/wildfly-servlet-17.0.0.Final.zip
+             - format: tgz
+               size: 41 MB
+               url: https://download.jboss.org/wildfly/17.0.0.Final/servlet/wildfly-servlet-17.0.0.Final.tar.gz
+         - description: Application Server Source Code
+           licence: LGPL
+           links:
+             - format: zip
+               size: 29 MB
+               url: https://download.jboss.org/wildfly/17.0.0.Final/wildfly-17.0.0.Final-src.zip
+             - format: tgz
+               size: 16 MB
+               url: https://download.jboss.org/wildfly/17.0.0.Final/wildfly-17.0.0.Final-src.tar.gz
+         - description: Quick Start Source Code
+           licence: AL
+           links:
+             - format: Source
+               url: https://github.com/wildfly/quickstart/tree/17.0.0.Final
+         - description: Release Notes
+           links:
+             - format: Notes
+               url: https://wildfly.org/news/2019/06/10/WildFly17-Final-Released/
+     - type: Beta
+       release_date: 24 May 2019
+       item:
+         - description: Application Server Distribution
+           licence: LGPL
+           links:
+             - format: zip
+               size: 176 MB
+               url: https://download.jboss.org/wildfly/17.0.0.Beta1/wildfly-17.0.0.Beta1.zip
+             - format: tgz
+               size: 175 MB
+               url: https://download.jboss.org/wildfly/17.0.0.Beta1/wildfly-17.0.0.Beta1.tar.gz
+         - description: Servlet-Only Distribution
+           licence: LGPL
+           links:
+             - format: zip
+               size: 41 MB
+               url: https://download.jboss.org/wildfly/17.0.0.Beta1/servlet/wildfly-servlet-17.0.0.Beta1.zip
+             - format: tgz
+               size: 41 MB
+               url: https://download.jboss.org/wildfly/17.0.0.Beta1/servlet/wildfly-servlet-17.0.0.Beta1.tar.gz
+         - description: Application Server Source Code
+           licence: LGPL
+           links:
+             - format: zip
+               size: 29 MB
+               url: https://download.jboss.org/wildfly/17.0.0.Beta1/wildfly-17.0.0.Beta1-src.zip
+             - format: tgz
+               size: 16 MB
+               url: https://download.jboss.org/wildfly/17.0.0.Beta1/wildfly-17.0.0.Beta1-src.tar.gz
+         - description: Release Notes
+           links:
+             - format: Notes
+               url: https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12313721&version=12342012
  - version: 16.0.0
    release:
      - type: Final
