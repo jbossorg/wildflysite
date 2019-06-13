@@ -19,27 +19,39 @@ wildfly_versions:
              - format: zip
                size: 176 MB
                url: https://download.jboss.org/wildfly/17.0.0.Final/wildfly-17.0.0.Final.zip
+               checksum_name: md5
+               checksum_url: https://download.jboss.org/wildfly/17.0.0.Final/wildfly-17.0.0.Final.zip.md5
              - format: tgz
                size: 175 MB
                url: https://download.jboss.org/wildfly/17.0.0.Final/wildfly-17.0.0.Final.tar.gz
+               checksum_name: md5
+               checksum_url: https://download.jboss.org/wildfly/17.0.0.Final/wildfly-17.0.0.Final.tar.gz.md5
          - description: Servlet-Only Distribution
            licence: LGPL
            links:
              - format: zip
                size: 41 MB
                url: https://download.jboss.org/wildfly/17.0.0.Final/servlet/wildfly-servlet-17.0.0.Final.zip
+               checksum_name: md5
+               checksum_url: https://download.jboss.org/wildfly/17.0.0.Final/servlet/wildfly-servlet-17.0.0.Final.zip.md5
              - format: tgz
                size: 41 MB
                url: https://download.jboss.org/wildfly/17.0.0.Final/servlet/wildfly-servlet-17.0.0.Final.tar.gz
+               checksum_name: md5
+               checksum_url: https://download.jboss.org/wildfly/17.0.0.Final/servlet/wildfly-servlet-17.0.0.Final.tar.gz.md5
          - description: Application Server Source Code
            licence: LGPL
            links:
              - format: zip
                size: 29 MB
                url: https://download.jboss.org/wildfly/17.0.0.Final/wildfly-17.0.0.Final-src.zip
+               checksum_name: md5
+               checksum_url: https://download.jboss.org/wildfly/17.0.0.Final/wildfly-17.0.0.Final-src.zip.md5
              - format: tgz
                size: 16 MB
                url: https://download.jboss.org/wildfly/17.0.0.Final/wildfly-17.0.0.Final-src.tar.gz
+               checksum_name: md5
+               checksum_url: https://download.jboss.org/wildfly/17.0.0.Final/wildfly-17.0.0.Final-src.tar.gz.md5
          - description: Quick Start Source Code
            licence: AL
            links:
@@ -58,27 +70,39 @@ wildfly_versions:
              - format: zip
                size: 176 MB
                url: https://download.jboss.org/wildfly/17.0.0.Beta1/wildfly-17.0.0.Beta1.zip
+               checksum_name: sha-1
+               checksum_url: https://download.jboss.org/wildfly/17.0.0.Beta1/wildfly-17.0.0.Beta1.zip.sha1
              - format: tgz
                size: 175 MB
                url: https://download.jboss.org/wildfly/17.0.0.Beta1/wildfly-17.0.0.Beta1.tar.gz
+               checksum_name: sha-1
+               checksum_url: https://download.jboss.org/wildfly/17.0.0.Beta1/wildfly-17.0.0.Beta1.tar.gz.sha1
          - description: Servlet-Only Distribution
            licence: LGPL
            links:
              - format: zip
                size: 41 MB
                url: https://download.jboss.org/wildfly/17.0.0.Beta1/servlet/wildfly-servlet-17.0.0.Beta1.zip
+               checksum_name: sha-1
+               checksum_url: https://download.jboss.org/wildfly/17.0.0.Beta1/servlet/wildfly-servlet-17.0.0.Beta1.zip.sha1
              - format: tgz
                size: 41 MB
                url: https://download.jboss.org/wildfly/17.0.0.Beta1/servlet/wildfly-servlet-17.0.0.Beta1.tar.gz
+               checksum_name: sha-1
+               checksum_url: https://download.jboss.org/wildfly/17.0.0.Beta1/servlet/wildfly-servlet-17.0.0.Beta1.tar.gz.sha1
          - description: Application Server Source Code
            licence: LGPL
            links:
              - format: zip
                size: 29 MB
                url: https://download.jboss.org/wildfly/17.0.0.Beta1/wildfly-17.0.0.Beta1-src.zip
+               checksum_name: sha-1
+               checksum_url: https://download.jboss.org/wildfly/17.0.0.Beta1/wildfly-17.0.0.Beta1-src.zip.sha1
              - format: tgz
                size: 16 MB
                url: https://download.jboss.org/wildfly/17.0.0.Beta1/wildfly-17.0.0.Beta1-src.tar.gz
+               checksum_name: sha-1
+               checksum_url: https://download.jboss.org/wildfly/17.0.0.Beta1/wildfly-17.0.0.Beta1-src.tar.gz.sha1
          - description: Release Notes
            links:
              - format: Notes
@@ -88,33 +112,45 @@ wildfly_versions:
      - type: Final
        release_date: 27 Feb 2019
        item:
-         - description: Application Server Distribution
+         - description: Java EE Full & Web Distribution
            licence: LGPL
            links:
              - format: zip
                size: 173 MB
                url: https://download.jboss.org/wildfly/16.0.0.Final/wildfly-16.0.0.Final.zip
+               checksum_name: sha-1
+               checksum_url: https://download.jboss.org/wildfly/16.0.0.Final/wildfly-16.0.0.Final.zip.sha1
              - format: tgz
                size: 172 MB
                url: https://download.jboss.org/wildfly/16.0.0.Final/wildfly-16.0.0.Final.tar.gz
+               checksum_name: sha-1
+               checksum_url: https://download.jboss.org/wildfly/16.0.0.Final/wildfly-16.0.0.Final.tar.gz.sha1
          - description: Servlet-Only Distribution
            licence: LGPL
            links:
              - format: zip
                size: 42 MB
                url: https://download.jboss.org/wildfly/16.0.0.Final/servlet/wildfly-servlet-16.0.0.Final.zip
+               checksum_name: sha-1
+               checksum_url: https://download.jboss.org/wildfly/16.0.0.Final/servlet/wildfly-servlet-16.0.0.Final.zip.sha1
              - format: tgz
                size: 42 MB
                url: https://download.jboss.org/wildfly/16.0.0.Final/servlet/wildfly-servlet-16.0.0.Final.tar.gz
+               checksum_name: sha-1
+               checksum_url: https://download.jboss.org/wildfly/16.0.0.Final/servlet/wildfly-servlet-16.0.0.Final.tar.gz.sha1
          - description: Application Server Source Code
            licence: LGPL
            links:
              - format: zip
                size: 36 MB
                url: https://download.jboss.org/wildfly/16.0.0.Final/wildfly-16.0.0.Final-src.zip
+               checksum_name: sha-1
+               checksum_url: https://download.jboss.org/wildfly/16.0.0.Final/wildfly-16.0.0.Final-src.zip.sha1
              - format: tgz
                size: 23 MB
                url: https://download.jboss.org/wildfly/16.0.0.Final/wildfly-16.0.0.Final-src.tar.gz
+               checksum_name: sha-1
+               checksum_url: https://download.jboss.org/wildfly/16.0.0.Final/wildfly-16.0.0.Final-src.tar.gz.sha1
          - description: Release Notes
            links:
              - format: Notes
@@ -164,27 +200,39 @@ wildfly_versions:
              - format: zip
                size: 172 MB
                url: https://download.jboss.org/wildfly/15.0.0.Final/wildfly-15.0.0.Final.zip
+               checksum_name: sha-1
+               checksum_url: https://download.jboss.org/wildfly/15.0.1.Final/wildfly-15.0.1.Final.zip.sha1
              - format: tgz
                size: 171 MB
                url: https://download.jboss.org/wildfly/15.0.0.Final/wildfly-15.0.0.Final.tar.gz
+               checksum_name: sha-1
+               checksum_url: https://download.jboss.org/wildfly/15.0.1.Final/wildfly-15.0.1.Final.tar.gz.sha1
          - description: Servlet-Only Distribution
            licence: LGPL
            links:
              - format: zip
                size: 41 MB
                url: https://download.jboss.org/wildfly/15.0.0.Final/servlet/wildfly-servlet-15.0.1.Final.zip
+               checksum_name: sha-1
+               checksum_url: https://download.jboss.org/wildfly/15.0.1.Final/servlet/wildfly-servlet-15.0.1.Final.zip.sha1
              - format: tgz
                size: 41 MB
                url: https://download.jboss.org/wildfly/15.0.0.Final/servlet/wildfly-servlet-15.0.1.Final.tar.gz
+               checksum_name: sha-1
+               checksum_url: https://download.jboss.org/wildfly/15.0.1.Final/servlet/wildfly-servlet-15.0.1.Final.tar.gz.sha1
          - description: Application Server Source Code
            licence: LGPL
            links:
              - format: zip
                size: 36 MB
                url: https://download.jboss.org/wildfly/15.0.0.Final/wildfly-15.0.1.Final-src.zip
+               checksum_name: sha-1
+               checksum_url: https://download.jboss.org/wildfly/15.0.1.Final/wildfly-15.0.1.Final-src.zip.sha1
              - format: tgz
                size: 23 MB
                url: https://download.jboss.org/wildfly/15.0.0.Final/wildfly-15.0.1.Final-src.tar.gz
+               checksum_name: sha-1
+               checksum_url: https://download.jboss.org/wildfly/15.0.1.Final/wildfly-15.0.1.Final-src.tar.gz.sha1
          - description: Quick Start Source Code
            licence: AL
            links:
