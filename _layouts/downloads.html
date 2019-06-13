@@ -28,7 +28,7 @@ layout: base
             <div class="grid__item width-6-12 version-table">
               <table class="tg">
                 <tr>
-                  <th class="" colspan="3"><div class="version-name {% if entry.type == 'Final' %}final{% endif %}">{{entry.type}}<span class="release-date">{{entry.release_date}}</span></div>
+                  <th colspan="3"><div class="version-name {% if entry.type == 'Final' %}final{% endif %}">{{entry.type}}<span class="release-date">{{entry.release_date}}</span></div>
                 </tr>
                 {% for releaseItem in entry.item %}
                 <tr>
@@ -36,7 +36,7 @@ layout: base
                   <td class="licence">{{releaseItem.licence}}</td>
                   <td class="links">
                     {% for releaseFormat in releaseItem.links %}
-                    <a href="{{releaseFormat.url}}">{{releaseFormat.format}}</a>
+                    <a href="{{releaseFormat.url}}">{{releaseFormat.format}}</a>{% if releaseFormat.checksum_name %} | <a href="{{releaseFormat.checksum_url}}">{{releaseFormat.checksum_name}}</a>{% endif %}<br/>
                     {% endfor %}
                   </td>
                 </tr>

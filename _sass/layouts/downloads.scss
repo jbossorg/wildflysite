@@ -43,7 +43,7 @@
     .version-name { border-bottom: 3px solid $white; }
   }
   .version-id {
-    @media screen and (max-width: 1380px) and (min-width: 1025px) {
+    @media screen and (max-width: 1380px) {
       h2 {
         font-size: 2rem;
         line-height: 2rem; 
@@ -63,9 +63,15 @@
 .version-table {
   justify-self: center;
   margin-bottom: 1rem;
-  max-width: 20.3rem;
+  table {
+    border-collapse: collapse;
+    width: auto;
+  }
   thead th, tbody td {
     padding: 1px;
+  }
+  tbody tr:not(:first-of-type):not(:last-of-type) {
+    border-bottom: 1px solid $dark-blue;
   }
   .version-name {
     text-align: left;
@@ -82,17 +88,15 @@
     }
   }
 
-  .description { min-width: 13rem; }
-  .licence { min-width: 3rem; }
+  .description { width: 60%; }
+  .licence {
+    width: 15%;
+    text-align: center;
+  }
   .links {
-    min-width: 55px;
-    a:nth-of-type(2) {
-      &:before {
-        content: '|';
-        color: $white;
-        margin: 0 5px 0 3px;
-      }
-    }
+    width: 25%;
+    padding: 5px 0 7px 0;
+    text-align: right;
   }
   td, a { font-size: .875rem; }
   @media screen and (max-width: 1024px) {
