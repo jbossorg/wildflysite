@@ -6,7 +6,7 @@ links:
       - page: Downloads
         url: /wildflysite/downloads
       - page: Docs
-        url: /wildflysitef/docs
+        url: https://docs.wildfly.org
       - page: Github
         url: https://github.com/wildfly/wildfly
   - title: Contribute
