@@ -97,6 +97,8 @@ more_links:
         url: https://tattletale.jboss.org/
       - page: Teiid
         url: http://teiid.jboss.org/
+      - page: WildFly Elytron
+        url: https://wildfly-security.github.io/wildfly-elytron/
       - page: WildFly Swarm
         url: http://wildfly-swarm.io/
       - page: Wise
