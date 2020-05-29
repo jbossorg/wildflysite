@@ -1,6 +1,6 @@
-.blog-page {
+.news-page {
   margin-bottom: 3rem;
-  .blog-list-item {
+  .news-list-item {
     margin-bottom: 3rem;
     p {
       margin: 0;
@@ -30,9 +30,9 @@
   }
 }
 
-.blog-list-blocks {
+.news-list-blocks {
   margin-top: 3rem;
-  .blog-block-item {
+  .news-block-item {
     margin-bottom: 3rem;
     text-align: left;
     p {
@@ -70,10 +70,10 @@
 }
 
 @media screen and (max-width: $breakpoint-m) {
-  .blog-block-item .post-title h4 {
+  .news-block-item .post-title h4 {
     font-size: 1.5rem;
   }
-  .blog-list-item .share-page {
+  .news-list-item .share-page {
     text-align: left;
   }
 }

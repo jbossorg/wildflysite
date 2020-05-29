@@ -55,7 +55,7 @@ asciidoctor:
   base_dir: :docdir
   safe: unsafe
   attributes:
-    imagesdir: /wildflysite/assets/img/blogs/
+    imagesdir: /wildflysite/assets/img/news/
 
 # Pages permalink
 defaults:
@@ -63,7 +63,7 @@ defaults:
     scope:
       type: "posts"
     values:
-      permalink: /blog/:year/:month/:day/:title/
+      permalink: /news/:year/:month/:day/:title/
   -
     scope:
       path: "" # an empty string here means all files in the project
