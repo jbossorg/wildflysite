@@ -23,6 +23,7 @@ baseurl: "/wildflysite" # the subpath of your site, e.g. /blog
 url: "https://jbossorg.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: WildFlyAS
 github_username:  wildfly
+chatroom_url: "https://wildfly.zulipchat.com/"
 
 # Build settings
 markdown: kramdown

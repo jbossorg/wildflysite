@@ -23,8 +23,8 @@ links:
     subfolderitems:
       - page: Join the forum
         url: https://groups.google.com/forum/#!forum/wildfly
-      - page: Join HipChat
-        url: https://www.hipchat.com/gFOhnVQke
+      - page: Join Zulip Chat
+        url: https://wildfly.zulipchat.com/
 
 more_links:
   - title: Find more Red Hat Middleware Community Projects
