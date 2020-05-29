@@ -6,9 +6,7 @@ tags:   announcement release
 author: jgreene
 ---
 
-== WildFly 8 Final is released!
-jgreene
-2014-02-11
+= WildFly 8 Final is released!
 
 I'm happy to announce the release of link:{base_url}/downloads/[WildFly 8.0.0.Final]. This means
 we feel the project is now stable and ready for general use. We received excellent 

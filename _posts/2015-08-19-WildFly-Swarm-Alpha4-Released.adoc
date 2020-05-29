@@ -6,9 +6,7 @@ tags:   announcement release swarm
 author: bobmcwhirter
 ---
 
-== WildFly Swarm 1.0.0.Alpha4 Released!
-bobmcwhirter
-2015-08-19
+= WildFly Swarm 1.0.0.Alpha4 Released!
 
 Once again, we're delighted and enthralled to announce a release
 of WildFly Swarm.  This time, it's *1.0.0.Alpha4*!  That's like

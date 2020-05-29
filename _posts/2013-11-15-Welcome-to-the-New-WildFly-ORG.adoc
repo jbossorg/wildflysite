@@ -6,10 +6,7 @@ tags:   announcement website
 author: jgreene
 ---
 
-== Welcome to the new WildFly.ORG!
-jgreene
-2013-11-15
-
+= Welcome to the new WildFly.ORG!
 
 Hello everyone. I recently revamped the WildFly.ORG website, and I hope
 you will find it to be a much more useful source of information about

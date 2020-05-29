@@ -6,9 +6,7 @@ tags:   announcement release swar
 author: kenfinnigan
 ---
 
-== WildFly Swarm Alpha2
-kenfinnigan
-2015-06-05
+= WildFly Swarm Alpha2
 
 We've been churning through the improvements and fixes for Alpha2!
 

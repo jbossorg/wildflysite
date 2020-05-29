@@ -6,9 +6,7 @@ tags:   wildfly8 http session failover clusterin
 author: arun-gupta
 ---
 
-== HTTP Session Failover in WildFly 8
-arun-gupta
-2014-03-14
+= HTTP Session Failover in WildFly 8
 
 WIldFly enables high availability of a Java EE application using session failover and load balancing. Session failover allows uninterrupted access to an application, even in the presence of a node failure. Load balancing allows for a timely response from the application, even in the presence of high volume requests.
 
@@ -28,4 +26,3 @@ Centralized administration and high availability together provides a very powerf
 +++
 
 Enjoy!
-

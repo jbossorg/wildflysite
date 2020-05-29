@@ -6,9 +6,7 @@ tags:   wildfly8 glassfish migration
 author: arun-gupta
 ---
 
-== Migrating a Java EE App from GlassFish to WildFly
-arun-gupta
-2014-02-06
+= Migrating a Java EE App from GlassFish to WildFly
 
 by **Hildeberto Mendonça** and **Efraim Gentil** from CEJUG
 

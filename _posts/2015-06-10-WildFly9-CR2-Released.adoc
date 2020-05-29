@@ -6,9 +6,7 @@ tags:   announcement release
 author: jgreene
 ---
 
-== WildFly 9 CR2 is released!
-jgreene
-2015-06-10
+= WildFly 9 CR2 is released!
 
 I'm happy to announce the link:{base_url}/downloads/[WildFly 9.0.0.CR2] release! This release addresses a number issues discovered during the CR1 cycle, and also includes a major UX 
 update to the console.

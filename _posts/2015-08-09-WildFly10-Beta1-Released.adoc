@@ -6,9 +6,7 @@ tags:   announcement releas
 author: jgreene
 ---
 
-== WildFly 10 Beta is released!
-jgreene
-2015-08-09
+= WildFly 10 Beta is released!
 
 The WildFly 10.0.0.Beta1 release is now available link:{base_url}/downloads[for download]!
 

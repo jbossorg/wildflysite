@@ -6,9 +6,7 @@ tags:   announcement release
 author: jgreene
 ---
 
-== WildFly 8 CR1 is released!
-jgreene
-2013-12-21
+= WildFly 8 CR1 is released!
 
 I'm happy to announce the release of link:{base_url}/downloads/[WildFly 8.0.0.CR1]. 
 This is the first candidate for release of WildFly 8. Provided no significant 
