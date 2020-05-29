@@ -6,9 +6,7 @@ tags:   announcement release
 author: jgreene
 ---
 
-== WildFly 11 Final is now available!
-jgreene
-2017-10-23
+= WildFly 11 Final is now available!
 
 WildFly 11 Final is now available link:{base_url}/downloads[for download]!  The highlights of WildFly 11 are as follows:
 

@@ -6,9 +6,7 @@ tags:   announcement release swarm
 author: bobmcwhirter
 ---
 
-== WildFly Swarm Initial Release
-bobmcwhirter
-2015-05-05
+= WildFly Swarm Initial Release
 
 Happy Cinco De Mayo!  
 

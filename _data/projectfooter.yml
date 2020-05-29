@@ -14,7 +14,7 @@ links:
       - page: Submit a bug
         url: https://issues.jboss.org/browse/WFLY
       - page: Join the forum
-        url: https://community.jboss.org/en/wildfly?view=discussion
+        url: https://groups.google.com/forum/#!forum/wildfly
       - page: Fork WildFly
         url: https://github.com/wildfly/wildfly/fork
       - page: Follow us
@@ -22,9 +22,9 @@ links:
   - title: Get Help
     subfolderitems:
       - page: Join the forum
-        url: https://community.jboss.org/en/wildfly?view=discussion
-      - page: Join HipChat
-        url: https://www.hipchat.com/gFOhnVQke
+        url: https://groups.google.com/forum/#!forum/wildfly
+      - page: Join Zulip Chat
+        url: https://wildfly.zulipchat.com/
 
 more_links:
   - title: Find more Red Hat Middleware Community Projects
@@ -55,8 +55,8 @@ more_links:
         url: http://hibernate.org/
       - page: Infinispan
         url: http://www.infinispan.org/
-      - page: JBoss DevStudio
-        url: https://devstudio.jboss.com/
+      - page: CodeReady Studio
+        url: https://developers.redhat.com/products/codeready-studio/overview
       - page: JBoss Forge
         url: http://forge.jboss.org/
       - page: JBoss Logging
@@ -75,8 +75,6 @@ more_links:
         url: http://modeshape.jboss.org/
       - page: OptaPlanner
         url: https://www.optaplanner.org/
-      - page: Picketbox
-        url: https://picketbox.jboss.org/
       - page: Quarkus
         url: https://quarkus.io/
       - page: RESTEasy
@@ -85,8 +83,8 @@ more_links:
         url: https://riftsaw.jboss.org/
       - page: Savara
         url: http://savara.jboss.org/
-      - page: Seam
-        url: http://seamframework.org/
+      - page: Weld
+        url: https://weld.cdi-spec.org/
       - page: Shrinkwrap
         url: http://arquillian.org/
       - page: Snowdrop
@@ -99,8 +97,8 @@ more_links:
         url: http://teiid.jboss.org/
       - page: WildFly Elytron
         url: https://wildfly-security.github.io/wildfly-elytron/
-      - page: WildFly Swarm
-        url: http://wildfly-swarm.io/
+      - page: Thorntail
+        url: https://thorntail.io/
       - page: Wise
         url: http://wise.jboss.org/
       - page: XNIO

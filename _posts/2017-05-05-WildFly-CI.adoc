@@ -7,9 +7,7 @@ author: jgreene
 description: "WildFly public CI"
 ---
 
-== Announcing public CI
-tcerar
-2017-05-05
+= Announcing public CI
 
 We are proud to announce our https://ci.wildfly.org/[public CI] system, which is running integration tests for WildFly, WildFly Core, Undertow, and many other related projects.
 This system ensures that we do not merge anything that is broken and that our master is always stable.

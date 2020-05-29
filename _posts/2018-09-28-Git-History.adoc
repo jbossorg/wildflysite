@@ -1,12 +1,11 @@
+---
+layout: post
+date:   2018-09-28 19:00:00 +0100
+tags:   wildfly, cli, configuration, history
+author: ehsavoie
+---
+
 = Using Git for configuration history =
-ehsavoie
-2018-09-28
-:revdate: 2018-09-28 19:00:00 +0100
-:awestruct-tags: [wildfly, cli, configuration, history]
-:awestruct-layout: blog
-:source-highlighter: coderay
-:encoding: utf-8
-:lang: en
 
 Until now the history of configuration in WildFly was using the folder + filename pattern. Now we have moved to a proper SCM integrating Git to manage history.
 

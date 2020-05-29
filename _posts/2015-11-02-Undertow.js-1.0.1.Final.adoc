@@ -6,9 +6,7 @@ tags:   wildfly undertow javascript
 author: sdouglas
 ---
 
-== Undertow.js 1.0.1.Final has been released
-sdouglas
-2015-11-02
+= Undertow.js 1.0.1.Final has been released
 
 Undertow.js 1.0.1.Final has been released. This allows you to integrate JavaScript and Java EE in your applications. There
 have been some notable changes since I first wrote about this at http://wildfly.org/news/2015/08/10/Javascript-Support-In-Wildfly/.

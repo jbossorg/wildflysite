@@ -6,9 +6,7 @@ tags:   wildfly11 management CLI embedded domain
 author: kwills
 ---
 
-== Running an Embedded WildFly Host Controller in the CLI
-kwills
-2017-10-09
+= Running an Embedded WildFly Host Controller in the CLI
 
 WildFly supports running a standalone server in link:{base_url}/news/2015/03/13/Offline-CLI/[Offline mode] as an embedded server. An analogous capability has been added for domain mode in the form of running an offline host controller. This article discusses some of the details and possible applications of this feature.
 

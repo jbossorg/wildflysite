@@ -6,9 +6,7 @@ tags:   announcement release
 author: jgreene
 ---
 
-== WildFly 10 Final is now available!
-jgreene
-2016-01-29
+= WildFly 10 Final is now available!
 
 WildFly 10 Final is officially complete and available link:{base_url}/downloads[for download]! WildFly 10 adds a number of capabilities and improvements to the powerful, yet lightweight, open-source application server.
  
@@ -155,4 +153,5 @@ The following table has the complete list of issues resolved against the "core" 
 |2.0.0.Alpha3 |link:https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12315422&amp;version=12327264[Full JIRA Release Notes]|18
 |2.0.0.Alpha2 |link:https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12315422&amp;version=12327373[Full JIRA Release Notes]|4
 |2.0.0.Alpha1 |link:https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12315422&amp;version=12326712[Full JIRA Release Notes]|12
-|================
+|==========================
+

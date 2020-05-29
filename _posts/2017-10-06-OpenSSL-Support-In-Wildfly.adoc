@@ -6,9 +6,7 @@ tags:   wildfly openssl
 author: sdouglas
 ---
 
-== OpenSSL support with WildFly
-sdouglas
-2017-10-06
+= OpenSSL support with WildFly
 
 The upcoming WildFly 11 release includes support for OpenSSL. This provides two main advantages over JSSE:
 

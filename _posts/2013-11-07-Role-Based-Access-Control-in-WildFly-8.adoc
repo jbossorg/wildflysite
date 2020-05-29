@@ -6,9 +6,7 @@ tags:   management rbac wildfly8 videos
 author: bstansberry
 ---
 
-== Role Based Access Control in WildFly 8
-bstansberry
-2013-11-07
+= Role Based Access Control in WildFly 8
 
 One of the big new features in WildFly 8 is the ability to enforce role based access control on managment operations. I recorded some videos that describe how you can use this powerful feature, and also demonstrate it in action. Check them out!
 

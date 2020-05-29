@@ -6,11 +6,7 @@ tags:   wildfly deployment cli hal
 author: ehsavoie
 ---
 
-== Using exploded deployments and CLI attachments
-ehsavoie
-2017-09-08
-
-:imagesdir: ../../../../../assets/img/blogs
+= Using exploded deployments and CLI attachments
 
 In WildFly there used to be two worlds : one for developers with exploded deployments using a scanner and one for production where artifacts (wars/ears/jars) were deployed. +
 Now those two worlds have collided and you can have exploded deployments without a scanner. +

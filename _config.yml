@@ -23,6 +23,8 @@ baseurl: "/wildflysite" # the subpath of your site, e.g. /blog
 url: "https://jbossorg.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: WildFlyAS
 github_username:  wildfly
+chatroom_url: "https://wildfly.zulipchat.com/"
+forum_url: "https://groups.google.com/forum/#!forum/wildfly"
 
 # Build settings
 markdown: kramdown
@@ -55,7 +57,7 @@ asciidoctor:
   base_dir: :docdir
   safe: unsafe
   attributes:
-    # imagesdir: /wildflysite/assets/img/posts/
+    imagesdir: /wildflysite/assets/img/news/
 
 # Pages permalink
 defaults:
@@ -63,7 +65,7 @@ defaults:
     scope:
       type: "posts"
     values:
-      permalink: /blog/:year/:month/:day/:title/
+      permalink: /news/:year/:month/:day/:title/
   -
     scope:
       path: "" # an empty string here means all files in the project

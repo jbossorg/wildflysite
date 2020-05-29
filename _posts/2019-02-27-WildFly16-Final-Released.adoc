@@ -1,15 +1,15 @@
+---
+layout: post
+date:   2019-02-27 15:00:00 -0600
+tags:   announcement, release
+author: bstansberry
+description: WildFly 16.0.0.Final is now available for download!
+otherimage: wildflycarousel_16.png
+---
+
 = WildFly 16 is released!
-bstansberry
-2018-12-13
-:revdate: 2019-02-27 15:00:00 -0600
-:awestruct-tags: [announcement, release]
-:awestruct-layout: blog
-:source-highlighter: coderay
-:awestruct-description: WildFly 16.0.0.Final is now available for download!
-:awestruct-otherimage: wildflycarousel_16.png
 
 WildFly 16 Final is now available link:{base_url}/downloads[for download]!
-
 
 Provisioning WildFly with Galleon
 ---------------------------------
@@ -92,4 +92,3 @@ Other Notable Items
 Jira Release Notes
 ------------------
 The full list of issues resolved is available link:https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12313721&version=12340370[here]. Issues resolved in the WildFly Core 8 release included with WildFly 16 are available link:https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12315422&version=12340978[here].
-

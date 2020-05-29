@@ -6,9 +6,7 @@ tags:   announcement release
 author: jgreene
 ---
 
-== WildFly 10.1 is now available!
-jgreene
-2016-08-19
+= WildFly 10.1 is now available!
 
 WildFly 10.1 is officially complete and available link:{base_url}/downloads[for download]! 
 

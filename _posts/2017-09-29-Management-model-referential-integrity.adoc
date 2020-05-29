@@ -6,11 +6,7 @@ tags:   wildfly cli hal
 author: bstansberry
 ---
 
-== Management Model Referential Integrity and Suggestions
-bstansberry
-2017-09-29
-
-:imagesdir: ../../../../../assets/img/blogs
+= Management Model Referential Integrity and Suggestions
 
 A significant improvement in WildFly 11 is much better support for referential integrity when one resource in your configuration refers to another resource. 
 Going beyond just checking that your references are correct, the server provides reference information that our CLI and the HAL web console are able to use 

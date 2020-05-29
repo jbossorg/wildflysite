@@ -6,9 +6,7 @@ tags:   management rbac wildfly8 videos undertow javaee7
 author: jgreene
 ---
 
-== WildFly 8 Webinar Recording
-jgreene
-2013-11-21
+= WildFly 8 Webinar Recording
 
 A few days ago, Brian Stansberry, Stuart Douglas and I presented a webinar on all of the major WildFly 8 features.
 

@@ -5,11 +5,7 @@ tags:   wildfly hal
 author: hpehl
 ---
 
-== What's New in WildFly Management Console
-hpehl
-2018-06-01
-
-:imagesdir: ../../../../../assets/img/blogs
+= What's New in WildFly Management Console
 
 link:{base_url}/news/2018/05/30/WildFly13-Final-Released/[WildFly 13] comes with a management console (HAL) which has been rewritten from scratch. HAL still uses a similar technical stack (GWT) and user experience, but now fully adopts https://www.patternfly.org/[PatternFly].
 
