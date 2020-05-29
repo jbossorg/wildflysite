@@ -17,7 +17,6 @@ $baseurl: "{{ site.baseurl }}";
 @import "includes/header-banner";
 
 @import "layouts/home";
-@import "layouts/docs";
 @import "layouts/downloads";
 @import "layouts/blog";
 @import "layouts/error-page";
