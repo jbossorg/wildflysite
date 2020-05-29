@@ -14,7 +14,7 @@ links:
       - page: Submit a bug
         url: https://issues.jboss.org/browse/WFLY
       - page: Join the forum
-        url: https://community.jboss.org/en/wildfly?view=discussion
+        url: https://groups.google.com/forum/#!forum/wildfly
       - page: Fork WildFly
         url: https://github.com/wildfly/wildfly/fork
       - page: Follow us
@@ -22,7 +22,7 @@ links:
   - title: Get Help
     subfolderitems:
       - page: Join the forum
-        url: https://community.jboss.org/en/wildfly?view=discussion
+        url: https://groups.google.com/forum/#!forum/wildfly
       - page: Join HipChat
         url: https://www.hipchat.com/gFOhnVQke
 
