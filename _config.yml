@@ -24,6 +24,7 @@ url: "https://jbossorg.github.io" # the base hostname & protocol for your site, 
 twitter_username: WildFlyAS
 github_username:  wildfly
 chatroom_url: "https://wildfly.zulipchat.com/"
+forum_url: "https://groups.google.com/forum/#!forum/wildfly"
 
 # Build settings
 markdown: kramdown
