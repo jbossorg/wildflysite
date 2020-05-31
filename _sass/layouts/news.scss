@@ -28,6 +28,14 @@
   .share-page {
     text-align: right;
   }
+  .rss-btn {
+    justify-self: center;
+    align-self: center;
+    font-size: 2rem;
+    i {
+      color: inherit;
+    }
+  }
 }
 
 .news-list-blocks {
