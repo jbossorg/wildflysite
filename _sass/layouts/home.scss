@@ -81,6 +81,10 @@
     background-color: $teal;
     strong { color: $dark-blue; }
   }
+  &.orange {
+    background-color: $orange;
+    strong { color: $dark-blue; }
+  }
 }
 
 @media screen and (max-width: 1505px) {
