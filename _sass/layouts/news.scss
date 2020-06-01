@@ -8,9 +8,12 @@
 
     &.blue .post-title { background-color: $blue; }
     &.orange .post-title { background-color: $orange; }
-    &.yellow .post-title { background-color: $yellow; }
     &.teal .post-title { background-color: $teal; }
     &.red .post-title { background-color: $red; }
+    &.yellow .post-title {
+      background-color: $yellow;
+      h2, a { color: $dark-blue; }
+    }
 
     .post-title {
       padding: 1rem;
