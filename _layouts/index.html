@@ -4,15 +4,16 @@ layout: base
 <div class="wildfly-homepage">
 <div class="grid-wrapper">
   <div class="grid__item width-12-12 home-section">
-    {% for latestVersion in site.data.downloads.latest_version %}
-      <h1>Wild<strong>Fly</strong> {{ latestVersion.version_shortname }} is now available</h1>
-      <div class="home-ctas">
-        {% for cta in latestVersion.ctas %}
-          <a href="{{ cta.url }}" class="button-cta">{{ cta.cta_text }}</a>
-        {% endfor %} 
-        <a href="{{site.baseurl}}/downloads/" class="button-cta secondary">Other Versions</a>
-      </div>
-    {% endfor %} 
+
+    {% assign latestRelease = site.data.releases.release[0] %}
+    <h1>Wild<strong>Fly</strong> {{latestRelease.version_shortname}} is now available</h1>
+    <div class="home-ctas">
+      
+        <a href="https://download.jboss.org/wildfly/{{latestRelease.version}}/wildfly-{{latestRelease.version}}.zip" class="button-cta">Download the zip</a>
+      
+      <a href="{{site.baseurl}}/downloads/" class="button-cta secondary">Other Versions</a>
+    </div>
+
   </div>
 
   <div class="grid__item width-12-12 home-section">
