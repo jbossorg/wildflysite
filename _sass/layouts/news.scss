@@ -65,6 +65,13 @@
       color: $red;
       border-color: $red;
     }
+
+    @media screen and (max-width: 1024px) {
+      grid-column: span 6;
+    }
+    @media screen and (max-width: $breakpoint-m) {
+      grid-column: span 12;
+    }
   }
   .post-title {
     border: 3px solid;

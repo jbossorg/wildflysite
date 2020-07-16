@@ -1,2051 +1,1101 @@
-release:
- - version: 20.0.0.Beta1
-   version_shortname: 20
-   release:
-     - type: Final
-       release_date: 2020-05-20
-       item:
-         - description: Application Server Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 184 MB
-               url: https://download.jboss.org/wildfly/20.0.0.Beta1/wildfly-20.0.0.Beta1.zip
-               checksum_name: SHA-1
-               checksum_url: https://download.jboss.org/wildfly/20.0.0.Beta1/wildfly-20.0.0.Beta1.zip.sha1
-             - format: tgz
-               size: 183 MB
-               url: https://download.jboss.org/wildfly/20.0.0.Beta1/wildfly-20.0.0.Beta1.tar.gz
-               checksum_name: SHA-1
-               checksum_url: https://download.jboss.org/wildfly/20.0.0.Beta1/wildfly-20.0.0.Beta1.tar.gz.sha1
-         - description: Servlet-Only Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 43 MB
-               url: https://download.jboss.org/wildfly/20.0.0.Beta1/servlet/wildfly-servlet-20.0.0.Beta1.zip
-               checksum_name: SHA-1
-               checksum_url: https://download.jboss.org/wildfly/20.0.0.Beta1/servlet/wildfly-servlet-20.0.0.Beta1.zip.sha1
-             - format: tgz
-               size: 42 MB
-               url: https://download.jboss.org/wildfly/20.0.0.Beta1/servlet/wildfly-servlet-20.0.0.Beta1.tar.gz
-               checksum_name: SHA-1
-               checksum_url: https://download.jboss.org/wildfly/20.0.0.Beta1/servlet/wildfly-servlet-20.0.0.Beta1.tar.gz.sha1
-         - description: Application Server Source Code
-           licence: LGPL
-           links:
-             - format: zip
-               size: 38 MB
-               url: https://download.jboss.org/wildfly/20.0.0.Beta1/wildfly-20.0.0.Beta1-src.zip
-               checksum_name: SHA-1
-               checksum_url: https://download.jboss.org/wildfly/20.0.0.Beta1/wildfly-20.0.0.Beta1-src.zip.sha1
-             - format: tgz
-               size: 24 MB
-               url: https://download.jboss.org/wildfly/20.0.0.Beta1/wildfly-20.0.0.Beta1-src.tar.gz
-               checksum_name: SHA-1
-               checksum_url: https://download.jboss.org/wildfly/20.0.0.Beta1/wildfly-20.0.0.Beta1-src.tar.gz.sha1
-         - description: Release Notes
-           links:
-             - format: Notes
-               url: https://issues.redhat.com/secure/ReleaseNote.jspa?projectId=12313721&version=12343669
- - version: 19.1.0.Final
-   version_shortname: 19
-   release:
-     - type: Final
-       release_date: 2020-05-04
-       item:
-         - description: Java EE Full & Web Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 181 MB
-               url: https://download.jboss.org/wildfly/19.0.1.Final/wildfly-19.0.1.Final.zip
-               checksum_name: SHA-1
-               checksum_url: https://download.jboss.org/wildfly/19.0.1.Final/wildfly-19.0.1.Final.zip.sha1
-             - format: tgz
-               size: 180 MB
-               url: https://download.jboss.org/wildfly/19.0.1.Final/wildfly-19.0.1.Final.tar.gz
-               checksum_name: SHA-1
-               checksum_url: https://download.jboss.org/wildfly/19.0.1.Final/wildfly-19.0.1.Final.tar.gz.sha1
-         - description: Servlet-Only Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 43 MB
-               url: https://download.jboss.org/wildfly/19.0.1.Final/servlet/wildfly-servlet-19.0.1.Final.zip
-               checksum_name: SHA-1
-               checksum_url: https://download.jboss.org/wildfly/19.0.1.Final/servlet/wildfly-servlet-19.0.1.Final.zip.sha1
-             - format: tgz
-               size: 42 MB
-               url: https://download.jboss.org/wildfly/19.0.1.Final/servlet/wildfly-servlet-19.0.1.Final.tar.gz
-               checksum_name: SHA-1
-               checksum_url: https://download.jboss.org/wildfly/19.0.1.Final/servlet/wildfly-servlet-19.0.1.Final.tar.gz.sha1
-         - description: Application Server Source Code
-           licence: LGPL
-           links:
-             - format: zip
-               size: 36 MB
-               url: https://download.jboss.org/wildfly/19.0.1.Final/wildfly-19.0.1.Final-src.zip
-               checksum_name: SHA-1
-               checksum_url: https://download.jboss.org/wildfly/19.0.1.Final/wildfly-19.0.1.Final-src.zip.sha1
-             - format: tgz
-               size: 23 MB
-               url: https://download.jboss.org/wildfly/19.0.1.Final/wildfly-19.0.1.Final-src.tar.gz
-               checksum_name: SHA-1
-               checksum_url: https://download.jboss.org/wildfly/19.0.1.Final/wildfly-19.0.1.Final-src.tar.gz.sha1
-         - description: Quick Start Source Code
-           licence: AL
-           links:
-             - format: Source
-               url: https://github.com/wildfly/quickstart/tree/19.0.1.Final
-         - description: Release Notes
-           links:
-             - format: Notes
-               url: https://issues.redhat.com/secure/ReleaseNote.jspa?projectId=12313721&version=12345176
- - version: 19.0.0.Final
-   version_shortname: 19
-   release:
-     - type: Final
-       release_date: 2020-03-18
-       item:
-         - description: Java EE Full & Web Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 181 MB
-               url: https://download.jboss.org/wildfly/19.0.0.Final/wildfly-19.0.0.Final.zip
-               checksum_name: SHA-1
-               checksum_url: https://download.jboss.org/wildfly/19.0.0.Final/wildfly-19.0.0.Final.zip.sha1
-             - format: tgz
-               size: 180 MB
-               url: https://download.jboss.org/wildfly/19.0.0.Final/wildfly-19.0.0.Final.tar.gz
-               checksum_name: SHA-1
-               checksum_url: https://download.jboss.org/wildfly/19.0.0.Final/wildfly-19.0.0.Final.tar.gz.sha1
-         - description: Servlet-Only Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 43 MB
-               url: https://download.jboss.org/wildfly/19.0.0.Final/servlet/wildfly-servlet-19.0.0.Final.zip
-               checksum_name: SHA-1
-               checksum_url: https://download.jboss.org/wildfly/19.0.0.Final/servlet/wildfly-servlet-19.0.0.Final.zip.sha1
-             - format: tgz
-               size: 42 MB
-               url: https://download.jboss.org/wildfly/19.0.0.Final/servlet/wildfly-servlet-19.0.0.Final.tar.gz
-               checksum_name: SHA-1
-               checksum_url: https://download.jboss.org/wildfly/19.0.0.Final/servlet/wildfly-servlet-19.0.0.Final.tar.gz.sha1
-         - description: Application Server Source Code
-           licence: LGPL
-           links:
-             - format: zip
-               size: 36 MB
-               url: https://download.jboss.org/wildfly/19.0.0.Final/wildfly-19.0.0.Final-src.zip
-               checksum_name: SHA-1
-               checksum_url: https://download.jboss.org/wildfly/19.0.0.Final/wildfly-19.0.0.Final-src.zip.sha1
-             - format: tgz
-               size: 23 MB
-               url: https://download.jboss.org/wildfly/19.0.0.Final/wildfly-19.0.0.Final-src.tar.gz
-               checksum_name: SHA-1
-               checksum_url: https://download.jboss.org/wildfly/19.0.0.Final/wildfly-19.0.0.Final-src.tar.gz.sha1
-         - description: Quick Start Source Code
-           licence: AL
-           links:
-             - format: Source
-               url: https://github.com/wildfly/quickstart/tree/19.0.0.Final
-         - description: Release Notes
-           links:
-             - format: Notes
-               url: https://wildfly.org/news/2020/03/18/WildFly19-Final-Released/
- - version: 18.0.1.Final
-   version_shortname: 18
-   release:
-     - type: Final
-       release_date: 2019-11-14
-       item:
-         - description: Java EE Full & Web Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 178 MB
-               url: https://download.jboss.org/wildfly/18.0.1.Final/wildfly-18.0.1.Final.zip
-               checksum_name: SHA-1
-               checksum_url: https://download.jboss.org/wildfly/18.0.1.Final/wildfly-18.0.1.Final.zip.sha1
-             - format: tgz
-               size: 177 MB
-               url: https://download.jboss.org/wildfly/18.0.1.Final/wildfly-18.0.1.Final.tar.gz
-               checksum_name: SHA-1
-               checksum_url: https://download.jboss.org/wildfly/18.0.1.Final/wildfly-18.0.1.Final.tar.gz.sha1
-         - description: Servlet-Only Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 41 MB
-               url: https://download.jboss.org/wildfly/18.0.1.Final/servlet/wildfly-servlet-18.0.1.Final.zip
-               checksum_name: SHA-1
-               checksum_url: https://download.jboss.org/wildfly/18.0.1.Final/servlet/wildfly-servlet-18.0.1.Final.zip.sha1
-             - format: tgz
-               size: 41 MB
-               url: https://download.jboss.org/wildfly/18.0.1.Final/servlet/wildfly-servlet-18.0.1.Final.tar.gz
-               checksum_name: SHA-1
-               checksum_url: https://download.jboss.org/wildfly/18.0.1.Final/servlet/wildfly-servlet-18.0.1.Final.tar.gz.sha1
-         - description: Application Server Source Code
-           licence: LGPL
-           links:
-             - format: zip
-               size: 32 MB
-               url: https://download.jboss.org/wildfly/18.0.1.Final/wildfly-18.0.1.Final-src.zip
-               checksum_name: SHA-1
-               checksum_url: https://download.jboss.org/wildfly/18.0.1.Final/wildfly-18.0.1.Final-src.zip.sha1
-             - format: tgz
-               size: Unknown
-               url: https://download.jboss.org/wildfly/18.0.1.Final/wildfly-18.0.1.Final-src.tar.gz
-               checksum_name: SHA-1
-               checksum_url: https://download.jboss.org/wildfly/18.0.1.Final/wildfly-18.0.1.Final-src.tar.gz.sha1
-         - description: Quick Start Source Code
-           licence: AL
-           links:
-             - format: Source
-               url: https://github.com/wildfly/quickstart/tree/18.0.1.Final
-         - description: Release Notes
-           links:
-             - format: Notes
-               url: https://wildfly.org/news/2019/11/14/WildFly-1801-Released/
- - version: 18.0.0.Final
-   version_shortname: 18
-   release:
-     - type: Final
-       release_date: 2019-10-03
-       item:
-         - description: Java EE Full & Web Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 178 MB
-               url: https://download.jboss.org/wildfly/18.0.0.Final/wildfly-18.0.0.Final.zip
-               checksum_name: SHA-1
-               checksum_url: https://download.jboss.org/wildfly/18.0.0.Final/wildfly-18.0.0.Final.zip.sha1
-             - format: tgz
-               size: 177 MB
-               url: https://download.jboss.org/wildfly/18.0.0.Final/wildfly-18.0.0.Final.tar.gz
-               checksum_name: SHA-1
-               checksum_url: https://download.jboss.org/wildfly/18.0.0.Final/wildfly-18.0.0.Final.tar.gz.sha1
-         - description: Servlet-Only Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 41 MB
-               url: https://download.jboss.org/wildfly/18.0.0.Final/servlet/wildfly-servlet-18.0.0.Final.zip
-               checksum_name: SHA-1
-               checksum_url: https://download.jboss.org/wildfly/18.0.0.Final/servlet/wildfly-servlet-18.0.0.Final.zip.sha1
-             - format: tgz
-               size: 41 MB
-               url: https://download.jboss.org/wildfly/18.0.0.Final/servlet/wildfly-servlet-18.0.0.Final.tar.gz
-               checksum_name: SHA-1
-               checksum_url: https://download.jboss.org/wildfly/18.0.0.Final/servlet/wildfly-servlet-18.0.0.Final.tar.gz.sha1
-         - description: Application Server Source Code
-           licence: LGPL
-           links:
-             - format: zip
-               size: 32 MB
-               url: https://download.jboss.org/wildfly/18.0.0.Final/wildfly-18.0.0.Final-src.zip
-               checksum_name: SHA-1
-               checksum_url: https://download.jboss.org/wildfly/18.0.0.Final/wildfly-18.0.0.Final-src.zip.sha1
-             - format: tgz
-               size: 19 MB
-               url: https://download.jboss.org/wildfly/18.0.0.Final/wildfly-18.0.0.Final-src.tar.gz
-               checksum_name: SHA-1
-               checksum_url: https://download.jboss.org/wildfly/18.0.0.Final/wildfly-18.0.0.Final-src.tar.gz.sha1
-         - description: Quick Start Source Code
-           licence: AL
-           links:
-             - format: Source
-               url: https://github.com/wildfly/quickstart/tree/18.0.0.Final
-         - description: Release Notes
-           links:
-             - format: Notes
-               url: https://wildfly.org/news/2019/10/03/WildFly18-Final-Released/
- - version: 17.0.1.Final
-   version_shortname: 17
-   release:
-     - type: Final
-       release_date: 2019-07-03
-       item:
-         - description: Java EE Full & Web Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 176 MB
-               url: https://download.jboss.org/wildfly/17.0.1.Final/wildfly-17.0.1.Final.zip
-               checksum_name: SHA-1
-               checksum_url: https://download.jboss.org/wildfly/17.0.1.Final/wildfly-17.0.1.Final.zip.sha1
-             - format: tgz
-               size: 175 MB
-               url: https://download.jboss.org/wildfly/17.0.1.Final/wildfly-17.0.1.Final.tar.gz
-               checksum_name: SHA-1
-               checksum_url: https://download.jboss.org/wildfly/17.0.1.Final/wildfly-17.0.1.Final.tar.gz.sha1
-         - description: Servlet-Only Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 41 MB
-               url: https://download.jboss.org/wildfly/17.0.1.Final/servlet/wildfly-servlet-17.0.1.Final.zip
-               checksum_name: SHA-1
-               checksum_url: https://download.jboss.org/wildfly/17.0.1.Final/servlet/wildfly-servlet-17.0.1.Final.zip.sha1
-             - format: tgz
-               size: 41 MB
-               url: https://download.jboss.org/wildfly/17.0.1.Final/servlet/wildfly-servlet-17.0.1.Final.tar.gz
-               checksum_name: SHA-1
-               checksum_url: https://download.jboss.org/wildfly/17.0.1.Final/servlet/wildfly-servlet-17.0.1.Final.tar.gz.sha1
-         - description: Application Server Source Code
-           licence: LGPL
-           links:
-             - format: zip
-               size: 29 MB
-               url: https://download.jboss.org/wildfly/17.0.1.Final/wildfly-17.0.1.Final-src.zip
-               checksum_name: SHA-1
-               checksum_url: https://download.jboss.org/wildfly/17.0.1.Final/wildfly-17.0.1.Final-src.zip.sha1
-             - format: tgz
-               size: 16 MB
-               url: https://download.jboss.org/wildfly/17.0.1.Final/wildfly-17.0.1.Final-src.tar.gz
-               checksum_name: SHA-1
-               checksum_url: https://download.jboss.org/wildfly/17.0.1.Final/wildfly-17.0.1.Final-src.tar.gz.sha1
-         - description: Quick Start Source Code
-           licence: AL
-           links:
-             - format: Source
-               url: https://github.com/wildfly/quickstart/tree/17.0.1.Final
-         - description: Release Notes
-           links:
-             - format: Notes
-               url: https://wildfly.org/news/2019/06/10/WildFly17-Final-Released/
- - version: 17.0.0.Final
-   version_shortname: 17
-   release:
-     - type: Final
-       release_date: 2019-06-10
-       item:
-         - description: Java EE Full & Web Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 176 MB
-               url: https://download.jboss.org/wildfly/17.0.0.Final/wildfly-17.0.0.Final.zip
-               checksum_name: SHA-1
-               checksum_url: https://download.jboss.org/wildfly/17.0.0.Final/wildfly-17.0.0.Final.zip.sha1
-             - format: tgz
-               size: 175 MB
-               url: https://download.jboss.org/wildfly/17.0.0.Final/wildfly-17.0.0.Final.tar.gz
-               checksum_name: SHA-1
-               checksum_url: https://download.jboss.org/wildfly/17.0.0.Final/wildfly-17.0.0.Final.tar.gz.sha1
-         - description: Servlet-Only Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 41 MB
-               url: https://download.jboss.org/wildfly/17.0.0.Final/servlet/wildfly-servlet-17.0.0.Final.zip
-               checksum_name: SHA-1
-               checksum_url: https://download.jboss.org/wildfly/17.0.0.Final/servlet/wildfly-servlet-17.0.0.Final.zip.sha1
-             - format: tgz
-               size: 41 MB
-               url: https://download.jboss.org/wildfly/17.0.0.Final/servlet/wildfly-servlet-17.0.0.Final.tar.gz
-               checksum_name: SHA-1
-               checksum_url: https://download.jboss.org/wildfly/17.0.0.Final/servlet/wildfly-servlet-17.0.0.Final.tar.gz.sha1
-         - description: Application Server Source Code
-           licence: LGPL
-           links:
-             - format: zip
-               size: 29 MB
-               url: https://download.jboss.org/wildfly/17.0.0.Final/wildfly-17.0.0.Final-src.zip
-               checksum_name: SHA-1
-               checksum_url: https://download.jboss.org/wildfly/17.0.0.Final/wildfly-17.0.0.Final-src.zip.sha1
-             - format: tgz
-               size: 16 MB
-               url: https://download.jboss.org/wildfly/17.0.0.Final/wildfly-17.0.0.Final-src.tar.gz
-               checksum_name: SHA-1
-               checksum_url: https://download.jboss.org/wildfly/17.0.0.Final/wildfly-17.0.0.Final-src.tar.gz.sha1
-         - description: Quick Start Source Code
-           licence: AL
-           links:
-             - format: Source
-               url: https://github.com/wildfly/quickstart/tree/17.0.0.Final
-         - description: Release Notes
-           links:
-             - format: Notes
-               url: https://wildfly.org/news/2019/06/10/WildFly17-Final-Released/
-     - type: Beta
-       release_date: 2019-05-24
-       item:
-         - description: Application Server Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 176 MB
-               url: https://download.jboss.org/wildfly/17.0.0.Beta1/wildfly-17.0.0.Beta1.zip
-               checksum_name: sha-1
-               checksum_url: https://download.jboss.org/wildfly/17.0.0.Beta1/wildfly-17.0.0.Beta1.zip.sha1
-             - format: tgz
-               size: 175 MB
-               url: https://download.jboss.org/wildfly/17.0.0.Beta1/wildfly-17.0.0.Beta1.tar.gz
-               checksum_name: sha-1
-               checksum_url: https://download.jboss.org/wildfly/17.0.0.Beta1/wildfly-17.0.0.Beta1.tar.gz.sha1
-         - description: Servlet-Only Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 41 MB
-               url: https://download.jboss.org/wildfly/17.0.0.Beta1/servlet/wildfly-servlet-17.0.0.Beta1.zip
-               checksum_name: sha-1
-               checksum_url: https://download.jboss.org/wildfly/17.0.0.Beta1/servlet/wildfly-servlet-17.0.0.Beta1.zip.sha1
-             - format: tgz
-               size: 41 MB
-               url: https://download.jboss.org/wildfly/17.0.0.Beta1/servlet/wildfly-servlet-17.0.0.Beta1.tar.gz
-               checksum_name: sha-1
-               checksum_url: https://download.jboss.org/wildfly/17.0.0.Beta1/servlet/wildfly-servlet-17.0.0.Beta1.tar.gz.sha1
-         - description: Application Server Source Code
-           licence: LGPL
-           links:
-             - format: zip
-               size: 29 MB
-               url: https://download.jboss.org/wildfly/17.0.0.Beta1/wildfly-17.0.0.Beta1-src.zip
-               checksum_name: sha-1
-               checksum_url: https://download.jboss.org/wildfly/17.0.0.Beta1/wildfly-17.0.0.Beta1-src.zip.sha1
-             - format: tgz
-               size: 16 MB
-               url: https://download.jboss.org/wildfly/17.0.0.Beta1/wildfly-17.0.0.Beta1-src.tar.gz
-               checksum_name: sha-1
-               checksum_url: https://download.jboss.org/wildfly/17.0.0.Beta1/wildfly-17.0.0.Beta1-src.tar.gz.sha1
-         - description: Release Notes
-           links:
-             - format: Notes
-               url: https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12313721&version=12342012
- - version: 16.0.0.Final
-   version_shortname: 16
-   release:
-     - type: Final
-       release_date: 2019-02-27
-       item:
-         - description: Java EE Full & Web Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 173 MB
-               url: https://download.jboss.org/wildfly/16.0.0.Final/wildfly-16.0.0.Final.zip
-               checksum_name: sha-1
-               checksum_url: https://download.jboss.org/wildfly/16.0.0.Final/wildfly-16.0.0.Final.zip.sha1
-             - format: tgz
-               size: 172 MB
-               url: https://download.jboss.org/wildfly/16.0.0.Final/wildfly-16.0.0.Final.tar.gz
-               checksum_name: sha-1
-               checksum_url: https://download.jboss.org/wildfly/16.0.0.Final/wildfly-16.0.0.Final.tar.gz.sha1
-         - description: Servlet-Only Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 42 MB
-               url: https://download.jboss.org/wildfly/16.0.0.Final/servlet/wildfly-servlet-16.0.0.Final.zip
-               checksum_name: sha-1
-               checksum_url: https://download.jboss.org/wildfly/16.0.0.Final/servlet/wildfly-servlet-16.0.0.Final.zip.sha1
-             - format: tgz
-               size: 42 MB
-               url: https://download.jboss.org/wildfly/16.0.0.Final/servlet/wildfly-servlet-16.0.0.Final.tar.gz
-               checksum_name: sha-1
-               checksum_url: https://download.jboss.org/wildfly/16.0.0.Final/servlet/wildfly-servlet-16.0.0.Final.tar.gz.sha1
-         - description: Application Server Source Code
-           licence: LGPL
-           links:
-             - format: zip
-               size: 36 MB
-               url: https://download.jboss.org/wildfly/16.0.0.Final/wildfly-16.0.0.Final-src.zip
-               checksum_name: sha-1
-               checksum_url: https://download.jboss.org/wildfly/16.0.0.Final/wildfly-16.0.0.Final-src.zip.sha1
-             - format: tgz
-               size: 23 MB
-               url: https://download.jboss.org/wildfly/16.0.0.Final/wildfly-16.0.0.Final-src.tar.gz
-               checksum_name: sha-1
-               checksum_url: https://download.jboss.org/wildfly/16.0.0.Final/wildfly-16.0.0.Final-src.tar.gz.sha1
-         - description: Release Notes
-           links:
-             - format: Notes
-               url: http://wildfly.org/news/2019/02/27/WildFly16-Final-Released/
-     - type: Beta
-       release_date: 2019-02-13
-       item:
-         - description: Application Server Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 174 MB
-               url: https://download.jboss.org/wildfly/16.0.0.Beta1/wildfly-16.0.0.Beta1.zip
-             - format: tgz
-               size: 172 MB
-               url: https://download.jboss.org/wildfly/16.0.0.Beta1/wildfly-16.0.0.Beta1.tar.gz
-         - description: Servlet-Only Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 42 MB
-               url: https://download.jboss.org/wildfly/16.0.0.Beta1/servlet/wildfly-servlet-16.0.0.Beta1.zip
-             - format: tgz
-               size: 42 MB
-               url: https://download.jboss.org/wildfly/16.0.0.Beta1/servlet/wildfly-servlet-16.0.0.Beta1.tar.gz
-         - description: Application Server Source Code
-           licence: LGPL
-           links:
-             - format: zip
-               size: 36 MB
-               url: https://download.jboss.org/wildfly/16.0.0.Beta1/wildfly-16.0.0.Beta1-src.zip
-             - format: tgz
-               size: 23 MB
-               url: https://download.jboss.org/wildfly/16.0.0.Beta1/wildfly-16.0.0.Beta1-src.tar.gz
-         - description: Release Notes
-           links:
-             - format: Notes
-               url: https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12313721&version=12339032
- - version: 15.0.1.Final
-   version_shortname: 15
-   release:
-     - type: Final
-       release_date: 2019-01-05
-       item:
-         - description: Java EE Full & Web Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 172 MB
-               url: https://download.jboss.org/wildfly/15.0.0.Final/wildfly-15.0.0.Final.zip
-               checksum_name: sha-1
-               checksum_url: https://download.jboss.org/wildfly/15.0.1.Final/wildfly-15.0.1.Final.zip.sha1
-             - format: tgz
-               size: 171 MB
-               url: https://download.jboss.org/wildfly/15.0.0.Final/wildfly-15.0.0.Final.tar.gz
-               checksum_name: sha-1
-               checksum_url: https://download.jboss.org/wildfly/15.0.1.Final/wildfly-15.0.1.Final.tar.gz.sha1
-         - description: Servlet-Only Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 41 MB
-               url: https://download.jboss.org/wildfly/15.0.0.Final/servlet/wildfly-servlet-15.0.1.Final.zip
-               checksum_name: sha-1
-               checksum_url: https://download.jboss.org/wildfly/15.0.1.Final/servlet/wildfly-servlet-15.0.1.Final.zip.sha1
-             - format: tgz
-               size: 41 MB
-               url: https://download.jboss.org/wildfly/15.0.0.Final/servlet/wildfly-servlet-15.0.1.Final.tar.gz
-               checksum_name: sha-1
-               checksum_url: https://download.jboss.org/wildfly/15.0.1.Final/servlet/wildfly-servlet-15.0.1.Final.tar.gz.sha1
-         - description: Application Server Source Code
-           licence: LGPL
-           links:
-             - format: zip
-               size: 36 MB
-               url: https://download.jboss.org/wildfly/15.0.0.Final/wildfly-15.0.1.Final-src.zip
-               checksum_name: sha-1
-               checksum_url: https://download.jboss.org/wildfly/15.0.1.Final/wildfly-15.0.1.Final-src.zip.sha1
-             - format: tgz
-               size: 23 MB
-               url: https://download.jboss.org/wildfly/15.0.0.Final/wildfly-15.0.1.Final-src.tar.gz
-               checksum_name: sha-1
-               checksum_url: https://download.jboss.org/wildfly/15.0.1.Final/wildfly-15.0.1.Final-src.tar.gz.sha1
-         - description: Quick Start Source Code
-           licence: AL
-           links:
-             - format: Source
-               url: https://github.com/wildfly/quickstart/tree/15.0.1.Final
-         - description: Release Notes
-           links:
-             - format: Notes
-               url: https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12313721&version=12340359
- - version: 15.0.0.Final
-   version_shortname: 15
-   release:
-     - type: Final
-       release_date: 2018-11-30
-       item:
-         - description: Java EE Full & Web Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 171 MB
-               url: https://download.jboss.org/wildfly/15.0.0.Final/wildfly-15.0.0.Final.zip
-             - format: tgz
-               size: 170 MB
-               url: https://download.jboss.org/wildfly/15.0.0.Final/wildfly-15.0.0.Final.tar.gz
-         - description: Servlet-Only Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 41 MB
-               url: https://download.jboss.org/wildfly/15.0.0.Final/servlet/wildfly-servlet-15.0.0.Final.zip
-             - format: tgz
-               size: 41 MB
-               url: https://download.jboss.org/wildfly/15.0.0.Final/servlet/wildfly-servlet-15.0.0.Final.tar.gz
-         - description: Application Server Source Code
-           licence: LGPL
-           links:
-             - format: zip
-               size: 28 MB
-               url: https://download.jboss.org/wildfly/15.0.0.Final/wildfly-15.0.0.Final-src.zip
-             - format: tgz
-               size: 16 MB
-               url: https://download.jboss.org/wildfly/15.0.0.Final/wildfly-15.0.0.Final-src.tar.gz
-         - description: Quick Start Source Code
-           licence: AL
-           links:
-             - format: Source
-               url: https://github.com/wildfly/quickstart/tree/15.0.0.Final
-         - description: Release Notes
-           links:
-             - format: Notes
-               url: https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12313721&version=12339953
-
- - version: 14.0.1.Final
-   version_shortname: 14
-   release:
-     - type: Final
-       release_date: 2018-09-05
-       item:
-         - description: Java EE Full & Web Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 171 MB
-               url: https://download.jboss.org/wildfly/14.0.1.Final/wildfly-14.0.1.Final.zip
-             - format: tgz
-               size: 170 MB
-               url: https://download.jboss.org/wildfly/14.0.1.Final/wildfly-14.0.1.Final.tar.gz
-         - description: Servlet-Only Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 41 MB
-               url: https://download.jboss.org/wildfly/14.0.1.Final/servlet/wildfly-servlet-14.0.1.Final.zip
-             - format: tgz
-               size: 41 MB
-               url: https://download.jboss.org/wildfly/14.0.1.Final/servlet/wildfly-servlet-14.0.1.Final.tar.gz
-         - description: Application Server Source Code
-           licence: LGPL
-           links:
-             - format: zip
-               size: 28 MB
-               url: https://download.jboss.org/wildfly/14.0.1.Final/wildfly-14.0.1.Final-src.zip
-             - format: tgz
-               size: 16 MB
-               url: https://download.jboss.org/wildfly/14.0.1.Final/wildfly-14.0.1.Final-src.tar.gz
-         - description: Quick Start Source Code
-           licence: AL
-           links:
-             - format: Source
-               url: https://github.com/wildfly/quickstart/tree/14.0.0.Final
-         - description: Release Notes
-           links:
-             - format: Notes
-               url: https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12313721&version=12339042
- - version: 14.0.0.Final
-   version_shortname: 14
-   release:
-     - type: Final
-       release_date: 2018-08-30
-       item:
-         - description: Java EE Full & Web Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 171 MB
-               url: http://download.jboss.org/wildfly/14.0.0.Final/wildfly-14.0.0.Final.zip
-             - format: tgz
-               size: 170 MB
-               url: http://download.jboss.org/wildfly/14.0.0.Final/wildfly-14.0.0.Final.tar.gz
-         - description: Servlet-Only Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 41 MB
-               url: http://download.jboss.org/wildfly/14.0.0.Final/servlet/wildfly-servlet-14.0.0.Final.zip
-             - format: tgz
-               size: 41 MB
-               url: http://download.jboss.org/wildfly/14.0.0.Final/servlet/wildfly-servlet-14.0.0.Final.tar.gz
-         - description: Application Server Source Code
-           licence: LGPL
-           links:
-             - format: zip
-               size: 44 MB
-               url: http://download.jboss.org/wildfly/14.0.0.Final/wildfly-14.0.0.Final-src.zip
-             - format: tgz
-               size: 32 MB
-               url: http://download.jboss.org/wildfly/14.0.0.Final/wildfly-14.0.0.Final-src.tar.gz
-         - description: Quick Start Source Code
-           licence: AL
-           links:
-             - format: Source
-               url: https://github.com/wildfly/quickstart/tree/14.0.0.Final
-         - description: Release Notes
-           links:
-             - format: Notes
-               url: http://wildfly.org/news/2018/08/30/WildFly14-Final-Released/
- - version: 13.0.0.Final
-   version_shortname: 13
-   release:
-     - type: Final
-       release_date: 2018-05-30
-       item:
-         - description: Java EE7 Full & Web Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 180 MB
-               url: http://download.jboss.org/wildfly/13.0.0.Final/wildfly-13.0.0.Final.zip
-             - format: tgz
-               size: 179 MB
-               url: http://download.jboss.org/wildfly/13.0.0.Final/wildfly-13.0.0.Final.tar.gz
-         - description: Servlet-Only Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 37 MB
-               url: http://download.jboss.org/wildfly/13.0.0.Final/servlet/wildfly-servlet-13.0.0.Final.zip
-             - format: tgz
-               size: 37 MB
-               url: http://download.jboss.org/wildfly/13.0.0.Final/servlet/wildfly-servlet-13.0.0.Final.tar.gz
-         - description: Application Server Source Code
-           licence: LGPL
-           links:
-             - format: zip
-               size: 44 MB
-               url: http://download.jboss.org/wildfly/13.0.0.Final/wildfly-13.0.0.Final-src.zip
-             - format: tgz
-               size: 31 MB
-               url: http://download.jboss.org/wildfly/13.0.0.Final/wildfly-13.0.0.Final-src.tar.gz
-         - description: Quick Start Source Code
-           licence: AL
-           links:
-             - format: Source
-               url: https://github.com/wildfly/quickstart/tree/13.0.0.Final
-         - description: Release Notes
-           links:
-             - format: Notes
-               url: http://wildfly.org/news/2018/05/30/WildFly13-Final-Released/
-     - type: Beta1
-       release_date: 2018-05-17
-       item:
-         - description: Application Server Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 180 MB
-               url: http://download.jboss.org/wildfly/13.0.0.Beta1/wildfly-13.0.0.Beta1.zip
-             - format: tgz
-               size: 179 MB
-               url: http://download.jboss.org/wildfly/13.0.0.Beta1/wildfly-13.0.0.Beta1.tar.gz
-         - description: Servlet-Only Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 37 MB
-               url: http://download.jboss.org/wildfly/13.0.0.Beta1/servlet/wildfly-servlet-13.0.0.Beta1.zip
-             - format: tgz
-               size: 37 MB
-               url: http://download.jboss.org/wildfly/13.0.0.Beta1/servlet/wildfly-servlet-13.0.0.Beta1.tar.gz
-         - description: Application Server Source Code
-           licence: LGPL
-           links:
-             - format: zip
-               size: 28 MB
-               url: http://download.jboss.org/wildfly/13.0.0.Beta1/wildfly-13.0.0.Beta1-src.zip
-             - format: tgz
-               size: 15 MB
-               url: http://download.jboss.org/wildfly/13.0.0.Beta1/wildfly-13.0.0.Beta1-src.tar.gz
-         - description: Release Notes
-           licence: LGPL
-           links:
-             - format: Notes
-               url: https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12313721&version=12336909
- - version: 12.0.0.Final
-   version_shortname: 12
-   release:
-     - type: Final
-       release_date: 2018-02-28
-       item:
-         - description: Java EE7 Full & Web Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 162 MB
-               url: http://download.jboss.org/wildfly/12.0.0.Final/wildfly-12.0.0.Final.zip
-             - format: tgz
-               size: 161 MB
-               url: http://download.jboss.org/wildfly/12.0.0.Final/wildfly-12.0.0.Final.tar.gz
-         - description: Servlet-Only Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 37 MB
-               url: http://download.jboss.org/wildfly/12.0.0.Final/servlet/wildfly-servlet-12.0.0.Final.zip
-             - format: tgz
-               size: 36 MB
-               url: http://download.jboss.org/wildfly/12.0.0.Final/servlet/wildfly-servlet-12.0.0.Final.tar.gz
-         - description: Application Server Source Code
-           licence: LGPL
-           links:
-             - format: zip
-               size: 43 MB
-               url: http://download.jboss.org/wildfly/12.0.0.Final/wildfly-12.0.0.Final-src.zip
-             - format: tgz
-               size: 31 MB
-               url: http://download.jboss.org/wildfly/12.0.0.Final/wildfly-12.0.0.Final-src.tar.gz
-         - description: Quick Start Source Code
-           licence: AL
-           links:
-             - format: Source
-               url: https://github.com/wildfly/quickstart/tree/12.0.0.Final
-         - description: Release Notes
-           links:
-             - format: Notes
-               url: http://wildfly.org/news/2018/02/28/WildFly12-Final-Released/
-     - type: CR1
-       release_date: 2018-02-26
-       item:
-         - description: Application Server Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 162 MB
-               url: http://download.jboss.org/wildfly/12.0.0.CR1/wildfly-12.0.0.CR1.zip
-             - format: tgz
-               size: 161 MB
-               url: http://download.jboss.org/wildfly/12.0.0.CR1/wildfly-12.0.0.CR1.tar.gz
-         - description: Servlet-Only Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 37 MB
-               url: http://download.jboss.org/wildfly/12.0.0.CR1/servlet/wildfly-servlet-12.0.0.CR1.zip
-             - format: tgz
-               size: 36 MB
-               url: http://download.jboss.org/wildfly/12.0.0.CR1/servlet/wildfly-servlet-12.0.0.CR1.tar.gz
-         - description: Application Server Source Code
-           licence: LGPL
-           links:
-             - format: zip
-               size: 43 MB
-               url: http://download.jboss.org/wildfly/12.0.0.CR1/wildfly-12.0.0.CR1-src.zip
-             - format: tgz
-               size: 31 MB
-               url: http://download.jboss.org/wildfly/12.0.0.CR1/wildfly-12.0.0.CR1-src.tar.gz
-         - description: Release Notes
-           links:
-             - format: Notes
-               url: https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12313721&version=12335640
- - version: 11.0.0.Final
-   version_shortname: 11
-   release:
-     - type: Final
-       release_date: 2017-10-23
-       item:
-         - description: Java EE7 Full & Web Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 152 MB
-               url: http://download.jboss.org/wildfly/11.0.0.Final/wildfly-11.0.0.Final.zip
-             - format: tgz
-               size: 151 MB
-               url: http://download.jboss.org/wildfly/11.0.0.Final/wildfly-11.0.0.Final.tar.gz
-         - description: Servlet-Only Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 35 MB
-               url: http://download.jboss.org/wildfly/11.0.0.Final/servlet/wildfly-servlet-11.0.0.Final.zip
-             - format: tgz
-               size: 34 MB
-               url: http://download.jboss.org/wildfly/11.0.0.Final/servlet/wildfly-servlet-11.0.0.Final.tar.gz
-         - description: Application Server Source Code
-           licence: LGPL
-           links:
-             - format: zip
-               size: 36 MB
-               url: http://download.jboss.org/wildfly/11.0.0.Final/wildfly-11.0.0.Final-src.zip
-             - format: tgz
-               size: 24 MB
-               url: http://download.jboss.org/wildfly/11.0.0.Final/wildfly-11.0.0.Final-src.tar.gz
-         - description: Quick Start Source Code
-           licence: AL
-           links:
-             - format: Source
-               url: https://github.com/wildfly/quickstart/tree/11.0.0.Final
-         - description: Release Notes
-           links:
-             - format: Notes
-               url: http://wildfly.org/news/2017/10/23/WildFly11-Final-Released/
-     - type: CR1
-       release_date: 2017-08-25
-       item:
-         - description: Application Server Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 151 MB
-               url: http://download.jboss.org/wildfly/11.0.0.CR1/wildfly-11.0.0.CR1.zip
-             - format: tgz
-               size: 150 MB
-               url: http://download.jboss.org/wildfly/11.0.0.CR1/wildfly-11.0.0.CR1.tar.gz
-         - description: Servlet-Only Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 34 MB
-               url: http://download.jboss.org/wildfly/11.0.0.CR1/servlet/wildfly-servlet-11.0.0.CR1.zip
-             - format: tgz
-               size: 34 MB
-               url: http://download.jboss.org/wildfly/11.0.0.CR1/servlet/wildfly-servlet-11.0.0.CR1.tar.gz
-         - description: Application Server Source Code
-           licence: LGPL
-           links:
-             - format: zip
-               size: 37 MB
-               url: http://download.jboss.org/wildfly/11.0.0.CR1/wildfly-11.0.0.CR1-src.zip
-             - format: tgz
-               size: 25 MB
-               url: http://download.jboss.org/wildfly/11.0.0.CR1/wildfly-11.0.0.CR1-src.tar.gz
-         - description: Quick Start Source Code
-           licence: AL
-           links:
-             - format: Source
-               url: https://github.com/wildfly/quickstart/releases/tag/11.0.0.CR1
-         - description: Release Notes
-           links:
-             - format: Notes
-               url: http://wildfly.org/news/2017/08/25/WildFly11-CR1-Released
-     - type: Beta1
-       release_date: 2017-08-03
-       item:
-         - description: Application Server Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 152 MB
-               url: http://download.jboss.org/wildfly/11.0.0.Beta1/wildfly-11.0.0.Beta1.zip
-             - format: tgz
-               size: 151 MB
-               url: http://download.jboss.org/wildfly/11.0.0.Beta1/wildfly-11.0.0.Beta1.tar.gz
-         - description: Servlet-Only Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 34 MB
-               url: http://download.jboss.org/wildfly/11.0.0.Beta1/servlet/wildfly-servlet-11.0.0.Beta1.zip
-             - format: tgz
-               size: 34 MB
-               url: http://download.jboss.org/wildfly/11.0.0.Beta1/servlet/wildfly-servlet-11.0.0.Beta1.tar.gz
-         - description: Application Server Source Code
-           licence: LGPL
-           links:
-             - format: zip
-               size: 37 MB
-               url: http://download.jboss.org/wildfly/11.0.0.Beta1/wildfly-11.0.0.Beta1-src.zip
-             - format: tgz
-               size: 25 MB
-               url: http://download.jboss.org/wildfly/11.0.0.Beta1/wildfly-11.0.0.Beta1-src.tar.gz
-         - description: Quick Start Source Code
-           licence: AL
-           links:
-             - format: Source
-               url: https://github.com/wildfly/quickstart/releases/tag/11.0.0.Beta1
-         - description: Release Notes
-           licence: LGPL
-           links:
-             - format: Notes
-               url: http://wildfly.org/news/2017/08/03/WildFly11-Beta-Released/
-     - type: Alpha1
-       release_date: 2017-07-27
-       item:
-         - description: Application Server Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 149 MB
-               url: http://download.jboss.org/wildfly/11.0.0.Alpha1/wildfly-11.0.0.Alpha1.zip
-             - format: tgz
-               size: 148 MB
-               url: http://download.jboss.org/wildfly/11.0.0.Alpha1/wildfly-11.0.0.Alpha1.tar.gz
-         - description: Servlet-Only Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 34 MB
-               url: http://download.jboss.org/wildfly/11.0.0.Alpha1/servlet/wildfly-servlet-11.0.0.Alpha1.zip
-             - format: tgz
-               size: 34 MB
-               url: http://download.jboss.org/wildfly/11.0.0.Alpha1/servlet/wildfly-servlet-11.0.0.Alpha1.tar.gz
-         - description: Application Server Source Code
-           licence: LGPL
-           links:
-             - format: zip
-               size: 36 MB
-               url: http://download.jboss.org/wildfly/11.0.0.Alpha1/wildfly-11.0.0.Alpha1-src.zip
-             - format: tgz
-               size: 24 MB
-               url: http://download.jboss.org/wildfly/11.0.0.Alpha1/wildfly-11.0.0.Alpha1-src.tar.gz
-         - description: Release Notes
-           links:
-             - format: Notes
-               url: https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12313721&version=12327287
- - version: 10.1.0.Final
-   version_shortname: 10
-   release:
-     - type: Final
-       release_date: 2016-08-19
-       item:
-         - description: Java EE7 Full & Web Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 134 MB
-               url: http://download.jboss.org/wildfly/10.1.0.Final/wildfly-10.1.0.Final.zip
-             - format: tgz
-               size: 133 MB
-               url: http://download.jboss.org/wildfly/10.1.0.Final/wildfly-10.1.0.Final.tar.gz
-         - description: Servlet-Only Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 28 MB
-               url: http://download.jboss.org/wildfly/10.1.0.Final/servlet/wildfly-servlet-10.1.0.Final.zip
-             - format: tgz
-               size: 28 MB
-               url: http://download.jboss.org/wildfly/10.1.0.Final/servlet/wildfly-servlet-10.1.0.Final.tar.gz
-         - description: Update Existing 10.0.0 Final Install
-           licence: LGPL
-           links:
-             - format: zip
-               size: 94 MB
-               url: http://download.jboss.org/wildfly/10.1.0.Final/wildfly-10.1.0.Final-update.zip
-         - description: Application Server Source Code
-           licence: LGPL
-           links:
-             - format: zip
-               size: 27 MB
-               url: http://download.jboss.org/wildfly/10.1.0.Final/wildfly-10.1.0.Final-src.zip
-             - format: tgz
-               size: 15 MB
-               url: http://download.jboss.org/wildfly/10.1.0.Final/wildfly-10.1.0.Final-src.tar.gz
-         - description: Quick Start Source Code
-           licence: AL
-           links:
-             - format: Source
-               size:
-               url: https://github.com/wildfly/quickstart/tree/10.x
-     - type: CR1
-       release_date: 2016-07-28
-       item:
-         - description: Application Server Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 134 MB
-               url: http://download.jboss.org/wildfly/10.1.0.CR1/wildfly-10.1.0.CR1.zip
-             - format: tgz
-               size: 133 MB
-               url: http://download.jboss.org/wildfly/10.1.0.CR1/wildfly-10.1.0.CR1.tar.gz
-         - description: Servlet-Only Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 28 MB
-               url: http://download.jboss.org/wildfly/10.1.0.CR1/servlet/wildfly-servlet-10.1.0.CR1.zip
-             - format: tgz
-               size: 28 MB
-               url: http://download.jboss.org/wildfly/10.1.0.CR1/servlet/wildfly-servlet-10.1.0.CR1.tar.gz
-         - description: Application Server Source Code
-           licence: LGPL
-           links:
-             - format: zip
-               size: 26 MB
-               url: http://download.jboss.org/wildfly/10.1.0.CR1/wildfly-10.1.0.CR1-src.zip
-             - format: tgz
-               size: 15 MB
-               url: http://download.jboss.org/wildfly/10.1.0.CR1/wildfly-10.1.0.CR1-src.tar.gz
-         - description: Release Notes
-           licence:
-           links:
-             - format: Notes
-               url: https://issues.jboss.org/secure/ReleaseNote.jspa?version=12329499&styleName=Html&projectId=12313721
- - version: 10.0.0.Final
-   version_shortname: 10
-   release:
-     - type: Final
-       release_date: 2016-01-29
-       item:
-         - description: Java EE7 Full & Web Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 132 MB
-               url: http://download.jboss.org/wildfly/10.0.0.Final/wildfly-10.0.0.Final.zip
-             - format: tgz
-               size: 131 MB
-               url: http://download.jboss.org/wildfly/10.0.0.Final/wildfly-10.0.0.Final.tar.gz
-         - description: Servlet-Only Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 28 MB
-               url: http://download.jboss.org/wildfly/10.0.0.Final/servlet/wildfly-servlet-10.0.0.Final.zip
-             - format: tgz
-               size: 28 MB
-               url: http://download.jboss.org/wildfly/10.0.0.Final/servlet/wildfly-servlet-10.0.0.Final.tar.gz
-         - description: Application Server Source Code
-           licence: LGPL
-           links:
-             - format: zip
-               size: 25 MB
-               url: http://download.jboss.org/wildfly/10.0.0.Final/wildfly-10.0.0.Final-src.zip
-             - format: tgz
-               size: 15 MB
-               url: http://download.jboss.org/wildfly/10.0.0.Final/wildfly-10.0.0.Final-src.tar.gz
-         - description: Quick Start Source Code
-           licence: AL
-           links:
-             - format: Source
-               url: https://github.com/wildfly/quickstart/tree/10.x
-         - description: Release Notes
-           licence:
-           links:
-             - format: Notes
-               url: http://wildfly.org/news/2016/01/29/WildFly10-Released/
-     - type: CR5
-       release_date: 2015-12-23
-       item:
-         - description: Application Server Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 132 MB
-               url: http://download.jboss.org/wildfly/10.0.0.CR5/wildfly-10.0.0.CR5.zip
-             - format: tgz
-               size: 131 MB
-               url: http://download.jboss.org/wildfly/10.0.0.CR5/wildfly-10.0.0.CR5.tar.gz
-         - description: Servlet-Only Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 28 MB
-               url: http://download.jboss.org/wildfly/10.0.0.CR5/servlet/wildfly-servlet-10.0.0.CR5.zip
-             - format: tgz
-               size: 28 MB
-               url: http://download.jboss.org/wildfly/10.0.0.CR5/servlet/wildfly-servlet-10.0.0.CR5.tar.gz
-         - description: Application Server Source Code
-           licence: LGPL
-           links:
-             - format: zip
-               size: 25 MB
-               url: http://download.jboss.org/wildfly/10.0.0.CR5/wildfly-10.0.0.CR5-src.zip
-             - format: tgz
-               size: 15 MB
-               url: http://download.jboss.org/wildfly/10.0.0.CR5/wildfly-10.0.0.CR5-src.tar.gz
-         - description: Release Notes
-           licence:
-           links:
-             - format: Notes
-               url: https://developer.jboss.org/wiki/WildFly1000CR5ReleaseNotes
-     - type: CR4
-       release_date: 2015-10-23
-       item:
-         - description: Application Server Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 137 MB
-               url: http://download.jboss.org/wildfly/10.0.0.CR4/wildfly-10.0.0.CR4.zip
-             - format: tgz
-               size: 137 MB
-               url: http://download.jboss.org/wildfly/10.0.0.CR4/wildfly-10.0.0.CR4.tar.gz
-         - description: Servlet-Only Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 28 MB
-               url: http://download.jboss.org/wildfly/10.0.0.CR4/servlet/wildfly-servlet-10.0.0.CR4.zip
-             - format: tgz
-               size: 27 MB
-               url: http://download.jboss.org/wildfly/10.0.0.CR4/servlet/wildfly-servlet-10.0.0.CR4.tar.gz
-         - description: Application Server Source Code
-           licence: LGPL
-           links:
-             - format: zip
-               size: 25 MB
-               url: http://download.jboss.org/wildfly/10.0.0.CR4/wildfly-10.0.0.CR4-src.zip
-             - format: tgz
-               size: 15 MB
-               url: http://download.jboss.org/wildfly/10.0.0.CR4/wildfly-10.0.0.CR4-src.tar.gz
-         - description: Release Notes
-           licence:
-           links:
-             - format: Notes
-               url: https://developer.jboss.org/wiki/WildFly1000CR4ReleaseNotes
-     - type: CR3
-       release_date: 2015-10-19
-       item:
-         - description: Application Server Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 137 MB
-               url: http://download.jboss.org/wildfly/10.0.0.CR3/wildfly-10.0.0.CR3.zip
-             - format: tgz
-               size: 136 MB
-               url: http://download.jboss.org/wildfly/10.0.0.CR3/wildfly-10.0.0.CR3.tar.gz
-         - description: Servlet-Only Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 28 MB
-               url: http://download.jboss.org/wildfly/10.0.0.CR3/servlet/wildfly-servlet-10.0.0.CR3.zip
-             - format: tgz
-               size: 27 MB
-               url: http://download.jboss.org/wildfly/10.0.0.CR3/servlet/wildfly-servlet-10.0.0.CR3.tar.gz
-         - description: Application Server Source Code
-           licence: LGPL
-           links:
-             - format: zip
-               size: 25 MB
-               url: http://download.jboss.org/wildfly/10.0.0.CR3/wildfly-10.0.0.CR3-src.zip
-             - format: tgz
-               size: 15 MB
-               url: http://download.jboss.org/wildfly/10.0.0.CR3/wildfly-10.0.0.CR3-src.tar.gz
-         - description: Release Notes
-           licence: LGPL
-           links:
-             - format: Notes
-               url: https://developer.jboss.org/wiki/WildFly1000CR3ReleaseNotes
-     - type: CR2
-       release_date: 2015-09-24
-       item:
-         - description: Application Server Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 137 MB
-               url: http://download.jboss.org/wildfly/10.0.0.CR2/wildfly-10.0.0.CR2.zip
-             - format: tgz
-               size: 136 MB
-               url: http://download.jboss.org/wildfly/10.0.0.CR2/wildfly-10.0.0.CR2.tar.gz
-         - description: Servlet-Only Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 28 MB
-               url: http://download.jboss.org/wildfly/10.0.0.CR2/servlet/wildfly-servlet-10.0.0.CR2.zip
-             - format: tgz
-               size: 27 MB
-               url: http://download.jboss.org/wildfly/10.0.0.CR2/servlet/wildfly-servlet-10.0.0.CR2.tar.gz
-         - description: Application Server Source Code
-           licence: LGPL
-           links:
-             - format: zip
-               size: 25 MB
-               url: http://download.jboss.org/wildfly/10.0.0.CR2/wildfly-10.0.0.CR2-src.zip
-             - format: tgz
-               size: 15 MB
-               url: http://download.jboss.org/wildfly/10.0.0.CR2/wildfly-10.0.0.CR2-src.tar.gz
-         - description: Release Notes
-           licence:
-           links:
-             - format: Notes
-               url: https://developer.jboss.org/wiki/WildFly1000CR2ReleaseNotes
-     - type: CR1
-       release_date: 2015-09-17
-       item:
-         - description: Application Server Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 135 MB
-               url: http://download.jboss.org/wildfly/10.0.0.CR1/wildfly-10.0.0.CR1.zip
-             - format: tgz
-               size: 134 MB
-               url: http://download.jboss.org/wildfly/10.0.0.CR1/wildfly-10.0.0.CR1.tar.gz
-         - description: Servlet-Only Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 28 MB
-               url: http://download.jboss.org/wildfly/10.0.0.CR1/servlet/wildfly-servlet-10.0.0.CR1.zip
-             - format: tgz
-               size: 27 MB
-               url: http://download.jboss.org/wildfly/10.0.0.CR1/servlet/wildfly-servlet-10.0.0.CR1.tar.gz
-         - description: Application Server Source Code
-           licence: LGPL
-           links:
-             - format: zip
-               size: 25 MB
-               url: http://download.jboss.org/wildfly/10.0.0.CR1/wildfly-10.0.0.CR1-src.zip
-             - format: tgz
-               size: 15 MB
-               url: http://download.jboss.org/wildfly/10.0.0.CR1/wildfly-10.0.0.CR1-src.tar.gz
-         - description: Release Notes
-           licence: LGPL
-           links:
-             - format: Notes
-               url: https://developer.jboss.org/wiki/WildFly1000CR1ReleaseNotes
-     - type: Beta2
-       release_date: 2015-08-23
-       item:
-         - description: Application Server Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 133 MB
-               url: http://download.jboss.org/wildfly/10.0.0.Beta2/wildfly-10.0.0.Beta2.zip
-             - format: tgz
-               size: 132 MB
-               url: http://download.jboss.org/wildfly/10.0.0.Beta2/wildfly-10.0.0.Beta2.tar.gz
-         - description: Servlet-Only Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 28 MB
-               url: http://download.jboss.org/wildfly/10.0.0.Beta2/servlet/wildfly-servlet-10.0.0.Beta2.zip
-             - format: tgz
-               size: 27 MB
-               url: http://download.jboss.org/wildfly/10.0.0.Beta2/servlet/wildfly-servlet-10.0.0.Beta2.tar.gz
-         - description: Application Server Source Code
-           licence: LGPL
-           links:
-             - format: zip
-               size: 25 MB
-               url: http://download.jboss.org/wildfly/10.0.0.Beta2/wildfly-10.0.0.Beta2-src.zip
-             - format: tgz
-               size: 15 MB
-               url: http://download.jboss.org/wildfly/10.0.0.Beta2/wildfly-10.0.0.Beta2-src.tar.gz
-         - description: Release Notes
-           licence: LGPL
-           links:
-             - format: Notes
-               url: https://developer.jboss.org/wiki/WildFly1000Beta2ReleaseNotes
-     - type: Beta1
-       release_date: 2015-08-09
-       item:
-         - description: Application Server Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 134 MB
-               url: http://download.jboss.org/wildfly/10.0.0.Beta1/wildfly-10.0.0.Beta1.zip
-             - format: tgz
-               size: 133 MB
-               url: http://download.jboss.org/wildfly/10.0.0.Beta1/wildfly-10.0.0.Beta1.tar.gz
-         - description: Servlet-Only Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 29 MB
-               url: http://download.jboss.org/wildfly/10.0.0.Beta1/servlet/wildfly-servlet-10.0.0.Beta1.zip
-             - format: tgz
-               size: 28 MB
-               url: http://download.jboss.org/wildfly/10.0.0.Beta1/servlet/wildfly-servlet-10.0.0.Beta1.tar.gz
-         - description: Application Server Source Code
-           licence: LGPL
-           links:
-             - format: zip
-               size: 25 MB
-               url: http://download.jboss.org/wildfly/10.0.0.Beta1/wildfly-10.0.0.Beta1-src.zip
-             - format: tgz
-               size: 15 MB
-               url: http://download.jboss.org/wildfly/10.0.0.Beta1/wildfly-10.0.0.Beta1-src.tar.gz
-         - description: Release Notes
-           licence: LGPL
-           links:
-             - format: Notes
-               url: https://developer.jboss.org/wiki/WildFly1000Beta1ReleaseNotes
- - version: 9.0.2.Final
-   version_shortname: 9
-   release:
-     - type: Final
-       release_date: 2015-10-26
-       item:
-         - description: Java EE7 Full & Web Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 130 MB
-               url: http://download.jboss.org/wildfly/9.0.2.Final/wildfly-9.0.2.Final.zip
-             - format: tgz
-               size: 129 MB
-               url: http://download.jboss.org/wildfly/9.0.2.Final/wildfly-9.0.2.Final.tar.gz
-         - description: Update Existing 9.0.1 Final (Patched) Install
-           licence: LGPL
-           links:
-             - format: zip
-               size: 50 MB
-               url: http://download.jboss.org/wildfly/9.0.2.Final/wildfly-9.0.2.Final-update.zip
-         - description: Update Existing 9.0.1 Final (Full Zip) Install
-           licence: LGPL
-           links:
-             - format: zip
-               size: 50 MB
-               url: http://download.jboss.org/wildfly/9.0.2.Final/wildfly-9.0.2.Final-901FULLZIP-update.zip
-         - description: Servlet-Only Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 27 MB
-               url: http://download.jboss.org/wildfly/9.0.2.Final/servlet/wildfly-servlet-9.0.2.Final.zip
-             - format: tgz
-               size: 27 MB
-               url: http://download.jboss.org/wildfly/9.0.2.Final/servlet/wildfly-servlet-9.0.2.Final.tar.gz
-         - description: Application Server Source Code
-           licence: LGPL
-           links:
-             - format: zip
-               size: 24 MB
-               url: http://download.jboss.org/wildfly/9.0.2.Final/wildfly-9.0.2.Final-src.zip
-             - format: tgz
-               size: 14 MB
-               url: http://download.jboss.org/wildfly/9.0.2.Final/wildfly-9.0.2.Final-src.tar.gz
-         - description: Quick Start Source Code
-           licence: AL
-           links:
-             - format: Source
-               url: https://github.com/wildfly/quickstart/tree/9.x
-         - description: Release Notes
-           licence:
-           links:
-             - format: Notes
-               url: https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12313721&version=12327709
- - version: 9.0.1.Final
-   version_shortname: 9
-   release:
-     - type: Final
-       release_date: 2015-07-23
-       item:
-         - description: Java EE7 Full & Web Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 127 MB
-               url: http://download.jboss.org/wildfly/9.0.1.Final/wildfly-9.0.1.Final.zip
-             - format: tgz
-               size: 126 MB
-               url: http://download.jboss.org/wildfly/9.0.1.Final/wildfly-9.0.1.Final.tar.gz
-         - description: Update Existing 9.0.0 Final Install
-           licence: LGPL
-           links:
-             - format: zip
-               size: 3 MB
-               url: http://download.jboss.org/wildfly/9.0.1.Final/wildfly-9.0.1.Final-update.zip
-         - description: Servlet-Only Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 27 MB
-               url: http://download.jboss.org/wildfly/9.0.1.Final/servlet/wildfly-servlet-9.0.1.Final.zip
-             - format: tgz
-               size: 27 MB
-               url: http://download.jboss.org/wildfly/9.0.1.Final/servlet/wildfly-servlet-9.0.1.Final.tar.gz
-         - description: Application Server Source Code
-           licence: LGPL
-           links:
-             - format: zip
-               size: 24 MB
-               url: http://download.jboss.org/wildfly/9.0.1.Final/wildfly-9.0.1.Final-src.zip
-             - format: tgz
-               size: 14 MB
-               url: http://download.jboss.org/wildfly/9.0.1.Final/wildfly-9.0.1.Final-src.tar.gz
-         - description: Quick Start Source Code
-           licence: AL
-           links:
-             - format: Source
-               url: https://github.com/wildfly/quickstart/tree/9.x
-         - description: Release Notes
-           licence:
-           links:
-             - format: Notes
-               url: http://wildfly.org/news/2015/07/23/WildFly-901-and-821
- - version: 9.0.0.Final
-   version_shortname: 9
-   release:
-     - type: Final
-       release_date: 2015-07-02
-       item:
-         - description: Java EE7 Full & Web Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 127 MB
-               url: http://download.jboss.org/wildfly/9.0.0.Final/wildfly-9.0.0.Final.zip
-             - format: tgz
-               size: 126 MB
-               url: http://download.jboss.org/wildfly/9.0.0.Final/wildfly-9.0.0.Final.tar.gz
-         - description: Servlet-Only Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 27 MB
-               url: http://download.jboss.org/wildfly/9.0.0.Final/servlet/wildfly-servlet-9.0.0.Final.zip
-             - format: tgz
-               size: 27 MB
-               url: http://download.jboss.org/wildfly/9.0.0.Final/servlet/wildfly-servlet-9.0.0.Final.tar.gz
-         - description: Application Server Source Code
-           licence: LGPL
-           links:
-             - format: zip
-               size: 24 MB
-               url: http://download.jboss.org/wildfly/9.0.0.Final/wildfly-9.0.0.Final-src.zip
-             - format: tgz
-               size: 14 MB
-               url: http://download.jboss.org/wildfly/9.0.0.Final/wildfly-9.0.0.Final-src.tar.gz
-         - description: Quick Start Source Code
-           licence: AL
-           links:
-             - format: Source
-               url: https://github.com/wildfly/quickstart/tree/9.x
-         - description: Release Notes
-           licence:
-           links:
-             - format: Notes
-               url: http://wildfly.org/news/2015/07/02/WildFly9-Final-Released
-     - type: CR2
-       release_date: 2015-06-10
-       item:
-         - description: Application Server Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 127 MB
-               url: http://download.jboss.org/wildfly/9.0.0.CR2/wildfly-9.0.0.CR2.zip
-             - format: tgz
-               size: 126 MB
-               url: http://download.jboss.org/wildfly/9.0.0.CR2/wildfly-9.0.0.CR2.tar.gz
-         - description: Servlet-Only Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 27 MB
-               url: http://download.jboss.org/wildfly/9.0.0.CR2/servlet/wildfly-servlet-9.0.0.CR2.zip
-             - format: tgz
-               size: 27 MB
-               url: http://download.jboss.org/wildfly/9.0.0.CR2/servlet/wildfly-servlet-9.0.0.CR2.tar.gz
-         - description: Application Server Source Code
-           licence: LGPL
-           links:
-             - format: zip
-               size: 24 MB
-               url: http://download.jboss.org/wildfly/9.0.0.CR2/wildfly-9.0.0.CR2-src.zip
-             - format: tgz
-               size: 14 MB
-               url: http://download.jboss.org/wildfly/9.0.0.CR2/wildfly-9.0.0.CR2-src.tar.gz
-         - description: Release Notes
-           licence:
-           links:
-             - format: Notes
-               url: https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12313721&version=12327268
-     - type: CR1
-       release_date: 2015-05-01
-       item:
-         - description: Application Server Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 127 MB
-               url: http://download.jboss.org/wildfly/9.0.0.CR1/wildfly-9.0.0.CR1.zip
-             - format: tgz
-               size: 126 MB
-               url: http://download.jboss.org/wildfly/9.0.0.CR1/wildfly-9.0.0.CR1.tar.gz
-         - description: Servlet-Only Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 27 MB
-               url: http://download.jboss.org/wildfly/9.0.0.CR1/servlet/wildfly-web-9.0.0.CR1.zip
-             - format: tgz
-               size: 27 MB
-               url: http://download.jboss.org/wildfly/9.0.0.CR1/servlet/wildfly-web-9.0.0.CR1.tar.gz
-         - description: Application Server Source Code
-           licence: LGPL
-           links:
-             - format: zip
-               size: 24 MB
-               url: http://download.jboss.org/wildfly/9.0.0.CR1/wildfly-9.0.0.CR1-src.zip
-             - format: tgz
-               size: 14 MB
-               url: http://download.jboss.org/wildfly/9.0.0.CR1/wildfly-9.0.0.CR1-src.tar.gz
-         - description: Release Notes
-           licence:
-           links:
-             - format: Notes
-               url: https://developer.jboss.org/wiki/WildFly900CR1ReleaseNotes
-     - type: Beta2
-       release_date: 2015-03-27
-       item:
-         - description: Application Server Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 125 MB
-               url: http://download.jboss.org/wildfly/9.0.0.Beta2/wildfly-9.0.0.Beta2.zip
-             - format: tgz
-               size: 124 MB
-               url: http://download.jboss.org/wildfly/9.0.0.Beta2/wildfly-9.0.0.Beta2.tar.gz
-         - description: Servlet-Only Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 27 MB
-               url: http://download.jboss.org/wildfly/9.0.0.Beta2/servlet/wildfly-web-9.0.0.Beta2.zip
-             - format: tgz
-               size: 26 MB
-               url: http://download.jboss.org/wildfly/9.0.0.Beta2/servlet/wildfly-web-9.0.0.Beta2.tar.gz
-         - description: Application Server Source Code
-           licence: LGPL
-           links:
-             - format: zip
-               size: 24 MB
-               url: http://download.jboss.org/wildfly/9.0.0.Beta2/wildfly-9.0.0.Beta2-src.zip
-             - format: tgz
-               size: 15 MB
-               url: http://download.jboss.org/wildfly/9.0.0.Beta2/wildfly-9.0.0.Beta2-src.tar.gz
-         - description: Release Notes
-           licence: LGPL
-           links:
-             - format: Notes
-               url: https://developer.jboss.org/wiki/WildFly900Beta1ReleaseNotes
-     - type: Beta1
-       release_date: 2015-03-26
-       item:
-         - description: Application Server Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 125 MB
-               url: http://download.jboss.org/wildfly/9.0.0.Beta1/wildfly-9.0.0.Beta1.zip
-             - format: tgz
-               size: 124 MB
-               url: http://download.jboss.org/wildfly/9.0.0.Beta1/wildfly-9.0.0.Beta1.tar.gz
-         - description: Servlet-Only Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 27 MB
-               url: http://download.jboss.org/wildfly/9.0.0.Beta1/servlet/wildfly-web-9.0.0.Beta1.zip
-             - format: tgz
-               size: 26 MB
-               url: http://download.jboss.org/wildfly/9.0.0.Beta1/servlet/wildfly-web-9.0.0.Beta1.tar.gz
-         - description: Application Server Source Code
-           licence: LGPL
-           links:
-             - format: zip
-               size: 24 MB
-               url: http://download.jboss.org/wildfly/9.0.0.Beta1/wildfly-9.0.0.Beta1-src.zip
-             - format: tgz
-               size: 15 MB
-               url: http://download.jboss.org/wildfly/9.0.0.Beta1/wildfly-9.0.0.Beta1-src.tar.gz
-         - description: Release Notes
-           licence: LGPL
-           links:
-             - format: Notes
-               url: https://developer.jboss.org/wiki/WildFly900Beta1ReleaseNotes
-     - type: Alpha1
-       release_date: 2014-09-15
-       item:
-         - description: JApplication Server Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 118 MB
-               url: http://download.jboss.org/wildfly/9.0.0.Alpha1/wildfly-9.0.0.Alpha1.zip
-             - format: tgz
-               size: 117 MB
-               url: http://download.jboss.org/wildfly/9.0.0.Alpha1/wildfly-9.0.0.Alpha1.tar.gz
-         - description: Application Server Source Code
-           licence: LGPL
-           links:
-             - format: zip
-               size: 24 MB
-               url: http://download.jboss.org/wildfly/9.0.0.Alpha1/wildfly-9.0.0.Alpha1-src.zip
-             - format: tgz
-               size: 14 MB
-               url: http://download.jboss.org/wildfly/9.0.0.Alpha1/wildfly-9.0.0.Alpha1-src.tar.gz
-         - description: Release Notes
-           licence: LGPL
-           links:
-             - format: Notes
-               url: https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12313721&version=12324890
- - version: 8.2.1.Final
-   version_shortname: 8
-   release:
-     - type: Final
-       release_date: 2015-07-23
-       item:
-         - description: Java EE7 Full & Web Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 127 MB
-               url: http://download.jboss.org/wildfly/8.2.1.Final/wildfly-8.2.1.Final.zip
-             - format: tgz
-               size: 113 MB
-               url: http://download.jboss.org/wildfly/8.2.1.Final/wildfly-8.2.1.Final.tar.gz
-         - description: Update Existing 8.2.0 Final Install
-           licence: LGPL
-           links:
-             - format: zip
-               size: 30 MB
-               url: http://download.jboss.org/wildfly/8.2.1.Final/wildfly-8.2.1.Final-update.zip
-         - description: Application Server Source Code
-           licence: LGPL
-           links:
-             - format: zip
-               size: 25 MB
-               url: http://download.jboss.org/wildfly/8.2.1.Final/wildfly-8.2.1.Final-src.zip
-             - format: tgz
-               size: 15 MB
-               url: http://download.jboss.org/wildfly/8.2.1.Final/wildfly-8.2.1.Final-src.tar.gz
-         - description: Release Notes
-           licence:
-           links:
-             - format: Notes
-               url: http://wildfly.org/news/2015/07/23/WildFly-901-and-821
- - version: 8.2.0.Final
-   version_shortname: 8
-   release:
-     - type: Final
-       release_date: 2014-11-20
-       item:
-         - description: Java EE7 Full & Web Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 126 MB
-               url: http://download.jboss.org/wildfly/8.2.0.Final/wildfly-8.2.0.Final.zip
-             - format: tgz
-               size: 113 MB
-               url: http://download.jboss.org/wildfly/8.2.0.Final/wildfly-8.2.0.Final.tar.gz
-         - description: Update Existing 8.1.0 Final Install
-           licence: LGPL
-           links:
-             - format: zip
-               size: 62 MB
-               url: http://download.jboss.org/wildfly/8.2.0.Final/wildfly-8.2.0.Final-update.zip
-         - description: Application Server Source Code
-           licence: LGPL
-           links:
-             - format: zip
-               size: 36 MB
-               url: http://download.jboss.org/wildfly/8.2.0.Final/wildfly-8.2.0.Final-src.zip
-             - format: tgz
-               size: 22 MB
-               url: http://download.jboss.org/wildfly/8.2.0.Final/wildfly-8.2.0.Final-src.tar.gz
-         - description: Release Notes
-           licence: LGPL
-           links:
-             - format: Notes
-               url: http://wildfly.org/news/2014/11/20/WildFly82-Final-Released
- - version: 8.1.0.Final
-   version_shortname: 8
-   release:
-     - type: Final
-       release_date: 2014-05-30
-       item:
-         - description: Java EE7 Full & Web Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 124 MB
-               url: http://download.jboss.org/wildfly/8.1.0.Final/wildfly-8.1.0.Final.zip
-             - format: tgz
-               size: 111 MB
-               url: http://download.jboss.org/wildfly/8.1.0.Final/wildfly-8.1.0.Final.tar.gz
-         - description: Update Existing 8.0.0 Final Install
-           licence: LGPL
-           links:
-             - format: zip
-               size: 110 MB
-               url: http://download.jboss.org/wildfly/8.1.0.Final/wildfly-8.1.0.Final-update.zip
-         - description: Application Server Source Code
-           licence: LGPL
-           links:
-             - format: zip
-               size: 30 MB
-               url: http://download.jboss.org/wildfly/8.1.0.Final/wildfly-8.1.0.Final-src.zip
-             - format: tgz
-               size: 17 MB
-               url: http://download.jboss.org/wildfly/8.1.0.Final/wildfly-8.1.0.Final-src.tar.gz
-         - description: Release Notes
-           licence:
-           links:
-             - format: Notes
-               url: https://community.jboss.org/wiki/WildFly810FinalReleaseNotes
-     - type: CR2
-       release_date: 2014-05-12
-       item:
-         - description: Java EE7 Full & Web Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 124 MB
-               url: http://download.jboss.org/wildfly/8.1.0.CR2/wildfly-8.1.0.CR2.zip
-             - format: tgz
-               size: 111 MB
-               url: http://download.jboss.org/wildfly/8.1.0.CR2/wildfly-8.1.0.CR2.tar.gz
-         - description: Application Server Source Code
-           licence: LGPL
-           links:
-             - format: zip
-               size: 30 MB
-               url: http://download.jboss.org/wildfly/8.1.0.CR2/wildfly-8.1.0.CR2-src.zip
-             - format: tgz
-               size: 17 MB
-               url: http://download.jboss.org/wildfly/8.1.0.CR2/wildfly-8.1.0.CR2-src.tar.gz
-         - description: Release Notes
-           licence:
-           links:
-             - format: Notes
-               url: https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12313721&version=12324883
-     - type: CR1
-       release_date: 2015-10-26
-       item:
-         - description: Java EE7 Full & Web Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 123 MB
-               url: http://download.jboss.org/wildfly/8.1.0.CR1/wildfly-8.1.0.CR1.zip
-             - format: tgz
-               size: 110 MB
-               url: http://download.jboss.org/wildfly/8.1.0.CR1/wildfly-8.1.0.CR1.tar.gz
-         - description: Application Server Source Code
-           licence: LGPL
-           links:
-             - format: zip
-               size: 30 MB
-               url: http://download.jboss.org/wildfly/8.1.0.CR1/wildfly-8.1.0.CR1-src.zip
-             - format: tgz
-               size: 17 MB
-               url: http://download.jboss.org/wildfly/8.1.0.CR1/wildfly-8.1.0.CR1-src.tar.gz
-         - description: Release Notes
-           licence:
-           links:
-             - format: Notes
-               url: https://community.jboss.org/wiki/WildFly810CR1ReleaseNotes
- - version: 8.0.0.Final
-   version_shortname: 8
-   release:
-     - type: Final
-       release_date: 2014-02-11
-       item:
-         - description: Java EE7 Full & Web Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 148 MB
-               url: http://download.jboss.org/wildfly/8.0.0.Final/wildfly-8.0.0.Final.zip
-             - format: tgz
-               size: 134 MB
-               url: http://download.jboss.org/wildfly/8.0.0.Final/wildfly-8.0.0.Final.tar.gz
-         - description: Application Server Source Code
-           licence: LGPL
-           links:
-             - format: zip
-               size: 29 MB
-               url: http://download.jboss.org/wildfly/8.0.0.Final/wildfly-8.0.0.Final-src.zip
-             - format: tgz
-               size: 17 MB
-               url: http://download.jboss.org/wildfly/8.0.0.Final/wildfly-8.0.0.Final-src.tar.gz
-         - description: Release Notes
-           licence:
-           links:
-             - format: Notes
-               url: http://wildfly.org/news/2014/02/11/WildFly8-Final-Released/
-     - type: CR1
-       release_date: 2015-10-26
-       item:
-         - description: Application Server Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 147 MB
-               url: http://download.jboss.org/wildfly/8.0.0.CR1/wildfly-8.0.0.CR1.zip
-             - format: tgz
-               size: 134 MB
-               url: http://download.jboss.org/wildfly/8.0.0.CR1/wildfly-8.0.0.CR1.tar.gz
-         - description: Application Server Source Code
-           licence: LGPL
-           links:
-             - format: zip
-               size: 29 MB
-               url: http://download.jboss.org/wildfly/8.0.0.CR1/wildfly-8.0.0.CR1-src.zip
-             - format: tgz
-               size: 17 MB
-               url: http://download.jboss.org/wildfly/8.0.0.CR1/wildfly-8.0.0.CR1-src.tar.gz
-         - description: Quick Start Source Code
-           licence: AL
-           links:
-             - format: zip
-               size: 15 MB
-               url: http://download.jboss.org/wildfly/8.0.0.Alpha1/quickstart-8.0.0.Alpha1.zip
-         - description: Release Notes
-           licence:
-           links:
-             - format: Notes
-               url: http://wildfly.org/news/2013/12/21/WildFly8-CR1-Released/
-     - type: Beta1
-       release_date: 2013-10-04
-       item:
-         - description: Application Server Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 134 MB
-               url: http://download.jboss.org/wildfly/8.0.0.Beta1/wildfly-8.0.0.Beta1.zip
-             - format: tgz
-               size: 121 MB
-               url: http://download.jboss.org/wildfly/8.0.0.Beta1/wildfly-8.0.0.Beta1.tar.gz
-         - description: Application Server Source Code
-           licence: LGPL
-           links:
-             - format: zip
-               size: 28 MB
-               url: http://download.jboss.org/wildfly/8.0.0.Beta1/wildfly-8.0.0.Beta1-src.zip
-             - format: tgz
-               size: 15 MB
-               url: http://download.jboss.org/wildfly/8.0.0.Beta1/wildfly-8.0.0.Beta1-src.tar.gz
-         - description: Quick Start Source Code
-           licence: AL
-           links:
-             - format: zip
-               size: 15 MB
-               url: http://download.jboss.org/wildfly/8.0.0.Alpha1/quickstart-8.0.0.Alpha1.zip
-         - description: Release Notes
-           licence:
-           links:
-             - format: Notes
-               url: https://community.jboss.org/wiki/WildFly800Beta1ReleaseNotes
-     - type: Alpha4
-       release_date: 2013-08-12
-       item:
-         - description: Application Server Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 126 MB
-               url: http://download.jboss.org/wildfly/8.0.0.Alpha4/wildfly-8.0.0.Alpha4.zip
-             - format: tgz
-               size: 114 MB
-               url: http://download.jboss.org/wildfly/8.0.0.Alpha4/wildfly-8.0.0.Alpha4.tar.gz
-         - description: Application Server Source Code
-           licence: LGPL
-           links:
-             - format: zip
-               size: 27 MB
-               url: http://download.jboss.org/wildfly/8.0.0.Alpha4/wildfly-8.0.0.Alpha4-src.zip
-             - format: tgz
-               size: 15 MB
-               url: http://download.jboss.org/wildfly/8.0.0.Alpha4/wildfly-8.0.0.Alpha4-src.tar.gz
-         - description: Quick Start Source Code
-           licence: AL
-           links:
-             - format: zip
-               size: 15 MB
-               url: http://download.jboss.org/wildfly/8.0.0.Alpha1/quickstart-8.0.0.Alpha1.zip
-         - description: Release Notes
-           licence:
-           links:
-             - format: Notes
-               url: https://community.jboss.org/wiki/800Alpha4ReleaseNotes
-     - type: Alpha3
-       release_date: 2013-07-17
-       item:
-         - description: Application Server Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 132 MB
-               url: http://download.jboss.org/wildfly/8.0.0.Alpha3/wildfly-8.0.0.Alpha3.zip
-             - format: tgz
-               size: 121 MB
-               url: http://download.jboss.org/wildfly/8.0.0.Alpha3/wildfly-8.0.0.Alpha3.tar.gz
-         - description: Application Server Source Code
-           licence: LGPL
-           links:
-             - format: zip
-               size: 26 MB
-               url: http://download.jboss.org/wildfly/8.0.0.Alpha3/wildfly-8.0.0.Alpha3-src.zip
-             - format: tgz
-               size: 15 MB
-               url: http://download.jboss.org/wildfly/8.0.0.Alpha3/wildfly-8.0.0.Alpha3-src.tar.gz
-         - description: Quick Start Source Code
-           licence: LGPL
-           links:
-             - format: zip
-               size: 15 MB
-               url: http://download.jboss.org/wildfly/8.0.0.Alpha1/quickstart-8.0.0.Alpha1.zip
-         - description: Release Notes
-           licence:
-           links:
-             - format: Notes
-               url: https://community.jboss.org/wiki/800Alpha3ReleaseNotes
-     - type: Alpha2
-       release_date: 2013-06-21
-       item:
-         - description: Application Server Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 133 MB
-               url: http://download.jboss.org/wildfly/8.0.0.Alpha2/wildfly-8.0.0.Alpha2.zip
-             - format: tgz
-               size: 121 MB
-               url: http://download.jboss.org/wildfly/8.0.0.Alpha2/wildfly-8.0.0.Alpha2.tar.gz
-         - description: Application Server Source Code
-           licence: LGPL
-           links:
-             - format: zip
-               size: 27 MB
-               url: http://download.jboss.org/wildfly/8.0.0.Alpha2/wildfly-8.0.0.Alpha2-src.zip
-             - format: tgz
-               size: 15 MB
-               url: http://download.jboss.org/wildfly/8.0.0.Alpha2/wildfly-8.0.0.Alpha2-src.tar.gz
-         - description: Quick Start Source Code
-           licence: AL
-           links:
-             - format: zip
-               size: 15 MB
-               url: http://download.jboss.org/wildfly/8.0.0.Alpha1/quickstart-8.0.0.Alpha1.zip
-         - description: Release Notes
-           licence:
-           links:
-             - format: Notes
-               url: http://lists.jboss.org/pipermail/wildfly-dev/2013-June/000382.html
-     - type: Alpha1
-       release_date: 2013-05-17
-       item:
-         - description: Application Server Distribution
-           licence: LGPL
-           links:
-             - format: zip
-               size: 129 MB
-               url: http://download.jboss.org/wildfly/8.0.0.Alpha1/wildfly-8.0.0.Alpha1.zip
-             - format: tgz
-               size: 118 MB
-               url: http://download.jboss.org/wildfly/8.0.0.Alpha1/wildfly-8.0.0.Alpha1.tar.gz
-         - description: Application Server Source Code
-           licence: LGPL
-           links:
-             - format: zip
-               size: 26 MB
-               url: http://download.jboss.org/wildfly/8.0.0.Alpha1/wildfly-8.0.0.Alpha1-src.zip
-             - format: tgz
-               size: 15 MB
-               url: http://download.jboss.org/wildfly/8.0.0.Alpha1/wildfly-8.0.0.Alpha1-src.tar.gz
-         - description: Quick Start Source Code
-           licence: AL
-           links:
-             - format: zip
-               size: 15 MB
-               url: http://download.jboss.org/wildfly/8.0.0.Alpha1/quickstart-8.0.0.Alpha1.zip
-         - description: Release Notes
-           licence:
-           links:
-             - format: Notes
-               url: http://lists.jboss.org/pipermail/wildfly-dev/2013-May/000139.html
+- version: 20.0.1.Final
+  version_shortname: 20
+  date: 2020-07-07
+  link:
+   - name: Java EE Full & Web Distribution
+     licence: LGPL
+     items:
+       - format: zip
+         size: 184 MB
+         url: https://download.jboss.org/wildfly/20.0.1.Final/wildfly-20.0.1.Final.zip
+         checksum: SHA-1
+         checksum_url: https://download.jboss.org/wildfly/20.0.1.Final/wildfly-20.0.1.Final.zip.sha1
+       - format: tgz
+         size: 183 MB
+         url: https://download.jboss.org/wildfly/20.0.1.Final/wildfly-20.0.1.Final.tar.gz
+         checksum: SHA-1
+         checksum_url: https://download.jboss.org/wildfly/20.0.1.Final/wildfly-20.0.1.Final.tar.gz.sha1
+   - name: Servlet-Only Distribution
+     licence: LGPL
+     items:
+       - format: zip
+         size: 43 MB
+         url: https://download.jboss.org/wildfly/20.0.1.Final/servlet/wildfly-servlet-20.0.1.Final.zip
+         checksum: SHA-1
+         checksum_url: https://download.jboss.org/wildfly/20.0.1.Final/servlet/wildfly-servlet-20.0.1.Final.zip.sha1
+       - format: tgz
+         size: 42 MB
+         url: https://download.jboss.org/wildfly/20.0.1.Final/servlet/wildfly-servlet-20.0.1.Final.tar.gz
+         checksum: SHA-1
+         checksum_url: https://download.jboss.org/wildfly/20.0.1.Final/servlet/wildfly-servlet-20.0.1.Final.tar.gz.sha1
+   - name: Application Server Source Code
+     licence: LGPL
+     items:
+       - format: zip
+         size: 38 MB
+         url: https://download.jboss.org/wildfly/20.0.1.Final/wildfly-20.0.1.Final-src.zip
+         checksum: SHA-1
+         checksum_url: https://download.jboss.org/wildfly/20.0.1.Final/wildfly-20.0.1.Final-src.zip.sha1
+       - format: tgz
+         size: 24 MB
+         url: https://download.jboss.org/wildfly/20.0.1.Final/wildfly-20.0.1.Final-src.tar.gz
+         checksum: SHA-1
+         checksum_url: https://download.jboss.org/wildfly/20.0.1.Final/wildfly-20.0.1.Final-src.tar.gz.sha1
+   - name: Release Notes
+     items:
+       - format: Notes
+         url: https://issues.redhat.com/secure/ReleaseNote.jspa?projectId=12313721&version=12346151
+- version: 20.0.0.Final
+  version_shortname: 20
+  date: 2020-06-08
+  link:
+   - name: Java EE Full & Web Distribution
+     licence: LGPL
+     items:
+       - format: zip
+         size: 184 MB
+         url: https://download.jboss.org/wildfly/20.0.0.Final/wildfly-20.0.0.Final.zip
+         checksum: SHA-1
+         checksum_url: https://download.jboss.org/wildfly/20.0.0.Final/wildfly-20.0.0.Final.zip.sha1
+       - format: tgz
+         size: 183 MB
+         url: https://download.jboss.org/wildfly/20.0.0.Final/wildfly-20.0.0.Final.tar.gz
+         checksum: SHA-1
+         checksum_url: https://download.jboss.org/wildfly/20.0.0.Final/wildfly-20.0.0.Final.tar.gz.sha1
+   - name: Servlet-Only Distribution
+     licence: LGPL
+     items:
+       - format: zip
+         size: 43 MB
+         url: https://download.jboss.org/wildfly/20.0.0.Final/servlet/wildfly-servlet-20.0.0.Final.zip
+         checksum: SHA-1
+         checksum_url: https://download.jboss.org/wildfly/20.0.0.Final/servlet/wildfly-servlet-20.0.0.Final.zip.sha1
+       - format: tgz
+         size: 42 MB
+         url: https://download.jboss.org/wildfly/20.0.0.Final/servlet/wildfly-servlet-20.0.0.Final.tar.gz
+         checksum: SHA-1
+         checksum_url: https://download.jboss.org/wildfly/20.0.0.Final/servlet/wildfly-servlet-20.0.0.Final.tar.gz.sha1
+   - name: Application Server Distribution
+     licence: LGPL
+     items:
+       - format: zip
+         size: 38 MB
+         url: https://download.jboss.org/wildfly/20.0.0.Final/wildfly-20.0.0.Final-src.zip
+         checksum: SHA-1
+         checksum_url: https://download.jboss.org/wildfly/20.0.0.Final/wildfly-20.0.0.Final-src.zip.sha1
+       - format: tgz
+         size: 24 MB
+         url: https://download.jboss.org/wildfly/20.0.0.Final/wildfly-20.0.0.Final-src.tar.gz
+         checksum: SHA-1
+         checksum_url: https://download.jboss.org/wildfly/20.0.0.Final/wildfly-20.0.0.Final-src.tar.gz.sha1
+   - name: Quick Start Source Code
+     licence: AL
+     items:
+       - format: Source
+         url: https://github.com/wildfly/quickstart/tree/20.0.0.Final
+   - name: Release Notes
+     items:
+       - format: Notes
+         url: https://wildfly.org/news/2020/06/08/WildFly20-Final-Released/
+- version: 19.1.0.Final
+  version_shortname: 19
+  date: 2020-05-04
+  link:
+   - name: Java EE Full & Web Distribution
+     licence: LGPL
+     items:
+       - format: zip
+         size: 181 MB
+         url: https://download.jboss.org/wildfly/19.0.1.Final/wildfly-19.0.1.Final.zip
+         checksum: SHA-1
+         checksum_url: https://download.jboss.org/wildfly/19.0.1.Final/wildfly-19.0.1.Final.zip.sha1
+       - format: tgz
+         size: 180 MB
+         url: https://download.jboss.org/wildfly/19.0.1.Final/wildfly-19.0.1.Final.tar.gz
+         checksum: SHA-1
+         checksum_url: https://download.jboss.org/wildfly/19.0.1.Final/wildfly-19.0.1.Final.tar.gz.sha1
+   - name: Servlet-Only Distribution
+     licence: LGPL
+     items:
+       - format: zip
+         size: 43 MB
+         url: https://download.jboss.org/wildfly/19.0.1.Final/servlet/wildfly-servlet-19.0.1.Final.zip
+         checksum: SHA-1
+         checksum_url: https://download.jboss.org/wildfly/19.0.1.Final/servlet/wildfly-servlet-19.0.1.Final.zip.sha1
+       - format: tgz
+         size: 42 MB
+         url: https://download.jboss.org/wildfly/19.0.1.Final/servlet/wildfly-servlet-19.0.1.Final.tar.gz
+         checksum: SHA-1
+         checksum_url: https://download.jboss.org/wildfly/19.0.1.Final/servlet/wildfly-servlet-19.0.1.Final.tar.gz.sha1
+   - name: Application Server Source Code
+     licence: LGPL
+     items:
+       - format: zip
+         size: 36 MB
+         url: https://download.jboss.org/wildfly/19.0.1.Final/wildfly-19.0.1.Final-src.zip
+         checksum: SHA-1
+         checksum_url: https://download.jboss.org/wildfly/19.0.1.Final/wildfly-19.0.1.Final-src.zip.sha1
+       - format: tgz
+         size: 23 MB
+         url: https://download.jboss.org/wildfly/19.0.1.Final/wildfly-19.0.1.Final-src.tar.gz
+         checksum: SHA-1
+         checksum_url: https://download.jboss.org/wildfly/19.0.1.Final/wildfly-19.0.1.Final-src.tar.gz.sha1
+   - name: Quick Start Source Code
+     licence: AL
+     items:
+       - format: Source
+         url: https://github.com/wildfly/quickstart/tree/19.0.1.Final
+   - name: Release Notes
+     items:
+       - format: Notes
+         url: https://issues.redhat.com/secure/ReleaseNote.jspa?projectId=12313721&version=12345176
+- version: 19.0.0.Final
+  version_shortname: 19
+  date: 2020-03-18
+  link:
+   - name: Java EE Full & Web Distribution
+     licence: LGPL
+     items:
+       - format: zip
+         size: 181 MB
+         url: https://download.jboss.org/wildfly/19.0.0.Final/wildfly-19.0.0.Final.zip
+         checksum: SHA-1
+         checksum_url: https://download.jboss.org/wildfly/19.0.0.Final/wildfly-19.0.0.Final.zip.sha1
+       - format: tgz
+         size: 180 MB
+         url: https://download.jboss.org/wildfly/19.0.0.Final/wildfly-19.0.0.Final.tar.gz
+         checksum: SHA-1
+         checksum_url: https://download.jboss.org/wildfly/19.0.0.Final/wildfly-19.0.0.Final.tar.gz.sha1
+   - name: Servlet-Only Distribution
+     licence: LGPL
+     items:
+       - format: zip
+         size: 43 MB
+         url: https://download.jboss.org/wildfly/19.0.0.Final/servlet/wildfly-servlet-19.0.0.Final.zip
+         checksum: SHA-1
+         checksum_url: https://download.jboss.org/wildfly/19.0.0.Final/servlet/wildfly-servlet-19.0.0.Final.zip.sha1
+       - format: tgz
+         size: 42 MB
+         url: https://download.jboss.org/wildfly/19.0.0.Final/servlet/wildfly-servlet-19.0.0.Final.tar.gz
+         checksum: SHA-1
+         checksum_url: https://download.jboss.org/wildfly/19.0.0.Final/servlet/wildfly-servlet-19.0.0.Final.tar.gz.sha1
+   - name: Application Server Source Code
+     licence: LGPL
+     items:
+       - format: zip
+         size: 36 MB
+         url: https://download.jboss.org/wildfly/19.0.0.Final/wildfly-19.0.0.Final-src.zip
+         checksum: SHA-1
+         checksum_url: https://download.jboss.org/wildfly/19.0.0.Final/wildfly-19.0.0.Final-src.zip.sha1
+       - format: tgz
+         size: 23 MB
+         url: https://download.jboss.org/wildfly/19.0.0.Final/wildfly-19.0.0.Final-src.tar.gz
+         checksum: SHA-1
+         checksum_url: https://download.jboss.org/wildfly/19.0.0.Final/wildfly-19.0.0.Final-src.tar.gz.sha1
+   - name: Quick Start Source Code
+     licence: AL
+     items:
+       - format: Source
+         url: https://github.com/wildfly/quickstart/tree/19.0.0.Final
+   - name: Release Notes
+     items:
+       - format: Notes
+         url: https://wildfly.org/news/2020/03/18/WildFly19-Final-Released/
+- version: 18.0.1.Final
+  version_shortname: 18
+  date: 2019-11-14
+  link:
+   - name: Java EE Full & Web Distribution
+     licence: LGPL
+     items:
+       - format: zip
+         size: 178 MB
+         url: https://download.jboss.org/wildfly/18.0.1.Final/wildfly-18.0.1.Final.zip
+         checksum: SHA-1
+         checksum_url: https://download.jboss.org/wildfly/18.0.1.Final/wildfly-18.0.1.Final.zip.sha1
+       - format: tgz
+         size: 177 MB
+         url: https://download.jboss.org/wildfly/18.0.1.Final/wildfly-18.0.1.Final.tar.gz
+         checksum: SHA-1
+         checksum_url: https://download.jboss.org/wildfly/18.0.1.Final/wildfly-18.0.1.Final.tar.gz.sha1
+   - name: Servlet-Only Distribution
+     licence: LGPL
+     items:
+       - format: zip
+         size: 41 MB
+         url: https://download.jboss.org/wildfly/18.0.1.Final/servlet/wildfly-servlet-18.0.1.Final.zip
+         checksum: SHA-1
+         checksum_url: https://download.jboss.org/wildfly/18.0.1.Final/servlet/wildfly-servlet-18.0.1.Final.zip.sha1
+       - format: tgz
+         size: 41 MB
+         url: https://download.jboss.org/wildfly/18.0.1.Final/servlet/wildfly-servlet-18.0.1.Final.tar.gz
+         checksum: SHA-1
+         checksum_url: https://download.jboss.org/wildfly/18.0.1.Final/servlet/wildfly-servlet-18.0.1.Final.tar.gz.sha1
+   - name: Application Server Source Code
+     licence: LGPL
+     items:
+       - format: zip
+         size: 32 MB
+         url: https://download.jboss.org/wildfly/18.0.1.Final/wildfly-18.0.1.Final-src.zip
+         checksum: SHA-1
+         checksum_url: https://download.jboss.org/wildfly/18.0.1.Final/wildfly-18.0.1.Final-src.zip.sha1
+       - format: tgz
+         size: Unknown
+         url: https://download.jboss.org/wildfly/18.0.1.Final/wildfly-18.0.1.Final-src.tar.gz
+         checksum: SHA-1
+         checksum_url: https://download.jboss.org/wildfly/18.0.1.Final/wildfly-18.0.1.Final-src.tar.gz.sha1
+   - name: Quick Start Source Code
+     licence: AL
+     items:
+       - format: Source
+         url: https://github.com/wildfly/quickstart/tree/18.0.1.Final
+   - name: Release Notes
+     items:
+       - format: Notes
+         url: https://wildfly.org/news/2019/11/14/WildFly-1801-Released/
+- version: 18.0.0.Final
+  version_shortname: 18
+  date: 2019-10-03
+  link:
+   - name: Java EE Full & Web Distribution
+     licence: LGPL
+     items:
+       - format: zip
+         size: 178 MB
+         url: https://download.jboss.org/wildfly/18.0.0.Final/wildfly-18.0.0.Final.zip
+         checksum: SHA-1
+         checksum_url: https://download.jboss.org/wildfly/18.0.0.Final/wildfly-18.0.0.Final.zip.sha1
+       - format: tgz
+         size: 177 MB
+         url: https://download.jboss.org/wildfly/18.0.0.Final/wildfly-18.0.0.Final.tar.gz
+         checksum: SHA-1
+         checksum_url: https://download.jboss.org/wildfly/18.0.0.Final/wildfly-18.0.0.Final.tar.gz.sha1
+   - name: Servlet-Only Distribution
+     licence: LGPL
+     items:
+       - format: zip
+         size: 41 MB
+         url: https://download.jboss.org/wildfly/18.0.0.Final/servlet/wildfly-servlet-18.0.0.Final.zip
+         checksum: SHA-1
+         checksum_url: https://download.jboss.org/wildfly/18.0.0.Final/servlet/wildfly-servlet-18.0.0.Final.zip.sha1
+       - format: tgz
+         size: 41 MB
+         url: https://download.jboss.org/wildfly/18.0.0.Final/servlet/wildfly-servlet-18.0.0.Final.tar.gz
+         checksum: SHA-1
+         checksum_url: https://download.jboss.org/wildfly/18.0.0.Final/servlet/wildfly-servlet-18.0.0.Final.tar.gz.sha1
+   - name: Application Server Source Code
+     licence: LGPL
+     items:
+       - format: zip
+         size: 32 MB
+         url: https://download.jboss.org/wildfly/18.0.0.Final/wildfly-18.0.0.Final-src.zip
+         checksum: SHA-1
+         checksum_url: https://download.jboss.org/wildfly/18.0.0.Final/wildfly-18.0.0.Final-src.zip.sha1
+       - format: tgz
+         size: 19 MB
+         url: https://download.jboss.org/wildfly/18.0.0.Final/wildfly-18.0.0.Final-src.tar.gz
+         checksum: SHA-1
+         checksum_url: https://download.jboss.org/wildfly/18.0.0.Final/wildfly-18.0.0.Final-src.tar.gz.sha1
+   - name: Quick Start Source Code
+     licence: AL
+     items:
+       - format: Source
+         url: https://github.com/wildfly/quickstart/tree/18.0.0.Final
+   - name: Release Notes
+     items:
+       - format: Notes
+         url: https://wildfly.org/news/2019/10/03/WildFly18-Final-Released/
+- version: 17.0.1.Final
+  version_shortname: 17
+  date: 2019-07-03
+  link:
+   - name: Java EE Full & Web Distribution
+     licence: LGPL
+     items:
+       - format: zip
+         size: 176 MB
+         url: https://download.jboss.org/wildfly/17.0.1.Final/wildfly-17.0.1.Final.zip
+         checksum: SHA-1
+         checksum_url: https://download.jboss.org/wildfly/17.0.1.Final/wildfly-17.0.1.Final.zip.sha1
+       - format: tgz
+         size: 175 MB
+         url: https://download.jboss.org/wildfly/17.0.1.Final/wildfly-17.0.1.Final.tar.gz
+         checksum: SHA-1
+         checksum_url: https://download.jboss.org/wildfly/17.0.1.Final/wildfly-17.0.1.Final.tar.gz.sha1
+   - name: Servlet-Only Distribution
+     licence: LGPL
+     items:
+       - format: zip
+         size: 41 MB
+         url: https://download.jboss.org/wildfly/17.0.1.Final/servlet/wildfly-servlet-17.0.1.Final.zip
+         checksum: SHA-1
+         checksum_url: https://download.jboss.org/wildfly/17.0.1.Final/servlet/wildfly-servlet-17.0.1.Final.zip.sha1
+       - format: tgz
+         size: 41 MB
+         url: https://download.jboss.org/wildfly/17.0.1.Final/servlet/wildfly-servlet-17.0.1.Final.tar.gz
+         checksum: SHA-1
+         checksum_url: https://download.jboss.org/wildfly/17.0.1.Final/servlet/wildfly-servlet-17.0.1.Final.tar.gz.sha1
+   - name: Application Server Source Code
+     licence: LGPL
+     items:
+       - format: zip
+         size: 29 MB
+         url: https://download.jboss.org/wildfly/17.0.1.Final/wildfly-17.0.1.Final-src.zip
+         checksum: SHA-1
+         checksum_url: https://download.jboss.org/wildfly/17.0.1.Final/wildfly-17.0.1.Final-src.zip.sha1
+       - format: tgz
+         size: 16 MB
+         url: https://download.jboss.org/wildfly/17.0.1.Final/wildfly-17.0.1.Final-src.tar.gz
+         checksum: SHA-1
+         checksum_url: https://download.jboss.org/wildfly/17.0.1.Final/wildfly-17.0.1.Final-src.tar.gz.sha1
+   - name: Quick Start Source Code
+     licence: AL
+     items:
+       - format: Source
+         url: https://github.com/wildfly/quickstart/tree/17.0.1.Final
+   - name: Release Notes
+     items:
+       - format: Notes
+         url: https://wildfly.org/news/2019/06/10/WildFly17-Final-Released/
+- version: 17.0.0.Final
+  version_shortname: 17
+  date: 2019-06-10
+  link:
+   - name: Java EE Full & Web Distribution
+     licence: LGPL
+     items:
+       - format: zip
+         size: 176 MB
+         url: https://download.jboss.org/wildfly/17.0.0.Final/wildfly-17.0.0.Final.zip
+         checksum: SHA-1
+         checksum_url: https://download.jboss.org/wildfly/17.0.0.Final/wildfly-17.0.0.Final.zip.sha1
+       - format: tgz
+         size: 175 MB
+         url: https://download.jboss.org/wildfly/17.0.0.Final/wildfly-17.0.0.Final.tar.gz
+         checksum: SHA-1
+         checksum_url: https://download.jboss.org/wildfly/17.0.0.Final/wildfly-17.0.0.Final.tar.gz.sha1
+   - name: Servlet-Only Distribution
+     licence: LGPL
+     items:
+       - format: zip
+         size: 41 MB
+         url: https://download.jboss.org/wildfly/17.0.0.Final/servlet/wildfly-servlet-17.0.0.Final.zip
+         checksum: SHA-1
+         checksum_url: https://download.jboss.org/wildfly/17.0.0.Final/servlet/wildfly-servlet-17.0.0.Final.zip.sha1
+       - format: tgz
+         size: 41 MB
+         url: https://download.jboss.org/wildfly/17.0.0.Final/servlet/wildfly-servlet-17.0.0.Final.tar.gz
+         checksum: SHA-1
+         checksum_url: https://download.jboss.org/wildfly/17.0.0.Final/servlet/wildfly-servlet-17.0.0.Final.tar.gz.sha1
+   - name: Application Server Source Code
+     licence: LGPL
+     items:
+       - format: zip
+         size: 29 MB
+         url: https://download.jboss.org/wildfly/17.0.0.Final/wildfly-17.0.0.Final-src.zip
+         checksum: SHA-1
+         checksum_url: https://download.jboss.org/wildfly/17.0.0.Final/wildfly-17.0.0.Final-src.zip.sha1
+       - format: tgz
+         size: 16 MB
+         url: https://download.jboss.org/wildfly/17.0.0.Final/wildfly-17.0.0.Final-src.tar.gz
+         checksum: SHA-1
+         checksum_url: https://download.jboss.org/wildfly/17.0.0.Final/wildfly-17.0.0.Final-src.tar.gz.sha1
+   - name: Quick Start Source Code
+     licence: AL
+     items:
+       - format: Source
+         url: https://github.com/wildfly/quickstart/tree/17.0.0.Final
+   - name: Release Notes
+     items:
+       - format: Notes
+         url: https://wildfly.org/news/2019/06/10/WildFly17-Final-Released/
+- version: 16.0.0.Final
+  version_shortname: 16
+  date: 2019-02-27
+  link:
+   - name: Java EE Full & Web Distribution
+     licence: LGPL
+     items:
+       - format: zip
+         size: 173 MB
+         url: https://download.jboss.org/wildfly/16.0.0.Final/wildfly-16.0.0.Final.zip
+         checksum: sha-1
+         checksum_url: https://download.jboss.org/wildfly/16.0.0.Final/wildfly-16.0.0.Final.zip.sha1
+       - format: tgz
+         size: 172 MB
+         url: https://download.jboss.org/wildfly/16.0.0.Final/wildfly-16.0.0.Final.tar.gz
+         checksum: sha-1
+         checksum_url: https://download.jboss.org/wildfly/16.0.0.Final/wildfly-16.0.0.Final.tar.gz.sha1
+   - name: Servlet-Only Distribution
+     licence: LGPL
+     items:
+       - format: zip
+         size: 42 MB
+         url: https://download.jboss.org/wildfly/16.0.0.Final/servlet/wildfly-servlet-16.0.0.Final.zip
+         checksum: sha-1
+         checksum_url: https://download.jboss.org/wildfly/16.0.0.Final/servlet/wildfly-servlet-16.0.0.Final.zip.sha1
+       - format: tgz
+         size: 42 MB
+         url: https://download.jboss.org/wildfly/16.0.0.Final/servlet/wildfly-servlet-16.0.0.Final.tar.gz
+         checksum: sha-1
+         checksum_url: https://download.jboss.org/wildfly/16.0.0.Final/servlet/wildfly-servlet-16.0.0.Final.tar.gz.sha1
+   - name: Application Server Source Code
+     licence: LGPL
+     items:
+       - format: zip
+         size: 36 MB
+         url: https://download.jboss.org/wildfly/16.0.0.Final/wildfly-16.0.0.Final-src.zip
+         checksum: sha-1
+         checksum_url: https://download.jboss.org/wildfly/16.0.0.Final/wildfly-16.0.0.Final-src.zip.sha1
+       - format: tgz
+         size: 23 MB
+         url: https://download.jboss.org/wildfly/16.0.0.Final/wildfly-16.0.0.Final-src.tar.gz
+         checksum: sha-1
+         checksum_url: https://download.jboss.org/wildfly/16.0.0.Final/wildfly-16.0.0.Final-src.tar.gz.sha1
+   - name: Release Notes
+     items:
+       - format: Notes
+         url: http://wildfly.org/news/2019/02/27/WildFly16-Final-Released/
+- version: 15.0.1.Final
+  version_shortname: 15
+  date: 2019-01-05
+  link:
+   - name: Java EE Full & Web Distribution
+     licence: LGPL
+     items:
+       - format: zip
+         size: 172 MB
+         url: https://download.jboss.org/wildfly/15.0.0.Final/wildfly-15.0.0.Final.zip
+         checksum: sha-1
+         checksum_url: https://download.jboss.org/wildfly/15.0.1.Final/wildfly-15.0.1.Final.zip.sha1
+       - format: tgz
+         size: 171 MB
+         url: https://download.jboss.org/wildfly/15.0.0.Final/wildfly-15.0.0.Final.tar.gz
+         checksum: sha-1
+         checksum_url: https://download.jboss.org/wildfly/15.0.1.Final/wildfly-15.0.1.Final.tar.gz.sha1
+   - name: Servlet-Only Distribution
+     licence: LGPL
+     items:
+       - format: zip
+         size: 41 MB
+         url: https://download.jboss.org/wildfly/15.0.0.Final/servlet/wildfly-servlet-15.0.1.Final.zip
+         checksum: sha-1
+         checksum_url: https://download.jboss.org/wildfly/15.0.1.Final/servlet/wildfly-servlet-15.0.1.Final.zip.sha1
+       - format: tgz
+         size: 41 MB
+         url: https://download.jboss.org/wildfly/15.0.0.Final/servlet/wildfly-servlet-15.0.1.Final.tar.gz
+         checksum: sha-1
+         checksum_url: https://download.jboss.org/wildfly/15.0.1.Final/servlet/wildfly-servlet-15.0.1.Final.tar.gz.sha1
+   - name: Application Server Source Code
+     licence: LGPL
+     items:
+       - format: zip
+         size: 36 MB
+         url: https://download.jboss.org/wildfly/15.0.0.Final/wildfly-15.0.1.Final-src.zip
+         checksum: sha-1
+         checksum_url: https://download.jboss.org/wildfly/15.0.1.Final/wildfly-15.0.1.Final-src.zip.sha1
+       - format: tgz
+         size: 23 MB
+         url: https://download.jboss.org/wildfly/15.0.0.Final/wildfly-15.0.1.Final-src.tar.gz
+         checksum: sha-1
+         checksum_url: https://download.jboss.org/wildfly/15.0.1.Final/wildfly-15.0.1.Final-src.tar.gz.sha1
+   - name: Quick Start Source Code
+     licence: AL
+     items:
+       - format: Source
+         url: https://github.com/wildfly/quickstart/tree/15.0.1.Final
+   - name: Release Notes
+     items:
+       - format: Notes
+         url: https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12313721&version=12340359
+- version: 15.0.0.Final
+  version_shortname: 15
+  date: 2018-11-30
+  link:
+   - name: Java EE Full & Web Distribution
+     licence: LGPL
+     items:
+       - format: zip
+         size: 171 MB
+         url: https://download.jboss.org/wildfly/15.0.0.Final/wildfly-15.0.0.Final.zip
+       - format: tgz
+         size: 170 MB
+         url: https://download.jboss.org/wildfly/15.0.0.Final/wildfly-15.0.0.Final.tar.gz
+   - name: Servlet-Only Distribution
+     licence: LGPL
+     items:
+       - format: zip
+         size: 41 MB
+         url: https://download.jboss.org/wildfly/15.0.0.Final/servlet/wildfly-servlet-15.0.0.Final.zip
+       - format: tgz
+         size: 41 MB
+         url: https://download.jboss.org/wildfly/15.0.0.Final/servlet/wildfly-servlet-15.0.0.Final.tar.gz
+   - name: Application Server Source Code
+     licence: LGPL
+     items:
+       - format: zip
+         size: 28 MB
+         url: https://download.jboss.org/wildfly/15.0.0.Final/wildfly-15.0.0.Final-src.zip
+       - format: tgz
+         size: 16 MB
+         url: https://download.jboss.org/wildfly/15.0.0.Final/wildfly-15.0.0.Final-src.tar.gz
+   - name: Quick Start Source Code
+     licence: AL
+     items:
+       - format: Source
+         url: https://github.com/wildfly/quickstart/tree/15.0.0.Final
+   - name: Release Notes
+     items:
+       - format: Notes
+         url: https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12313721&version=12339953
+- version: 14.0.1.Final
+  version_shortname: 14
+  date: 2018-09-05
+  link:
+   - name: Java EE Full & Web Distribution
+     licence: LGPL
+     items:
+       - format: zip
+         size: 171 MB
+         url: https://download.jboss.org/wildfly/14.0.1.Final/wildfly-14.0.1.Final.zip
+       - format: tgz
+         size: 170 MB
+         url: https://download.jboss.org/wildfly/14.0.1.Final/wildfly-14.0.1.Final.tar.gz
+   - name: Servlet-Only Distribution
+     licence: LGPL
+     items:
+       - format: zip
+         size: 41 MB
+         url: https://download.jboss.org/wildfly/14.0.1.Final/servlet/wildfly-servlet-14.0.1.Final.zip
+       - format: tgz
+         size: 41 MB
+         url: https://download.jboss.org/wildfly/14.0.1.Final/servlet/wildfly-servlet-14.0.1.Final.tar.gz
+   - name: Application Server Source Code
+     licence: LGPL
+     items:
+       - format: zip
+         size: 28 MB
+         url: https://download.jboss.org/wildfly/14.0.1.Final/wildfly-14.0.1.Final-src.zip
+       - format: tgz
+         size: 16 MB
+         url: https://download.jboss.org/wildfly/14.0.1.Final/wildfly-14.0.1.Final-src.tar.gz
+   - name: Quick Start Source Code
+     licence: AL
+     items:
+       - format: Source
+         url: https://github.com/wildfly/quickstart/tree/14.0.0.Final
+   - name: Release Notes
+     items:
+       - format: Notes
+         url: https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12313721&version=12339042
+- version: 14.0.0.Final
+  version_shortname: 14
+  date: 2018-08-30
+  link:
+   - name: Java EE Full & Web Distribution
+     licence: LGPL
+     items:
+       - format: zip
+         size: 171 MB
+         url: http://download.jboss.org/wildfly/14.0.0.Final/wildfly-14.0.0.Final.zip
+       - format: tgz
+         size: 170 MB
+         url: http://download.jboss.org/wildfly/14.0.0.Final/wildfly-14.0.0.Final.tar.gz
+   - name: Servlet-Only Distribution
+     licence: LGPL
+     items:
+       - format: zip
+         size: 41 MB
+         url: http://download.jboss.org/wildfly/14.0.0.Final/servlet/wildfly-servlet-14.0.0.Final.zip
+       - format: tgz
+         size: 41 MB
+         url: http://download.jboss.org/wildfly/14.0.0.Final/servlet/wildfly-servlet-14.0.0.Final.tar.gz
+   - name: Application Server Source Code
+     licence: LGPL
+     items:
+       - format: zip
+         size: 44 MB
+         url: http://download.jboss.org/wildfly/14.0.0.Final/wildfly-14.0.0.Final-src.zip
+       - format: tgz
+         size: 32 MB
+         url: http://download.jboss.org/wildfly/14.0.0.Final/wildfly-14.0.0.Final-src.tar.gz
+   - name: Quick Start Source Code
+     licence: AL
+     items:
+       - format: Source
+         url: https://github.com/wildfly/quickstart/tree/14.0.0.Final
+   - name: Release Notes
+     items:
+       - format: Notes
+         url: http://wildfly.org/news/2018/08/30/WildFly14-Final-Released/
+- version: 13.0.0.Final
+  version_shortname: 13
+  date: 2018-05-30
+  link:
+   - name: Java EE7 Full & Web Distribution
+     licence: LGPL
+     items:
+       - format: zip
+         size: 180 MB
+         url: http://download.jboss.org/wildfly/13.0.0.Final/wildfly-13.0.0.Final.zip
+       - format: tgz
+         size: 179 MB
+         url: http://download.jboss.org/wildfly/13.0.0.Final/wildfly-13.0.0.Final.tar.gz
+   - name: Servlet-Only Distribution
+     licence: LGPL
+     items:
+       - format: zip
+         size: 37 MB
+         url: http://download.jboss.org/wildfly/13.0.0.Final/servlet/wildfly-servlet-13.0.0.Final.zip
+       - format: tgz
+         size: 37 MB
+         url: http://download.jboss.org/wildfly/13.0.0.Final/servlet/wildfly-servlet-13.0.0.Final.tar.gz
+   - name: Application Server Source Code
+     licence: LGPL
+     items:
+       - format: zip
+         size: 44 MB
+         url: http://download.jboss.org/wildfly/13.0.0.Final/wildfly-13.0.0.Final-src.zip
+       - format: tgz
+         size: 31 MB
+         url: http://download.jboss.org/wildfly/13.0.0.Final/wildfly-13.0.0.Final-src.tar.gz
+   - name: Quick Start Source Code
+     licence: AL
+     items:
+       - format: Source
+         url: https://github.com/wildfly/quickstart/tree/13.0.0.Final
+   - name: Release Notes
+     items:
+       - format: Notes
+         url: http://wildfly.org/news/2018/05/30/WildFly13-Final-Released/
+- version: 12.0.0.Final
+  version_shortname: 12
+  date: 2018-02-28
+  link:
+   - name: Java EE7 Full & Web Distribution
+     licence: LGPL
+     items:
+       - format: zip
+         size: 162 MB
+         url: http://download.jboss.org/wildfly/12.0.0.Final/wildfly-12.0.0.Final.zip
+       - format: tgz
+         size: 161 MB
+         url: http://download.jboss.org/wildfly/12.0.0.Final/wildfly-12.0.0.Final.tar.gz
+   - name: Servlet-Only Distribution
+     licence: LGPL
+     items:
+       - format: zip
+         size: 37 MB
+         url: http://download.jboss.org/wildfly/12.0.0.Final/servlet/wildfly-servlet-12.0.0.Final.zip
+       - format: tgz
+         size: 36 MB
+         url: http://download.jboss.org/wildfly/12.0.0.Final/servlet/wildfly-servlet-12.0.0.Final.tar.gz
+   - name: Application Server Source Code
+     licence: LGPL
+     items:
+       - format: zip
+         size: 43 MB
+         url: http://download.jboss.org/wildfly/12.0.0.Final/wildfly-12.0.0.Final-src.zip
+       - format: tgz
+         size: 31 MB
+         url: http://download.jboss.org/wildfly/12.0.0.Final/wildfly-12.0.0.Final-src.tar.gz
+   - name: Quick Start Source Code
+     licence: AL
+     items:
+       - format: Source
+         url: https://github.com/wildfly/quickstart/tree/12.0.0.Final
+   - name: Release Notes
+     items:
+       - format: Notes
+         url: http://wildfly.org/news/2018/02/28/WildFly12-Final-Released/
+- version: 11.0.0.Final
+  version_shortname: 11
+  date: 2017-10-23
+  link:
+   - name: Java EE7 Full & Web Distribution
+     licence: LGPL
+     items:
+       - format: zip
+         size: 152 MB
+         url: http://download.jboss.org/wildfly/11.0.0.Final/wildfly-11.0.0.Final.zip
+       - format: tgz
+         size: 151 MB
+         url: http://download.jboss.org/wildfly/11.0.0.Final/wildfly-11.0.0.Final.tar.gz
+   - name: Servlet-Only Distribution
+     licence: LGPL
+     items:
+       - format: zip
+         size: 35 MB
+         url: http://download.jboss.org/wildfly/11.0.0.Final/servlet/wildfly-servlet-11.0.0.Final.zip
+       - format: tgz
+         size: 34 MB
+         url: http://download.jboss.org/wildfly/11.0.0.Final/servlet/wildfly-servlet-11.0.0.Final.tar.gz
+   - name: Application Server Source Code
+     licence: LGPL
+     items:
+       - format: zip
+         size: 36 MB
+         url: http://download.jboss.org/wildfly/11.0.0.Final/wildfly-11.0.0.Final-src.zip
+       - format: tgz
+         size: 24 MB
+         url: http://download.jboss.org/wildfly/11.0.0.Final/wildfly-11.0.0.Final-src.tar.gz
+   - name: Quick Start Source Code
+     licence: AL
+     items:
+       - format: Source
+         url: https://github.com/wildfly/quickstart/tree/11.0.0.Final
+   - name: Release Notes
+     items:
+       - format: Notes
+         url: http://wildfly.org/news/2017/10/23/WildFly11-Final-Released/
+- version: 10.1.0.Final
+  version_shortname: 10
+  date: 2016-08-19
+  link:
+   - name: Java EE7 Full & Web Distribution
+     licence: LGPL
+     items:
+       - format: zip
+         size: 134 MB
+         url: http://download.jboss.org/wildfly/10.1.0.Final/wildfly-10.1.0.Final.zip
+       - format: tgz
+         size: 133 MB
+         url: http://download.jboss.org/wildfly/10.1.0.Final/wildfly-10.1.0.Final.tar.gz
+   - name: Servlet-Only Distribution
+     licence: LGPL
+     items:
+       - format: zip
+         size: 28 MB
+         url: http://download.jboss.org/wildfly/10.1.0.Final/servlet/wildfly-servlet-10.1.0.Final.zip
+       - format: tgz
+         size: 28 MB
+         url: http://download.jboss.org/wildfly/10.1.0.Final/servlet/wildfly-servlet-10.1.0.Final.tar.gz
+   - name: Update Existing 10.0.0 Final Install
+     licence: LGPL
+     items:
+       - format: zip
+         size: 94 MB
+         url: http://download.jboss.org/wildfly/10.1.0.Final/wildfly-10.1.0.Final-update.zip
+   - name: Application Server Source Code
+     licence: LGPL
+     items:
+       - format: zip
+         size: 27 MB
+         url: http://download.jboss.org/wildfly/10.1.0.Final/wildfly-10.1.0.Final-src.zip
+       - format: tgz
+         size: 15 MB
+         url: http://download.jboss.org/wildfly/10.1.0.Final/wildfly-10.1.0.Final-src.tar.gz
+   - name: Quick Start Source Code
+     licence: AL
+     items:
+       - format: Source
+         size:
+         url: https://github.com/wildfly/quickstart/tree/10.x
+- version: 10.0.0.Final
+  version_shortname: 10
+  date: 2016-01-29
+  link:
+   - name: Java EE7 Full & Web Distribution
+     licence: LGPL
+     items:
+       - format: zip
+         size: 132 MB
+         url: http://download.jboss.org/wildfly/10.0.0.Final/wildfly-10.0.0.Final.zip
+       - format: tgz
+         size: 131 MB
+         url: http://download.jboss.org/wildfly/10.0.0.Final/wildfly-10.0.0.Final.tar.gz
+   - name: Servlet-Only Distribution
+     licence: LGPL
+     items:
+       - format: zip
+         size: 28 MB
+         url: http://download.jboss.org/wildfly/10.0.0.Final/servlet/wildfly-servlet-10.0.0.Final.zip
+       - format: tgz
+         size: 28 MB
+         url: http://download.jboss.org/wildfly/10.0.0.Final/servlet/wildfly-servlet-10.0.0.Final.tar.gz
+   - name: Application Server Source Code
+     licence: LGPL
+     items:
+       - format: zip
+         size: 25 MB
+         url: http://download.jboss.org/wildfly/10.0.0.Final/wildfly-10.0.0.Final-src.zip
+       - format: tgz
+         size: 15 MB
+         url: http://download.jboss.org/wildfly/10.0.0.Final/wildfly-10.0.0.Final-src.tar.gz
+   - name: Quick Start Source Code
+     licence: AL
+     items:
+       - format: Source
+         url: https://github.com/wildfly/quickstart/tree/10.x
+   - name: Release Notes
+     licence:
+     items:
+       - format: Notes
+         url: http://wildfly.org/news/2016/01/29/WildFly10-Released/
+- version: 9.0.2.Final
+  version_shortname: 9
+  date: 2015-10-26
+  link:
+   - name: Java EE7 Full & Web Distribution
+     licence: LGPL
+     items:
+       - format: zip
+         size: 130 MB
+         url: http://download.jboss.org/wildfly/9.0.2.Final/wildfly-9.0.2.Final.zip
+       - format: tgz
+         size: 129 MB
+         url: http://download.jboss.org/wildfly/9.0.2.Final/wildfly-9.0.2.Final.tar.gz
+   - name: Update Existing 9.0.1 Final (Patched) Install
+     licence: LGPL
+     items:
+       - format: zip
+         size: 50 MB
+         url: http://download.jboss.org/wildfly/9.0.2.Final/wildfly-9.0.2.Final-update.zip
+   - name: Update Existing 9.0.1 Final (Full Zip) Install
+     licence: LGPL
+     items:
+       - format: zip
+         size: 50 MB
+         url: http://download.jboss.org/wildfly/9.0.2.Final/wildfly-9.0.2.Final-901FULLZIP-update.zip
+   - name: Servlet-Only Distribution
+     licence: LGPL
+     items:
+       - format: zip
+         size: 27 MB
+         url: http://download.jboss.org/wildfly/9.0.2.Final/servlet/wildfly-servlet-9.0.2.Final.zip
+       - format: tgz
+         size: 27 MB
+         url: http://download.jboss.org/wildfly/9.0.2.Final/servlet/wildfly-servlet-9.0.2.Final.tar.gz
+   - name: Application Server Source Code
+     licence: LGPL
+     items:
+       - format: zip
+         size: 24 MB
+         url: http://download.jboss.org/wildfly/9.0.2.Final/wildfly-9.0.2.Final-src.zip
+       - format: tgz
+         size: 14 MB
+         url: http://download.jboss.org/wildfly/9.0.2.Final/wildfly-9.0.2.Final-src.tar.gz
+   - name: Quick Start Source Code
+     licence: AL
+     items:
+       - format: Source
+         url: https://github.com/wildfly/quickstart/tree/9.x
+   - name: Release Notes
+     licence:
+     items:
+       - format: Notes
+         url: https://issues.jboss.org/secure/ReleaseNote.jspa?projectId=12313721&version=12327709
+- version: 9.0.1.Final
+  version_shortname: 9
+  date: 2015-07-23
+  link:
+   - name: Java EE7 Full & Web Distribution
+     licence: LGPL
+     items:
+       - format: zip
+         size: 127 MB
+         url: http://download.jboss.org/wildfly/9.0.1.Final/wildfly-9.0.1.Final.zip
+       - format: tgz
+         size: 126 MB
+         url: http://download.jboss.org/wildfly/9.0.1.Final/wildfly-9.0.1.Final.tar.gz
+   - name: Update Existing 9.0.0 Final Install
+     licence: LGPL
+     items:
+       - format: zip
+         size: 3 MB
+         url: http://download.jboss.org/wildfly/9.0.1.Final/wildfly-9.0.1.Final-update.zip
+   - name: Servlet-Only Distribution
+     licence: LGPL
+     items:
+       - format: zip
+         size: 27 MB
+         url: http://download.jboss.org/wildfly/9.0.1.Final/servlet/wildfly-servlet-9.0.1.Final.zip
+       - format: tgz
+         size: 27 MB
+         url: http://download.jboss.org/wildfly/9.0.1.Final/servlet/wildfly-servlet-9.0.1.Final.tar.gz
+   - name: Application Server Source Code
+     licence: LGPL
+     items:
+       - format: zip
+         size: 24 MB
+         url: http://download.jboss.org/wildfly/9.0.1.Final/wildfly-9.0.1.Final-src.zip
+       - format: tgz
+         size: 14 MB
+         url: http://download.jboss.org/wildfly/9.0.1.Final/wildfly-9.0.1.Final-src.tar.gz
+   - name: Quick Start Source Code
+     licence: AL
+     items:
+       - format: Source
+         url: https://github.com/wildfly/quickstart/tree/9.x
+   - name: Release Notes
+     licence:
+     items:
+       - format: Notes
+         url: http://wildfly.org/news/2015/07/23/WildFly-901-and-821
+- version: 9.0.0.Final
+  version_shortname: 9
+  date: 2015-07-02
+  link:
+   - name: Java EE7 Full & Web Distribution
+     licence: LGPL
+     items:
+       - format: zip
+         size: 127 MB
+         url: http://download.jboss.org/wildfly/9.0.0.Final/wildfly-9.0.0.Final.zip
+       - format: tgz
+         size: 126 MB
+         url: http://download.jboss.org/wildfly/9.0.0.Final/wildfly-9.0.0.Final.tar.gz
+   - name: Servlet-Only Distribution
+     licence: LGPL
+     items:
+       - format: zip
+         size: 27 MB
+         url: http://download.jboss.org/wildfly/9.0.0.Final/servlet/wildfly-servlet-9.0.0.Final.zip
+       - format: tgz
+         size: 27 MB
+         url: http://download.jboss.org/wildfly/9.0.0.Final/servlet/wildfly-servlet-9.0.0.Final.tar.gz
+   - name: Application Server Source Code
+     licence: LGPL
+     items:
+       - format: zip
+         size: 24 MB
+         url: http://download.jboss.org/wildfly/9.0.0.Final/wildfly-9.0.0.Final-src.zip
+       - format: tgz
+         size: 14 MB
+         url: http://download.jboss.org/wildfly/9.0.0.Final/wildfly-9.0.0.Final-src.tar.gz
+   - name: Quick Start Source Code
+     licence: AL
+     items:
+       - format: Source
+         url: https://github.com/wildfly/quickstart/tree/9.x
+   - name: Release Notes
+     licence:
+     items:
+       - format: Notes
+         url: http://wildfly.org/news/2015/07/02/WildFly9-Final-Released
+- version: 8.2.1.Final
+  version_shortname: 8
+  date: 2015-07-23
+  link:
+   - name: Java EE7 Full & Web Distribution
+     licence: LGPL
+     items:
+       - format: zip
+         size: 127 MB
+         url: http://download.jboss.org/wildfly/8.2.1.Final/wildfly-8.2.1.Final.zip
+       - format: tgz
+         size: 113 MB
+         url: http://download.jboss.org/wildfly/8.2.1.Final/wildfly-8.2.1.Final.tar.gz
+   - name: Update Existing 8.2.0 Final Install
+     licence: LGPL
+     items:
+       - format: zip
+         size: 30 MB
+         url: http://download.jboss.org/wildfly/8.2.1.Final/wildfly-8.2.1.Final-update.zip
+   - name: Application Server Source Code
+     licence: LGPL
+     items:
+       - format: zip
+         size: 25 MB
+         url: http://download.jboss.org/wildfly/8.2.1.Final/wildfly-8.2.1.Final-src.zip
+       - format: tgz
+         size: 15 MB
+         url: http://download.jboss.org/wildfly/8.2.1.Final/wildfly-8.2.1.Final-src.tar.gz
+   - name: Release Notes
+     licence:
+     items:
+       - format: Notes
+         url: http://wildfly.org/news/2015/07/23/WildFly-901-and-821
+- version: 8.2.0.Final
+  version_shortname: 8
+  date: 2014-11-20
+  link:
+   - name: Java EE7 Full & Web Distribution
+     licence: LGPL
+     items:
+       - format: zip
+         size: 126 MB
+         url: http://download.jboss.org/wildfly/8.2.0.Final/wildfly-8.2.0.Final.zip
+       - format: tgz
+         size: 113 MB
+         url: http://download.jboss.org/wildfly/8.2.0.Final/wildfly-8.2.0.Final.tar.gz
+   - name: Update Existing 8.1.0 Final Install
+     licence: LGPL
+     items:
+       - format: zip
+         size: 62 MB
+         url: http://download.jboss.org/wildfly/8.2.0.Final/wildfly-8.2.0.Final-update.zip
+   - name: Application Server Source Code
+     licence: LGPL
+     items:
+       - format: zip
+         size: 36 MB
+         url: http://download.jboss.org/wildfly/8.2.0.Final/wildfly-8.2.0.Final-src.zip
+       - format: tgz
+         size: 22 MB
+         url: http://download.jboss.org/wildfly/8.2.0.Final/wildfly-8.2.0.Final-src.tar.gz
+   - name: Release Notes
+     licence: LGPL
+     items:
+       - format: Notes
+         url: http://wildfly.org/news/2014/11/20/WildFly82-Final-Released
+- version: 8.1.0.Final
+  version_shortname: 8
+  date: 2014-05-30
+  link:
+   - name: Java EE7 Full & Web Distribution
+     licence: LGPL
+     items:
+       - format: zip
+         size: 124 MB
+         url: http://download.jboss.org/wildfly/8.1.0.Final/wildfly-8.1.0.Final.zip
+       - format: tgz
+         size: 111 MB
+         url: http://download.jboss.org/wildfly/8.1.0.Final/wildfly-8.1.0.Final.tar.gz
+   - name: Update Existing 8.0.0 Final Install
+     licence: LGPL
+     items:
+       - format: zip
+         size: 110 MB
+         url: http://download.jboss.org/wildfly/8.1.0.Final/wildfly-8.1.0.Final-update.zip
+   - name: Application Server Source Code
+     licence: LGPL
+     items:
+       - format: zip
+         size: 30 MB
+         url: http://download.jboss.org/wildfly/8.1.0.Final/wildfly-8.1.0.Final-src.zip
+       - format: tgz
+         size: 17 MB
+         url: http://download.jboss.org/wildfly/8.1.0.Final/wildfly-8.1.0.Final-src.tar.gz
+   - name: Release Notes
+     licence:
+     items:
+       - format: Notes
+         url: https://community.jboss.org/wiki/WildFly810FinalReleaseNotes
+- version: 8.0.0.Final
+  version_shortname: 8
+  date: 2014-02-11
+  link:
+   - name: Java EE7 Full & Web Distribution
+     licence: LGPL
+     items:
+       - format: zip
+         size: 148 MB
+         url: http://download.jboss.org/wildfly/8.0.0.Final/wildfly-8.0.0.Final.zip
+       - format: tgz
+         size: 134 MB
+         url: http://download.jboss.org/wildfly/8.0.0.Final/wildfly-8.0.0.Final.tar.gz
+   - name: Application Server Source Code
+     licence: LGPL
+     items:
+       - format: zip
+         size: 29 MB
+         url: http://download.jboss.org/wildfly/8.0.0.Final/wildfly-8.0.0.Final-src.zip
+       - format: tgz
+         size: 17 MB
+         url: http://download.jboss.org/wildfly/8.0.0.Final/wildfly-8.0.0.Final-src.tar.gz
+   - name: Release Notes
+     licence:
+     items:
+       - format: Notes
+         url: http://wildfly.org/news/2014/02/11/WildFly8-Final-Released/
