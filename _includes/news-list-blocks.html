@@ -5,7 +5,7 @@
   {% for post in site.posts %}
     {% assign author = site.data.authors[post.author] %}
     {% if forloop.index <= 8 %}
-      <div class="news-block-item grid__item width-3-12 width-6-12-m">
+      <div class="news-block-item grid__item width-3-12">
         <div class="post-title grid__item">
           <h4><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></h4>
         </div>

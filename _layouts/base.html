@@ -23,7 +23,6 @@
 </head>
 
 <body class="{% if page.url == '/' %}homepage{% else %}{{page.title}}{% endif %}">
-  {% include header-banner.html %}
   <div class="content">
     {% include header.html %}
     {{ content }}
